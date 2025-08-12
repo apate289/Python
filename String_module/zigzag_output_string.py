@@ -28,8 +28,15 @@ class Solution(object):
         if numRows == 1: return s
         a=""
         for i in range(numRows):
+            print('--------   i:', i)
             for j in range(i,len(s),2*(numRows-1)):
+                print(j,'s[j]:', s[j])
                 a+=s[j]
                 if(i>0 and i<numRows-1 and j+2*(numRows-1)-2*i < len(s)):
                     a+=s[j+2*(numRows-1)-2*i]
         return a
+    
+A = Solution()
+print(A.convert("PAYPALISHIRING", 3))  
+# Output: "PAHNAPLSIIGYIR" (3-1)*2 = 4 so need to collect letter at position 4
+print(A.convert("PAYPALISHIRING", 4))  # Output: "PINALIGYPSH" (4-1)*2 = 6 so need to collect letter at position 6
