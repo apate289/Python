@@ -37,7 +37,7 @@ REQ_COLS = ["date", "w1", "w2", "w3", "w4", "w5", "special"]
 def load_data(file) -> pd.DataFrame:
     df = pd.read_csv(file)
     df.columns = [c.strip().lower() for c in df.columns]
-    df.rename({'DrawDate': 'date', 'White1': 'w1', 'White2': 'w2', 'White3': 'w3', 'White4': 'w4', 'White5': 'w5', 'Powerball': 'special'}, axis=1, inplace=True)
+    #df.rename({'DrawDate': 'date', 'White1': 'w1', 'White2': 'w2', 'White3': 'w3', 'White4': 'w4', 'White5': 'w5', 'Powerball': 'special'}, axis=1, inplace=True)
 
     missing = [c for c in REQ_COLS if c not in df.columns]
     if missing:
