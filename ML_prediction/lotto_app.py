@@ -28,24 +28,44 @@ class GameConfig:
 POWERBALL = GameConfig("Powerball", white_max=69, white_count=5, special_max=26, special_name="Powerball")
 MEGAMILLIONS = GameConfig("Mega Millions", white_max=70, white_count=5, special_max=25, special_name="Mega Ball")
 
-REQ_COLS = ["date", "w1", "w2", "w3", "w4", "w5", "special"]
 #COLS_FROM_CSV = ["DrawDate","White1","White2","White3","White4","White5","Powerball"]
+REQ_COLS = ["date", "w1", "w2", "w3", "w4", "w5", "special"]
+
+COLMAP = {
+    "drawdate": "date",
+    "white1": "w1",
+    "white2": "w2",
+    "white3": "w3",
+    "white4": "w4",
+    "white5": "w5",
+    "powerball": "special",   # for Mega Millions you'd map megaball -> special
+}
 
 # -----------------------------
 # Helpers
 # -----------------------------
 def load_data(file) -> pd.DataFrame:
-    df = pd.read_csv(file)
+    # auto-detect delimiter (comma/tab) reliably
+    df = pd.read_csv(file, sep=None, engine="python")
     df.columns = [c.strip().lower() for c in df.columns]
-    #df.rename({'DrawDate': 'date', 'White1': 'w1', 'White2': 'w2', 'White3': 'w3', 'White4': 'w4', 'White5': 'w5', 'Powerball': 'special'}, axis=1, inplace=True)
+    df = df.rename(columns=COLMAP)
 
     missing = [c for c in REQ_COLS if c not in df.columns]
     if missing:
-        raise ValueError(f"CSV missing required columns: {missing}")
+        raise ValueError(f"CSV missing required columns after rename: {missing}. Found: {list(df.columns)}")
 
     df["date"] = pd.to_datetime(df["date"])
     for c in ["w1", "w2", "w3", "w4", "w5", "special"]:
         df[c] = pd.to_numeric(df[c], errors="coerce").astype("Int64")
+
+    # Optional columns (if present)
+    if "jackpot" in df.columns:
+        # remove $ and commas if needed
+        df["jackpot"] = (
+            df["jackpot"].astype(str)
+            .str.replace(r"[$,]", "", regex=True)
+        )
+        df["jackpot"] = pd.to_numeric(df["jackpot"], errors="coerce")
 
     df = df.dropna(subset=REQ_COLS).sort_values("date").reset_index(drop=True)
     return df
@@ -241,6 +261,7 @@ with st.sidebar:
     ollama_model = st.text_input("Ollama model name", value="llama3.1") if llm_mode == "Ollama (local)" else ""
 
 uploaded = st.file_uploader("Upload historical draws CSV", type=["csv"])
+uploaded_jackpot = st.file_uploader("Optional: Upload jackpot CSV (DrawDate,Jackpot)", type=["csv"])
 
 if not uploaded:
     st.info("Upload a CSV with columns: date,w1,w2,w3,w4,w5,special (optional: multiplier,jackpot)")
@@ -248,6 +269,18 @@ if not uploaded:
 
 try:
     df = load_data(uploaded)
+    if uploaded_jackpot is not None:
+        jp = pd.read_csv(uploaded_jackpot, sep=None, engine="python")
+        jp.columns = [c.strip().lower() for c in jp.columns]
+        jp = jp.rename(columns={"drawdate": "date", "jackpot": "jackpot"})
+
+        jp["date"] = pd.to_datetime(jp["date"])
+        jp["jackpot"] = (
+            jp["jackpot"].astype(str).str.replace(r"[$,]", "", regex=True)
+        )
+        jp["jackpot"] = pd.to_numeric(jp["jackpot"], errors="coerce")
+
+        df = df.merge(jp[["date", "jackpot"]], on="date", how="left")
 except Exception as e:
     st.error(f"Failed to read CSV: {e}")
     st.stop()
