@@ -28,6 +28,7 @@ class GameConfig:
 POWERBALL = GameConfig("Powerball", white_max=69, white_count=5, special_max=26, special_name="Powerball")
 MEGAMILLIONS = GameConfig("Mega Millions", white_max=70, white_count=5, special_max=25, special_name="Mega Ball")
 
+REQ_COLS = ["date", "w1", "w2", "w3", "w4", "w5", "special"]
 #COLS_FROM_CSV = ["DrawDate","White1","White2","White3","White4","White5","Powerball"]
 REQ_COLS = ["date", "w1", "w2", "w3", "w4", "w5", "special"]
 
@@ -45,14 +46,14 @@ COLMAP = {
 # Helpers
 # -----------------------------
 def load_data(file) -> pd.DataFrame:
-    # auto-detect delimiter (comma/tab) reliably
-    df = pd.read_csv(file, sep=None, engine="python")
+    df = pd.read_csv(file,sep=None, engine="python")
     df.columns = [c.strip().lower() for c in df.columns]
+    #df.rename({'DrawDate': 'date', 'White1': 'w1', 'White2': 'w2', 'White3': 'w3', 'White4': 'w4', 'White5': 'w5', 'Powerball': 'special'}, axis=1, inplace=True)
     df = df.rename(columns=COLMAP)
 
     missing = [c for c in REQ_COLS if c not in df.columns]
     if missing:
-        raise ValueError(f"CSV missing required columns after rename: {missing}. Found: {list(df.columns)}")
+        raise ValueError(f"CSV missing required columns: {missing}")
 
     df["date"] = pd.to_datetime(df["date"])
     for c in ["w1", "w2", "w3", "w4", "w5", "special"]:
