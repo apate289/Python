@@ -1,0 +1,60 @@
+{
+  "client_id": "CLT00005",
+  "personal_information": {
+    "first_name": "Michael",
+    "last_name": "Brown",
+    "date_of_birth": "1980-06-10",
+    "ssn_last4": "4116",
+    "email": "michael.brown69@icloud.com",
+    "phone_primary": "(368) 588-1035",
+    "phone_secondary": "(471) 665-5673"
+  },
+  "address": {
+    "street": "4173 Lincoln Ave",
+    "city": "San Antonio",
+    "state": "TX",
+    "zip_code": "78201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2018-12-22",
+    "branch_id": "BR045",
+    "relationship_manager": "Emily Young",
+    "credit_score": 659,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA6083042422",
+      "routing_number": "072092888",
+      "account_type": "Business Savings",
+      "holding_name": "Michael Brown and Margaret Brown",
+      "balance": 62826.71,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2004-05-23",
+      "interest_rate": 3.1,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK5161807235",
+      "routing_number": "041726318",
+      "account_type": "Checking",
+      "holding_name": "Michael Brown TTEE",
+      "balance": 41994.62,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2009-08-03",
+      "interest_rate": 0.0,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2009-10-06",
+    "starting_check_number": 4968
+  }
+}

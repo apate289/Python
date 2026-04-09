@@ -1,0 +1,72 @@
+{
+  "client_id": "CLT00021",
+  "personal_information": {
+    "first_name": "Michael",
+    "last_name": "Lewis",
+    "date_of_birth": "1976-11-12",
+    "ssn_last4": "1919",
+    "email": "michael.lewis38@outlook.com",
+    "phone_primary": "(667) 509-4263",
+    "phone_secondary": "(694) 309-4886"
+  },
+  "address": {
+    "street": "853 Lake View Dr",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "75201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2017-02-08",
+    "branch_id": "BR037",
+    "relationship_manager": "Daniel Torres",
+    "credit_score": 731,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA1625217504",
+      "routing_number": "081291936",
+      "account_type": "Business Savings",
+      "holding_name": "Lewis Family Trust",
+      "balance": 103306.91,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-11-08",
+      "interest_rate": 2.9,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CDA3504640817",
+      "routing_number": "041163805",
+      "account_type": "CD",
+      "holding_name": "Lewis & Associates LLC",
+      "balance": 115556.9,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2011-06-15",
+      "interest_rate": 4.27,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU9165632300",
+      "routing_number": "083363160",
+      "account_type": "Trust",
+      "holding_name": "Michael Lewis TTEE",
+      "balance": 39914.92,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2013-06-02",
+      "interest_rate": 3.28,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2000-12-25",
+    "starting_check_number": 4400
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "client_id": "CLT00018",
+  "personal_information": {
+    "first_name": "Jennifer",
+    "last_name": "Anderson",
+    "date_of_birth": "1951-11-11",
+    "ssn_last4": "3870",
+    "email": "jennifer.anderson61@icloud.com",
+    "phone_primary": "(837) 974-9167",
+    "phone_secondary": "(978) 252-4335"
+  },
+  "address": {
+    "street": "9541 Maple Avenue",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip_code": "85001",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2011-12-24",
+    "branch_id": "BR036",
+    "relationship_manager": "William Jackson",
+    "credit_score": 804,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "MMK8792122716",
+      "routing_number": "022246348",
+      "account_type": "Money Market",
+      "holding_name": "Anderson Family Holdings",
+      "balance": 117767.59,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2014-05-27",
+      "interest_rate": 4.08,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BCA7422990551",
+      "routing_number": "098930456",
+      "account_type": "Business Checking",
+      "holding_name": "Anderson Living Trust",
+      "balance": 236325.79,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2020-05-26",
+      "interest_rate": 1.5,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV5243939720",
+      "routing_number": "098269682",
+      "account_type": "Savings",
+      "holding_name": "Jennifer Anderson TTEE",
+      "balance": 217407.19,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2002-06-07",
+      "interest_rate": 2.47,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Laser",
+    "last_check_order_date": "2005-06-12",
+    "starting_check_number": 1119
+  }
+}

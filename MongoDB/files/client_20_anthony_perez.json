@@ -1,0 +1,84 @@
+{
+  "client_id": "CLT00020",
+  "personal_information": {
+    "first_name": "Anthony",
+    "last_name": "Perez",
+    "date_of_birth": "1973-12-20",
+    "ssn_last4": "9022",
+    "email": "anthony.perez20@icloud.com",
+    "phone_primary": "(746) 589-6188",
+    "phone_secondary": "(977) 699-9864"
+  },
+  "address": {
+    "street": "4734 River Road",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "75201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2001-08-11",
+    "branch_id": "BR040",
+    "relationship_manager": "John Thomas",
+    "credit_score": 727,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "BCA6915072151",
+      "routing_number": "053188224",
+      "account_type": "Business Checking",
+      "holding_name": "Anthony Perez Revocable Trust",
+      "balance": 217465.62,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2017-03-06",
+      "interest_rate": 4.07,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK6932342612",
+      "routing_number": "099078806",
+      "account_type": "Checking",
+      "holding_name": "Perez Family Trust",
+      "balance": 198202.22,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2001-08-29",
+      "interest_rate": 0.0,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV2891100776",
+      "routing_number": "080591959",
+      "account_type": "Savings",
+      "holding_name": "Anthony Perez",
+      "balance": 227655.2,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2006-06-19",
+      "interest_rate": 4.14,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMK5616352188",
+      "routing_number": "045570755",
+      "account_type": "Money Market",
+      "holding_name": "Perez Family Holdings",
+      "balance": 84971.03,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2003-08-08",
+      "interest_rate": 4.05,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Personal",
+    "last_check_order_date": "2019-06-20",
+    "starting_check_number": 1404
+  }
+}

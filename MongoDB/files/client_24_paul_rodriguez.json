@@ -1,0 +1,84 @@
+{
+  "client_id": "CLT00024",
+  "personal_information": {
+    "first_name": "Paul",
+    "last_name": "Rodriguez",
+    "date_of_birth": "1990-09-12",
+    "ssn_last4": "3531",
+    "email": "paul.rodriguez54@gmail.com",
+    "phone_primary": "(753) 456-3858",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "8950 Forest Blvd",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "80201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2001-02-26",
+    "branch_id": "BR009",
+    "relationship_manager": "James Thompson",
+    "credit_score": 701,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA2201474778",
+      "routing_number": "059731689",
+      "account_type": "Business Savings",
+      "holding_name": "Paul Rodriguez TTEE",
+      "balance": 54708.79,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2016-04-08",
+      "interest_rate": 4.66,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BCA2540492440",
+      "routing_number": "063437398",
+      "account_type": "Business Checking",
+      "holding_name": "Paul Rodriguez and Matthew Rodriguez",
+      "balance": 69332.42,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2020-05-25",
+      "interest_rate": 3.15,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "CHK8674224347",
+      "routing_number": "042691263",
+      "account_type": "Checking",
+      "holding_name": "Paul Rodriguez and Matthew Rodriguez JTWROS",
+      "balance": 247210.82,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2003-01-29",
+      "interest_rate": 0.0,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "CDA6295689007",
+      "routing_number": "029804386",
+      "account_type": "CD",
+      "holding_name": "Paul Rodriguez and Matthew Rodriguez JTWROS",
+      "balance": 197266.62,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2012-06-08",
+      "interest_rate": 4.69,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2000-09-15",
+    "starting_check_number": 1714
+  }
+}

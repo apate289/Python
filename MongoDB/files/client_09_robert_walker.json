@@ -1,0 +1,60 @@
+{
+  "client_id": "CLT00009",
+  "personal_information": {
+    "first_name": "Robert",
+    "last_name": "Walker",
+    "date_of_birth": "1967-11-27",
+    "ssn_last4": "4728",
+    "email": "robert.walker29@gmail.com",
+    "phone_primary": "(553) 946-6139",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "5828 River Road",
+    "city": "Nashville",
+    "state": "TN",
+    "zip_code": "37201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2022-12-10",
+    "branch_id": "BR008",
+    "relationship_manager": "Matthew Torres",
+    "credit_score": 677,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA6704841644",
+      "routing_number": "019317495",
+      "account_type": "Business Savings",
+      "holding_name": "Walker & Associates LLC",
+      "balance": 241738.83,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2022-11-07",
+      "interest_rate": 3.23,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BCA5033992825",
+      "routing_number": "025480907",
+      "account_type": "Business Checking",
+      "holding_name": "Walker & Associates LLC",
+      "balance": 219321.08,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2011-11-28",
+      "interest_rate": 0.52,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Personal",
+    "last_check_order_date": "2019-07-24",
+    "starting_check_number": 1007
+  }
+}

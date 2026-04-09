@@ -1,0 +1,3892 @@
+[
+  {
+    "client_id": "CLT00001",
+    "personal_information": {
+      "first_name": "Aaron",
+      "last_name": "Benton",
+      "date_of_birth": "1997-05-13",
+      "ssn_last4": "1409",
+      "email": "aaron.benton95@yahoo.com",
+      "phone_primary": "+1-679-635-5825x647",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "1989 Carlson Flats",
+      "city": "Lake Erin",
+      "state": "NY",
+      "zip_code": "32048",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2004-12-29",
+      "branch_id": "BR095",
+      "relationship_manager": "Tina Shea",
+      "credit_score": 404,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "MMA8908386379",
+        "routing_number": "402654235",
+        "account_type": "Money Market",
+        "holding_name": "Oliver Family Trust",
+        "balance": 23640.09,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "2005-06-08",
+        "interest_rate": 3.32,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "CHK8161849593",
+        "routing_number": "103413164",
+        "account_type": "Checking",
+        "holding_name": "Rodriguez TTEE",
+        "balance": 159103.27,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2015-08-11",
+        "interest_rate": 1.16,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "IRA9283276483",
+        "routing_number": "503056413",
+        "account_type": "IRA",
+        "holding_name": "Palmer LLC",
+        "balance": 228327.46,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1998-03-15",
+        "interest_rate": 1.18,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU7242388496",
+        "routing_number": "965328710",
+        "account_type": "Trust",
+        "holding_name": "Villarreal, Ruiz and Santiago",
+        "balance": 215345.18,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2012-09-30",
+        "interest_rate": 3.75,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "SAV6978480184",
+        "routing_number": "514627048",
+        "account_type": "Savings",
+        "holding_name": "Brown LLC",
+        "balance": 127166.58,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2012-04-05",
+        "interest_rate": 4.63,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Standard",
+      "last_check_order_date": "2014-03-13",
+      "starting_check_number": 9689
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.252459",
+    "end_date": null,
+    "etl_batch_id": "4bcfbb16-d29a-4d5a-b518-fa45c4df8de4",
+    "created_at": "2026-04-09T20:37:17.252973",
+    "updated_at": "2026-04-09T20:37:17.252973"
+  },
+  {
+    "client_id": "CLT00002",
+    "personal_information": {
+      "first_name": "Nicholas",
+      "last_name": "Kelly",
+      "date_of_birth": "1940-01-19",
+      "ssn_last4": "9005",
+      "email": "nicholas.kelly3@gmail.com",
+      "phone_primary": "(590)342-7745x2346",
+      "phone_secondary": "+1-845-521-8654x100"
+    },
+    "address": {
+      "street": "221 Parker Path Suite 638",
+      "city": "West Darrell",
+      "state": "IL",
+      "zip_code": "43458",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2014-07-16",
+      "branch_id": "BR031",
+      "relationship_manager": "Melissa Shelton",
+      "credit_score": 359,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "IRA8227824896",
+        "routing_number": "383465787",
+        "account_type": "IRA",
+        "holding_name": "Chavez-Bradley",
+        "balance": 30690.55,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1998-02-07",
+        "interest_rate": 3.24,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "High Security",
+      "last_check_order_date": "1993-03-09",
+      "starting_check_number": 1964
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.253968",
+    "end_date": null,
+    "etl_batch_id": "b0084570-f16e-413e-aae6-21aff617accc",
+    "created_at": "2026-04-09T20:37:17.253968",
+    "updated_at": "2026-04-09T20:37:17.253968"
+  },
+  {
+    "client_id": "CLT00003",
+    "personal_information": {
+      "first_name": "Monica",
+      "last_name": "Richardson",
+      "date_of_birth": "1960-07-15",
+      "ssn_last4": "1514",
+      "email": "monica.richardson43@gmail.com",
+      "phone_primary": "001-357-434-4322x701",
+      "phone_secondary": "710-580-1389x74152"
+    },
+    "address": {
+      "street": "3787 Austin Lakes",
+      "city": "East Joshua",
+      "state": "IL",
+      "zip_code": "11133",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2003-01-09",
+      "branch_id": "BR086",
+      "relationship_manager": "Jamie Shah",
+      "credit_score": 797,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "IRA3116566701",
+        "routing_number": "065133387",
+        "account_type": "IRA",
+        "holding_name": "Welch-Turner",
+        "balance": 35475.48,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2013-04-05",
+        "interest_rate": 4.81,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "MMA8108013267",
+        "routing_number": "736026064",
+        "account_type": "Money Market",
+        "holding_name": "Dominguez TTEE",
+        "balance": 71669.68,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2014-11-17",
+        "interest_rate": 4.31,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Business",
+      "last_check_order_date": "1999-10-07",
+      "starting_check_number": 1958
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "d31acb9a-791a-4caf-b022-1b7d182fb79c",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00004",
+    "personal_information": {
+      "first_name": "Gary",
+      "last_name": "Rivera",
+      "date_of_birth": "1991-12-17",
+      "ssn_last4": "6138",
+      "email": "gary.rivera8@gmail.com",
+      "phone_primary": "001-799-824-8937x51473",
+      "phone_secondary": "811-483-1562"
+    },
+    "address": {
+      "street": "821 Oliver Drives",
+      "city": "Suttonchester",
+      "state": "NC",
+      "zip_code": "66586",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2002-09-25",
+      "branch_id": "BR068",
+      "relationship_manager": "Evelyn Mack",
+      "credit_score": 461,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "SAV6193990916",
+        "routing_number": "998543534",
+        "account_type": "Savings",
+        "holding_name": "Choi TTEE",
+        "balance": 33154.13,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2005-07-20",
+        "interest_rate": 5.11,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Laser",
+      "last_check_order_date": "2015-04-04",
+      "starting_check_number": 2638
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "6bad57b0-7f53-47c0-9941-de3d043c3bd8",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00005",
+    "personal_information": {
+      "first_name": "Russell",
+      "last_name": "Wagner",
+      "date_of_birth": "1946-07-28",
+      "ssn_last4": "9288",
+      "email": "russell.wagner34@outlook.com",
+      "phone_primary": "997-656-5447x092",
+      "phone_secondary": "(943)435-5009"
+    },
+    "address": {
+      "street": "21827 Megan Avenue",
+      "city": "Lake Michael",
+      "state": "CA",
+      "zip_code": "88553",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2009-07-24",
+      "branch_id": "BR032",
+      "relationship_manager": "Tiffany Hart",
+      "credit_score": 678,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "CHK4118244935",
+        "routing_number": "348740164",
+        "account_type": "Checking",
+        "holding_name": "Stanley Family Trust",
+        "balance": 1384.65,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2001-01-09",
+        "interest_rate": 1.45,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU6801128059",
+        "routing_number": "826204505",
+        "account_type": "Trust",
+        "holding_name": "Bright, Rodriguez and White",
+        "balance": 52914.1,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2019-09-30",
+        "interest_rate": 4.29,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CDA2322602563",
+        "routing_number": "421607337",
+        "account_type": "CD",
+        "holding_name": "Baird Holdings",
+        "balance": 76645.12,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2022-11-03",
+        "interest_rate": 0.14,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BCK5414586850",
+        "routing_number": "142940196",
+        "account_type": "Business Checking",
+        "holding_name": "Hall-Smith",
+        "balance": 86748.93,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2012-11-15",
+        "interest_rate": 5.41,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "IRA9340608835",
+        "routing_number": "615951484",
+        "account_type": "IRA",
+        "holding_name": "Watts, Hoover and Thompson",
+        "balance": 166889.78,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2012-04-12",
+        "interest_rate": 3.05,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Personal",
+      "last_check_order_date": "2020-05-20",
+      "starting_check_number": 3851
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "7347445b-c067-4f8c-a1e2-9f91f0cb0585",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00006",
+    "personal_information": {
+      "first_name": "Jonathan",
+      "last_name": "Liu",
+      "date_of_birth": "1995-03-22",
+      "ssn_last4": "7653",
+      "email": "jonathan.liu71@gmail.com",
+      "phone_primary": "300.824.3614",
+      "phone_secondary": "001-271-971-6978x6475"
+    },
+    "address": {
+      "street": "9805 Jackson Oval",
+      "city": "Martinbury",
+      "state": "FL",
+      "zip_code": "45198",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2013-07-01",
+      "branch_id": "BR056",
+      "relationship_manager": "Stacie Kelley DDS",
+      "credit_score": 629,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "IRA8951343320",
+        "routing_number": "037917693",
+        "account_type": "IRA",
+        "holding_name": "Bass, Mora and Oneal",
+        "balance": 179727.31,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2007-09-24",
+        "interest_rate": 0.82,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "MMA6328708317",
+        "routing_number": "278895798",
+        "account_type": "Money Market",
+        "holding_name": "Nelson TTEE",
+        "balance": 207727.01,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "1999-10-13",
+        "interest_rate": 4.09,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU4348734714",
+        "routing_number": "345581223",
+        "account_type": "Trust",
+        "holding_name": "Morse Ltd",
+        "balance": 96067.31,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2015-03-10",
+        "interest_rate": 2.29,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "SAV7603669096",
+        "routing_number": "705466889",
+        "account_type": "Savings",
+        "holding_name": "Price LLC",
+        "balance": 122313.25,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2019-05-05",
+        "interest_rate": 2.14,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CHK7298069901",
+        "routing_number": "627204653",
+        "account_type": "Checking",
+        "holding_name": "Ford TTEE",
+        "balance": 82048.03,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2002-05-28",
+        "interest_rate": 4.14,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "High Security",
+      "last_check_order_date": "2011-02-05",
+      "starting_check_number": 1317
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "11f76c5c-699f-4786-b725-d018e51fe860",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00007",
+    "personal_information": {
+      "first_name": "Anna",
+      "last_name": "Schmidt",
+      "date_of_birth": "1988-05-23",
+      "ssn_last4": "6733",
+      "email": "anna.schmidt29@gmail.com",
+      "phone_primary": "320-279-2679x002",
+      "phone_secondary": "410-684-1495x8423"
+    },
+    "address": {
+      "street": "860 Christopher Station Suite 198",
+      "city": "South Kayla",
+      "state": "TX",
+      "zip_code": "33242",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2002-05-03",
+      "branch_id": "BR097",
+      "relationship_manager": "Eddie Reyes",
+      "credit_score": 331,
+      "kyc_verified": false,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "BCK3745299124",
+        "routing_number": "190496631",
+        "account_type": "Business Checking",
+        "holding_name": "Bray-Mclean",
+        "balance": 148228.42,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2020-04-19",
+        "interest_rate": 3.84,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "SAV1905865185",
+        "routing_number": "067165726",
+        "account_type": "Savings",
+        "holding_name": "Davies LLC",
+        "balance": 183581.93,
+        "currency": "GBP",
+        "status": "Active",
+        "date_opened": "2021-12-07",
+        "interest_rate": 4.45,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "MMA6945314737",
+        "routing_number": "996507527",
+        "account_type": "Money Market",
+        "holding_name": "Mueller LLC",
+        "balance": 89028.83,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2015-11-08",
+        "interest_rate": 3.28,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BSA0831367837",
+        "routing_number": "770143634",
+        "account_type": "Business Savings",
+        "holding_name": "Walker and Sons",
+        "balance": 166158.03,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2019-12-07",
+        "interest_rate": 1.9,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CHK7444313518",
+        "routing_number": "233749894",
+        "account_type": "Checking",
+        "holding_name": "Harris Family Trust",
+        "balance": 208240.78,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2010-10-13",
+        "interest_rate": 1.67,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "High Security",
+      "last_check_order_date": "2014-10-28",
+      "starting_check_number": 5786
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "c8c7b583-9b3f-4d56-9ccb-fc49bc1d9579",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00008",
+    "personal_information": {
+      "first_name": "Brett",
+      "last_name": "Myers",
+      "date_of_birth": "1951-04-30",
+      "ssn_last4": "2680",
+      "email": "brett.myers2@yahoo.com",
+      "phone_primary": "001-207-295-6826x4893",
+      "phone_secondary": "3519436950"
+    },
+    "address": {
+      "street": "09013 Heather Lodge Apt. 270",
+      "city": "Beardshire",
+      "state": "GA",
+      "zip_code": "65372",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2022-01-07",
+      "branch_id": "BR044",
+      "relationship_manager": "Rose Baldwin",
+      "credit_score": 488,
+      "kyc_verified": false,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "SAV7190229413",
+        "routing_number": "186999386",
+        "account_type": "Savings",
+        "holding_name": "Reed TTEE",
+        "balance": 227171.84,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2012-12-22",
+        "interest_rate": 2.36,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "High Security",
+      "last_check_order_date": "1999-04-28",
+      "starting_check_number": 4457
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "780c97ac-1847-4c90-9667-4d7ae8f6b966",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00009",
+    "personal_information": {
+      "first_name": "Crystal",
+      "last_name": "Washington",
+      "date_of_birth": "1963-09-28",
+      "ssn_last4": "3573",
+      "email": "crystal.washington31@outlook.com",
+      "phone_primary": "(761)620-5814x021",
+      "phone_secondary": "(547)507-7448x2701"
+    },
+    "address": {
+      "street": "8441 Richard Tunnel Suite 298",
+      "city": "Carriefort",
+      "state": "NY",
+      "zip_code": "69537",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2003-08-23",
+      "branch_id": "BR001",
+      "relationship_manager": "Tracy Oliver",
+      "credit_score": 718,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "BSA4713493618",
+        "routing_number": "324210249",
+        "account_type": "Business Savings",
+        "holding_name": "Lopez Group",
+        "balance": 187364.95,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2007-12-04",
+        "interest_rate": 0.69,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Business",
+      "last_check_order_date": "2012-06-13",
+      "starting_check_number": 9847
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "901435c7-1885-4697-8e91-faa50fd84e0d",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00010",
+    "personal_information": {
+      "first_name": "James",
+      "last_name": "Hernandez",
+      "date_of_birth": "1984-04-19",
+      "ssn_last4": "2317",
+      "email": "james.hernandez77@gmail.com",
+      "phone_primary": "263-677-9917x22670",
+      "phone_secondary": "001-277-416-0701x89702"
+    },
+    "address": {
+      "street": "729 Timothy Dale Apt. 352",
+      "city": "Toddtown",
+      "state": "PA",
+      "zip_code": "67671",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2019-08-21",
+      "branch_id": "BR078",
+      "relationship_manager": "David Conner",
+      "credit_score": 556,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "CHK8742967175",
+        "routing_number": "655125674",
+        "account_type": "Checking",
+        "holding_name": "Hill TTEE",
+        "balance": 203484.73,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2016-02-08",
+        "interest_rate": 1.74,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "MMA6808760385",
+        "routing_number": "977034824",
+        "account_type": "Money Market",
+        "holding_name": "Smith TTEE",
+        "balance": 220271.23,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2000-03-14",
+        "interest_rate": 3.47,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "SAV4808613171",
+        "routing_number": "274846773",
+        "account_type": "Savings",
+        "holding_name": "Costa TTEE",
+        "balance": 138040.64,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "2002-02-07",
+        "interest_rate": 2.8,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Business",
+      "last_check_order_date": "2008-08-12",
+      "starting_check_number": 6568
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "b9fd65bf-9055-4a44-9c21-bb81dee70012",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00011",
+    "personal_information": {
+      "first_name": "Raymond",
+      "last_name": "Williams",
+      "date_of_birth": "1985-07-20",
+      "ssn_last4": "1042",
+      "email": "raymond.williams37@yahoo.com",
+      "phone_primary": "523.272.1383",
+      "phone_secondary": "(798)547-5334x49983"
+    },
+    "address": {
+      "street": "5841 Marissa Dale",
+      "city": "North Trevorshire",
+      "state": "MI",
+      "zip_code": "67121",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2011-12-26",
+      "branch_id": "BR085",
+      "relationship_manager": "Sydney Kelly",
+      "credit_score": 801,
+      "kyc_verified": false,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "TRU7533963605",
+        "routing_number": "766270289",
+        "account_type": "Trust",
+        "holding_name": "Hammond LLC",
+        "balance": 83332.68,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "2011-12-03",
+        "interest_rate": 0.56,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CDA2621745961",
+        "routing_number": "586578091",
+        "account_type": "CD",
+        "holding_name": "Martinez LLC",
+        "balance": 157974.67,
+        "currency": "GBP",
+        "status": "Frozen",
+        "date_opened": "1995-09-09",
+        "interest_rate": 4.11,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "MMA1724005045",
+        "routing_number": "562386922",
+        "account_type": "Money Market",
+        "holding_name": "Sullivan LLC",
+        "balance": 20202.6,
+        "currency": "EUR",
+        "status": "Active",
+        "date_opened": "1999-06-01",
+        "interest_rate": 1.33,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Business",
+      "last_check_order_date": "2010-08-13",
+      "starting_check_number": 5183
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "1bf2c6b1-a964-45d1-8834-3af176d26175",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00012",
+    "personal_information": {
+      "first_name": "Stephanie",
+      "last_name": "Oneal",
+      "date_of_birth": "1999-10-29",
+      "ssn_last4": "8622",
+      "email": "stephanie.oneal37@outlook.com",
+      "phone_primary": "726-648-7379",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "8483 Christopher Shore Apt. 835",
+      "city": "Bradleyville",
+      "state": "PA",
+      "zip_code": "89078",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2000-06-02",
+      "branch_id": "BR076",
+      "relationship_manager": "Matthew Benitez",
+      "credit_score": 606,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "CDA3695944064",
+        "routing_number": "090974395",
+        "account_type": "CD",
+        "holding_name": "Martin LLC",
+        "balance": 159336.16,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1999-10-14",
+        "interest_rate": 3.97,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "SAV0470952145",
+        "routing_number": "623285884",
+        "account_type": "Savings",
+        "holding_name": "Brown LLC",
+        "balance": 64614.04,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1999-05-11",
+        "interest_rate": 4.44,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BSA7123685160",
+        "routing_number": "481754965",
+        "account_type": "Business Savings",
+        "holding_name": "Houston Ltd",
+        "balance": 27532.35,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2000-03-01",
+        "interest_rate": 4.86,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU3174612004",
+        "routing_number": "711382675",
+        "account_type": "Trust",
+        "holding_name": "Romero, Smith and Norton",
+        "balance": 167786.31,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "2022-05-14",
+        "interest_rate": 2.31,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "High Security",
+      "last_check_order_date": "2011-12-14",
+      "starting_check_number": 7686
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "59fdd39c-8ea7-40a8-9b68-82685e72c3f5",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00013",
+    "personal_information": {
+      "first_name": "Melissa",
+      "last_name": "Smith",
+      "date_of_birth": "1965-02-04",
+      "ssn_last4": "7070",
+      "email": "melissa.smith28@icloud.com",
+      "phone_primary": "350-759-7139x9808",
+      "phone_secondary": "792-945-0939x60841"
+    },
+    "address": {
+      "street": "156 Trevor Drive",
+      "city": "East Luisview",
+      "state": "FL",
+      "zip_code": "24330",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2001-06-20",
+      "branch_id": "BR047",
+      "relationship_manager": "Jack Roth",
+      "credit_score": 401,
+      "kyc_verified": false,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "MMA3171390053",
+        "routing_number": "293183933",
+        "account_type": "Money Market",
+        "holding_name": "Davis Holdings",
+        "balance": 193704.96,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2007-05-18",
+        "interest_rate": 1.53,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Laser",
+      "last_check_order_date": "2001-03-30",
+      "starting_check_number": 3858
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "e576bf5f-a509-45ec-8b32-b22fb1a31ed4",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00014",
+    "personal_information": {
+      "first_name": "Jeffrey",
+      "last_name": "Crane",
+      "date_of_birth": "1949-11-11",
+      "ssn_last4": "3159",
+      "email": "jeffrey.crane2@yahoo.com",
+      "phone_primary": "+1-834-948-6619x78549",
+      "phone_secondary": "(772)405-7873"
+    },
+    "address": {
+      "street": "5109 Brian Circles Apt. 161",
+      "city": "East Lindsay",
+      "state": "FL",
+      "zip_code": "86714",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2001-02-26",
+      "branch_id": "BR076",
+      "relationship_manager": "Shelly Sanchez",
+      "credit_score": 631,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "SAV5891783908",
+        "routing_number": "470076617",
+        "account_type": "Savings",
+        "holding_name": "Tran TTEE",
+        "balance": 18835.93,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2015-02-09",
+        "interest_rate": 0.37,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU8569847896",
+        "routing_number": "118367365",
+        "account_type": "Trust",
+        "holding_name": "Townsend LLC",
+        "balance": 206941.1,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2021-04-04",
+        "interest_rate": 1.73,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CHK5271111615",
+        "routing_number": "280988516",
+        "account_type": "Checking",
+        "holding_name": "Jones Holdings",
+        "balance": 218465.04,
+        "currency": "GBP",
+        "status": "Active",
+        "date_opened": "2006-06-08",
+        "interest_rate": 5.04,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BSA9451983273",
+        "routing_number": "158514936",
+        "account_type": "Business Savings",
+        "holding_name": "Adams-Murphy",
+        "balance": 211366.21,
+        "currency": "CAD",
+        "status": "Dormant",
+        "date_opened": "2007-11-26",
+        "interest_rate": 3.38,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Business",
+      "last_check_order_date": "1991-04-20",
+      "starting_check_number": 3955
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "e86a1c53-0746-4f35-8055-9b16b052fe37",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00015",
+    "personal_information": {
+      "first_name": "April",
+      "last_name": "Larson",
+      "date_of_birth": "1964-07-07",
+      "ssn_last4": "6567",
+      "email": "april.larson45@gmail.com",
+      "phone_primary": "3096615513",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "33504 Lisa Burg",
+      "city": "Jessicaland",
+      "state": "NY",
+      "zip_code": "40217",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2013-11-10",
+      "branch_id": "BR073",
+      "relationship_manager": "Jonathan Smith",
+      "credit_score": 710,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "BSA6752545991",
+        "routing_number": "022901476",
+        "account_type": "Business Savings",
+        "holding_name": "Castillo-Johnson",
+        "balance": 121672.6,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2011-11-16",
+        "interest_rate": 4.15,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "High Security",
+      "last_check_order_date": "2002-09-15",
+      "starting_check_number": 8972
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "1c1f292a-5aec-4534-ad18-1fa2ffa34ef8",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00016",
+    "personal_information": {
+      "first_name": "Colton",
+      "last_name": "Giles",
+      "date_of_birth": "1987-04-10",
+      "ssn_last4": "1744",
+      "email": "colton.giles29@icloud.com",
+      "phone_primary": "(402)426-1053x2647",
+      "phone_secondary": "(427)736-2462x910"
+    },
+    "address": {
+      "street": "489 Lane Run",
+      "city": "Bernardborough",
+      "state": "TX",
+      "zip_code": "32429",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2013-11-01",
+      "branch_id": "BR001",
+      "relationship_manager": "William Taylor",
+      "credit_score": 509,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "CDA7622683885",
+        "routing_number": "160607159",
+        "account_type": "CD",
+        "holding_name": "Villa TTEE",
+        "balance": 143563.22,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1995-05-07",
+        "interest_rate": 0.64,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BCK2975161369",
+        "routing_number": "681645352",
+        "account_type": "Business Checking",
+        "holding_name": "Martinez-Day",
+        "balance": 19556.65,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2009-07-27",
+        "interest_rate": 1.07,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CHK2312432921",
+        "routing_number": "277997995",
+        "account_type": "Checking",
+        "holding_name": "Walker Holdings",
+        "balance": 38163.87,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2010-10-01",
+        "interest_rate": 1.67,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Business",
+      "last_check_order_date": "2012-10-04",
+      "starting_check_number": 2215
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "1f45fdab-77aa-495d-9f3d-37161f3ae538",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00017",
+    "personal_information": {
+      "first_name": "Charles",
+      "last_name": "Henderson",
+      "date_of_birth": "1967-11-06",
+      "ssn_last4": "8404",
+      "email": "charles.henderson5@gmail.com",
+      "phone_primary": "+1-349-908-2332",
+      "phone_secondary": "5029065746"
+    },
+    "address": {
+      "street": "998 Clark Heights Suite 237",
+      "city": "New Isaac",
+      "state": "IL",
+      "zip_code": "11637",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2020-09-17",
+      "branch_id": "BR010",
+      "relationship_manager": "Sarah Torres",
+      "credit_score": 392,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "CHK7820715182",
+        "routing_number": "037788925",
+        "account_type": "Checking",
+        "holding_name": "Silva Holdings",
+        "balance": 229525.23,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "2022-02-20",
+        "interest_rate": 3.74,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BSA1518644925",
+        "routing_number": "192546291",
+        "account_type": "Business Savings",
+        "holding_name": "Sanchez Ltd",
+        "balance": 77740.68,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "2010-01-04",
+        "interest_rate": 4.47,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "CDA8505423573",
+        "routing_number": "322141888",
+        "account_type": "CD",
+        "holding_name": "Martin Family Trust",
+        "balance": 165651.34,
+        "currency": "EUR",
+        "status": "Active",
+        "date_opened": "2013-12-29",
+        "interest_rate": 3.29,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "SAV2927065379",
+        "routing_number": "473834735",
+        "account_type": "Savings",
+        "holding_name": "Chambers",
+        "balance": 246117.73,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2002-04-12",
+        "interest_rate": 2.11,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BCK3924075818",
+        "routing_number": "141247826",
+        "account_type": "Business Checking",
+        "holding_name": "Richards Ltd",
+        "balance": 23382.54,
+        "currency": "EUR",
+        "status": "Dormant",
+        "date_opened": "2002-04-09",
+        "interest_rate": 4.87,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Personal",
+      "last_check_order_date": "2012-07-08",
+      "starting_check_number": 7126
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.255470",
+    "end_date": null,
+    "etl_batch_id": "9e776601-a051-4839-b39a-06a95c6fe215",
+    "created_at": "2026-04-09T20:37:17.255470",
+    "updated_at": "2026-04-09T20:37:17.255470"
+  },
+  {
+    "client_id": "CLT00018",
+    "personal_information": {
+      "first_name": "Erik",
+      "last_name": "Poole",
+      "date_of_birth": "1961-02-24",
+      "ssn_last4": "2337",
+      "email": "erik.poole48@outlook.com",
+      "phone_primary": "4182639419",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "2203 Heidi Lake",
+      "city": "New Matthewmouth",
+      "state": "CA",
+      "zip_code": "71171",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2017-04-27",
+      "branch_id": "BR092",
+      "relationship_manager": "Molly Duncan",
+      "credit_score": 643,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "BCK9010432898",
+        "routing_number": "614341036",
+        "account_type": "Business Checking",
+        "holding_name": "Pacheco PLC",
+        "balance": 159918.46,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2015-02-14",
+        "interest_rate": 4.6,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "MMA8089324609",
+        "routing_number": "539621851",
+        "account_type": "Money Market",
+        "holding_name": "King",
+        "balance": 136248.45,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2021-10-07",
+        "interest_rate": 0.12,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU6540515319",
+        "routing_number": "520585277",
+        "account_type": "Trust",
+        "holding_name": "Garcia PLC",
+        "balance": 158118.09,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1996-12-14",
+        "interest_rate": 4.27,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BSA4303054868",
+        "routing_number": "740345054",
+        "account_type": "Business Savings",
+        "holding_name": "Parsons-Bartlett",
+        "balance": 31556.51,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "1996-08-28",
+        "interest_rate": 4.09,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Standard",
+      "last_check_order_date": "2012-04-04",
+      "starting_check_number": 9151
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.268949",
+    "end_date": null,
+    "etl_batch_id": "7000e833-6521-4db1-bef0-b264fc155d30",
+    "created_at": "2026-04-09T20:37:17.268949",
+    "updated_at": "2026-04-09T20:37:17.268949"
+  },
+  {
+    "client_id": "CLT00019",
+    "personal_information": {
+      "first_name": "Benjamin",
+      "last_name": "Quinn",
+      "date_of_birth": "1972-12-15",
+      "ssn_last4": "5369",
+      "email": "benjamin.quinn11@icloud.com",
+      "phone_primary": "7599058281",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "46378 Bryan Brook",
+      "city": "Jameston",
+      "state": "MI",
+      "zip_code": "76060",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2023-04-17",
+      "branch_id": "BR024",
+      "relationship_manager": "Michael Smith",
+      "credit_score": 600,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "IRA2757059640",
+        "routing_number": "165820297",
+        "account_type": "IRA",
+        "holding_name": "Miranda Group",
+        "balance": 9182.34,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "2014-02-11",
+        "interest_rate": 2.02,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CDA0927557192",
+        "routing_number": "856543102",
+        "account_type": "CD",
+        "holding_name": "Dorsey TTEE",
+        "balance": 129677.45,
+        "currency": "EUR",
+        "status": "Active",
+        "date_opened": "2020-06-11",
+        "interest_rate": 4.26,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU9473121727",
+        "routing_number": "155188442",
+        "account_type": "Trust",
+        "holding_name": "Walker PLC",
+        "balance": 178096.37,
+        "currency": "GBP",
+        "status": "Active",
+        "date_opened": "2004-08-16",
+        "interest_rate": 4.37,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Standard",
+      "last_check_order_date": "1996-03-25",
+      "starting_check_number": 4878
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.269980",
+    "end_date": null,
+    "etl_batch_id": "ec4094b3-08cf-4ea5-a313-15620da6b002",
+    "created_at": "2026-04-09T20:37:17.269980",
+    "updated_at": "2026-04-09T20:37:17.269980"
+  },
+  {
+    "client_id": "CLT00020",
+    "personal_information": {
+      "first_name": "Steven",
+      "last_name": "Pruitt",
+      "date_of_birth": "1984-04-27",
+      "ssn_last4": "6912",
+      "email": "steven.pruitt71@yahoo.com",
+      "phone_primary": "974-657-7049",
+      "phone_secondary": "+1-898-945-5342"
+    },
+    "address": {
+      "street": "8114 Chase Keys Apt. 625",
+      "city": "Snyderport",
+      "state": "NC",
+      "zip_code": "06952",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2001-03-06",
+      "branch_id": "BR017",
+      "relationship_manager": "Nichole Farley",
+      "credit_score": 388,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "MMA5177852892",
+        "routing_number": "268018242",
+        "account_type": "Money Market",
+        "holding_name": "Cantrell LLC",
+        "balance": 81003.86,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2000-08-15",
+        "interest_rate": 5.18,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "IRA4384249818",
+        "routing_number": "299229959",
+        "account_type": "IRA",
+        "holding_name": "Aguirre-Garcia",
+        "balance": 10777.98,
+        "currency": "EUR",
+        "status": "Active",
+        "date_opened": "1998-07-16",
+        "interest_rate": 5.22,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BSA9690784473",
+        "routing_number": "647102767",
+        "account_type": "Business Savings",
+        "holding_name": "Brady, Owens and Bentley",
+        "balance": 116378.32,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2004-06-15",
+        "interest_rate": 4.74,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CDA6258815371",
+        "routing_number": "473210469",
+        "account_type": "CD",
+        "holding_name": "Sanchez TTEE",
+        "balance": 62443.43,
+        "currency": "EUR",
+        "status": "Active",
+        "date_opened": "2010-06-29",
+        "interest_rate": 1.81,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CHK2787747016",
+        "routing_number": "873395004",
+        "account_type": "Checking",
+        "holding_name": "Willis TTEE",
+        "balance": 149580.93,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2003-07-08",
+        "interest_rate": 1.58,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Personal",
+      "last_check_order_date": "1996-01-04",
+      "starting_check_number": 5333
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.271957",
+    "end_date": null,
+    "etl_batch_id": "27c73c8e-b1a0-4278-9d3c-9f8df8397818",
+    "created_at": "2026-04-09T20:37:17.271957",
+    "updated_at": "2026-04-09T20:37:17.271957"
+  },
+  {
+    "client_id": "CLT00021",
+    "personal_information": {
+      "first_name": "Tiffany",
+      "last_name": "Wall",
+      "date_of_birth": "1972-10-24",
+      "ssn_last4": "6995",
+      "email": "tiffany.wall6@icloud.com",
+      "phone_primary": "001-813-451-5879x4489",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "5980 Victor Roads Suite 769",
+      "city": "Patrickside",
+      "state": "NC",
+      "zip_code": "28107",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2018-02-01",
+      "branch_id": "BR025",
+      "relationship_manager": "Melinda Holden",
+      "credit_score": 671,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "CDA1655852398",
+        "routing_number": "680002578",
+        "account_type": "CD",
+        "holding_name": "Arnold TTEE",
+        "balance": 37660.7,
+        "currency": "EUR",
+        "status": "Active",
+        "date_opened": "2000-10-09",
+        "interest_rate": 5.12,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "MMA6949588879",
+        "routing_number": "470551694",
+        "account_type": "Money Market",
+        "holding_name": "Fritz Family Trust",
+        "balance": 149428.95,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2002-04-16",
+        "interest_rate": 5.35,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "IRA9728962309",
+        "routing_number": "130756263",
+        "account_type": "IRA",
+        "holding_name": "Brown-Adams",
+        "balance": 102889.16,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "1997-04-21",
+        "interest_rate": 4.8,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "TRU8385786527",
+        "routing_number": "858549733",
+        "account_type": "Trust",
+        "holding_name": "Ward Group",
+        "balance": 70112.1,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "2001-03-12",
+        "interest_rate": 5.4,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CHK7575844198",
+        "routing_number": "665240415",
+        "account_type": "Checking",
+        "holding_name": "Jackson TTEE",
+        "balance": 164165.03,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2004-04-19",
+        "interest_rate": 4.56,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Business",
+      "last_check_order_date": "1996-02-28",
+      "starting_check_number": 2789
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.273957",
+    "end_date": null,
+    "etl_batch_id": "ff21416c-79a8-4ada-8a00-e3f65d3703b5",
+    "created_at": "2026-04-09T20:37:17.273957",
+    "updated_at": "2026-04-09T20:37:17.273957"
+  },
+  {
+    "client_id": "CLT00022",
+    "personal_information": {
+      "first_name": "Heather",
+      "last_name": "Williams",
+      "date_of_birth": "1995-03-27",
+      "ssn_last4": "4972",
+      "email": "heather.williams7@outlook.com",
+      "phone_primary": "+1-420-225-6863x6375",
+      "phone_secondary": "001-540-527-6344x396"
+    },
+    "address": {
+      "street": "4960 Gregory Drives",
+      "city": "East Michaelborough",
+      "state": "TX",
+      "zip_code": "95052",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2010-09-25",
+      "branch_id": "BR013",
+      "relationship_manager": "Gail Mendoza",
+      "credit_score": 723,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "BCK7734540193",
+        "routing_number": "802620672",
+        "account_type": "Business Checking",
+        "holding_name": "Sanchez-Cain",
+        "balance": 234183.88,
+        "currency": "GBP",
+        "status": "Closed",
+        "date_opened": "2013-04-02",
+        "interest_rate": 4.82,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Laser",
+      "last_check_order_date": "1994-10-25",
+      "starting_check_number": 6489
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.273957",
+    "end_date": null,
+    "etl_batch_id": "47647c5b-1ee1-4fe7-a1ed-3920adb8829e",
+    "created_at": "2026-04-09T20:37:17.273957",
+    "updated_at": "2026-04-09T20:37:17.273957"
+  },
+  {
+    "client_id": "CLT00023",
+    "personal_information": {
+      "first_name": "Molly",
+      "last_name": "Garner",
+      "date_of_birth": "1965-07-12",
+      "ssn_last4": "9901",
+      "email": "molly.garner68@icloud.com",
+      "phone_primary": "426.372.7972",
+      "phone_secondary": "(473)677-3154x754"
+    },
+    "address": {
+      "street": "55920 Christopher Neck Suite 072",
+      "city": "Torresland",
+      "state": "NY",
+      "zip_code": "40015",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2020-05-19",
+      "branch_id": "BR065",
+      "relationship_manager": "Donald Taylor",
+      "credit_score": 779,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "IRA2054932966",
+        "routing_number": "851612275",
+        "account_type": "IRA",
+        "holding_name": "White-Potts",
+        "balance": 233988.43,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2006-07-17",
+        "interest_rate": 2.46,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU4990453017",
+        "routing_number": "426841459",
+        "account_type": "Trust",
+        "holding_name": "Williams Ltd",
+        "balance": 55601.89,
+        "currency": "GBP",
+        "status": "Active",
+        "date_opened": "2009-10-14",
+        "interest_rate": 2.51,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Laser",
+      "last_check_order_date": "2011-02-14",
+      "starting_check_number": 9806
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.274956",
+    "end_date": null,
+    "etl_batch_id": "49694fe9-102e-442a-bcde-da84d7848279",
+    "created_at": "2026-04-09T20:37:17.274956",
+    "updated_at": "2026-04-09T20:37:17.274956"
+  },
+  {
+    "client_id": "CLT00024",
+    "personal_information": {
+      "first_name": "Nancy",
+      "last_name": "Sparks",
+      "date_of_birth": "1999-07-31",
+      "ssn_last4": "5054",
+      "email": "nancy.sparks88@gmail.com",
+      "phone_primary": "001-928-232-2918x17165",
+      "phone_secondary": "657-622-0789"
+    },
+    "address": {
+      "street": "496 Thompson Meadow",
+      "city": "South Jacqueline",
+      "state": "NC",
+      "zip_code": "99760",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2009-10-18",
+      "branch_id": "BR091",
+      "relationship_manager": "Bryan Fields",
+      "credit_score": 670,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "BSA8713971870",
+        "routing_number": "728679087",
+        "account_type": "Business Savings",
+        "holding_name": "Lee, Dennis and Jones",
+        "balance": 168355.54,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2009-09-19",
+        "interest_rate": 1.41,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "CDA9106518017",
+        "routing_number": "046226567",
+        "account_type": "CD",
+        "holding_name": "Thomas TTEE",
+        "balance": 94223.56,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2004-10-10",
+        "interest_rate": 2.97,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "MMA2868230047",
+        "routing_number": "868633752",
+        "account_type": "Money Market",
+        "holding_name": "Barber Holdings",
+        "balance": 47525.87,
+        "currency": "EUR",
+        "status": "Dormant",
+        "date_opened": "2000-04-27",
+        "interest_rate": 0.19,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "SAV0331190790",
+        "routing_number": "306738302",
+        "account_type": "Savings",
+        "holding_name": "Kim",
+        "balance": 248374.12,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "2022-08-01",
+        "interest_rate": 3.17,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU4283644089",
+        "routing_number": "268705685",
+        "account_type": "Trust",
+        "holding_name": "Gregory, Elliott and Nichols",
+        "balance": 174228.95,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2005-08-17",
+        "interest_rate": 1.02,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Standard",
+      "last_check_order_date": "2003-06-29",
+      "starting_check_number": 3365
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.278126",
+    "end_date": null,
+    "etl_batch_id": "c8430259-d678-463d-9ee2-b85c98791082",
+    "created_at": "2026-04-09T20:37:17.278126",
+    "updated_at": "2026-04-09T20:37:17.278126"
+  },
+  {
+    "client_id": "CLT00025",
+    "personal_information": {
+      "first_name": "Abigail",
+      "last_name": "Herrera",
+      "date_of_birth": "1981-07-16",
+      "ssn_last4": "7761",
+      "email": "abigail.herrera54@outlook.com",
+      "phone_primary": "642.528.0288x3663",
+      "phone_secondary": "(813)260-2196"
+    },
+    "address": {
+      "street": "07384 Adam Locks Apt. 781",
+      "city": "Amyshire",
+      "state": "IL",
+      "zip_code": "02001",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2002-08-02",
+      "branch_id": "BR027",
+      "relationship_manager": "Amber Hamilton",
+      "credit_score": 638,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "BSA4699013983",
+        "routing_number": "735403317",
+        "account_type": "Business Savings",
+        "holding_name": "Parrish Inc",
+        "balance": 228653.1,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1997-04-24",
+        "interest_rate": 2.19,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Business",
+      "last_check_order_date": "2007-01-28",
+      "starting_check_number": 8639
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.280267",
+    "end_date": null,
+    "etl_batch_id": "94ab6df0-1d44-4c0f-b84a-154312f2e295",
+    "created_at": "2026-04-09T20:37:17.280267",
+    "updated_at": "2026-04-09T20:37:17.280267"
+  },
+  {
+    "client_id": "CLT00026",
+    "personal_information": {
+      "first_name": "David",
+      "last_name": "Edwards",
+      "date_of_birth": "1987-11-16",
+      "ssn_last4": "6053",
+      "email": "david.edwards34@yahoo.com",
+      "phone_primary": "328-417-3669",
+      "phone_secondary": "001-944-250-0901x376"
+    },
+    "address": {
+      "street": "39530 Patrick Square",
+      "city": "Lanemouth",
+      "state": "GA",
+      "zip_code": "94825",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2016-02-12",
+      "branch_id": "BR060",
+      "relationship_manager": "Daniel Cooke",
+      "credit_score": 400,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "TRU0932048996",
+        "routing_number": "423536937",
+        "account_type": "Trust",
+        "holding_name": "Johnson, Murphy and Parks",
+        "balance": 137885.31,
+        "currency": "GBP",
+        "status": "Active",
+        "date_opened": "2013-07-26",
+        "interest_rate": 4.2,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BCK7252287280",
+        "routing_number": "801006231",
+        "account_type": "Business Checking",
+        "holding_name": "Dunn, Bell and Oliver",
+        "balance": 176938.81,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2017-01-02",
+        "interest_rate": 2.06,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "High Security",
+      "last_check_order_date": "1990-04-19",
+      "starting_check_number": 9719
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.283602",
+    "end_date": null,
+    "etl_batch_id": "64466d0a-fa2c-4efc-8978-e7a8ea35051c",
+    "created_at": "2026-04-09T20:37:17.283602",
+    "updated_at": "2026-04-09T20:37:17.283602"
+  },
+  {
+    "client_id": "CLT00027",
+    "personal_information": {
+      "first_name": "Curtis",
+      "last_name": "Walker",
+      "date_of_birth": "1989-06-28",
+      "ssn_last4": "1194",
+      "email": "curtis.walker3@yahoo.com",
+      "phone_primary": "694.746.2219x2411",
+      "phone_secondary": "001-755-209-4961"
+    },
+    "address": {
+      "street": "4316 White Mission Suite 654",
+      "city": "South Stephanieton",
+      "state": "IL",
+      "zip_code": "31784",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2018-06-14",
+      "branch_id": "BR003",
+      "relationship_manager": "Juan Berry",
+      "credit_score": 814,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "SAV2339845461",
+        "routing_number": "567933410",
+        "account_type": "Savings",
+        "holding_name": "Jimenez Family Trust",
+        "balance": 101616.94,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2018-07-10",
+        "interest_rate": 3.51,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Personal",
+      "last_check_order_date": "2018-12-06",
+      "starting_check_number": 6427
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.283602",
+    "end_date": null,
+    "etl_batch_id": "927f11ea-6f0a-4da6-86b2-6b2a7d915d13",
+    "created_at": "2026-04-09T20:37:17.283602",
+    "updated_at": "2026-04-09T20:37:17.283602"
+  },
+  {
+    "client_id": "CLT00028",
+    "personal_information": {
+      "first_name": "Nancy",
+      "last_name": "Mendez",
+      "date_of_birth": "1990-10-06",
+      "ssn_last4": "9653",
+      "email": "nancy.mendez6@outlook.com",
+      "phone_primary": "(571)551-1797x298",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "584 Perez Neck Apt. 843",
+      "city": "South Pamside",
+      "state": "MI",
+      "zip_code": "70611",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2004-04-11",
+      "branch_id": "BR061",
+      "relationship_manager": "Heather Woods",
+      "credit_score": 577,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "CHK2614293968",
+        "routing_number": "562185016",
+        "account_type": "Checking",
+        "holding_name": "Quinn LLC",
+        "balance": 209749.33,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "2021-05-01",
+        "interest_rate": 5.25,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "SAV0477358662",
+        "routing_number": "961943114",
+        "account_type": "Savings",
+        "holding_name": "Barrett LLC",
+        "balance": 95310.0,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2009-08-22",
+        "interest_rate": 2.15,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BCK1047541212",
+        "routing_number": "678886101",
+        "account_type": "Business Checking",
+        "holding_name": "Ray, Perkins and Horne",
+        "balance": 88801.61,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1999-10-12",
+        "interest_rate": 1.79,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "IRA4661839826",
+        "routing_number": "224447212",
+        "account_type": "IRA",
+        "holding_name": "Smith, Hawkins and Preston",
+        "balance": 108951.73,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1995-07-22",
+        "interest_rate": 0.43,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "MMA7993712406",
+        "routing_number": "596575692",
+        "account_type": "Money Market",
+        "holding_name": "Lambert Holdings",
+        "balance": 80505.96,
+        "currency": "GBP",
+        "status": "Active",
+        "date_opened": "2006-01-23",
+        "interest_rate": 1.73,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Business",
+      "last_check_order_date": "2022-12-19",
+      "starting_check_number": 9044
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.285498",
+    "end_date": null,
+    "etl_batch_id": "5e5dfe4c-4412-4b9b-be9d-6ac34563e53e",
+    "created_at": "2026-04-09T20:37:17.285498",
+    "updated_at": "2026-04-09T20:37:17.285498"
+  },
+  {
+    "client_id": "CLT00029",
+    "personal_information": {
+      "first_name": "Hayley",
+      "last_name": "Stafford",
+      "date_of_birth": "1991-08-31",
+      "ssn_last4": "6339",
+      "email": "hayley.stafford49@yahoo.com",
+      "phone_primary": "887-755-5821x675",
+      "phone_secondary": "338-667-4344"
+    },
+    "address": {
+      "street": "053 Michael Drive",
+      "city": "Hornmouth",
+      "state": "OH",
+      "zip_code": "39459",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2010-11-15",
+      "branch_id": "BR047",
+      "relationship_manager": "Carol Mitchell",
+      "credit_score": 416,
+      "kyc_verified": false,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "CHK1672434266",
+        "routing_number": "179796886",
+        "account_type": "Checking",
+        "holding_name": "Allen",
+        "balance": 9672.91,
+        "currency": "GBP",
+        "status": "Active",
+        "date_opened": "2008-01-26",
+        "interest_rate": 4.47,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "TRU3529096561",
+        "routing_number": "014388899",
+        "account_type": "Trust",
+        "holding_name": "Glenn PLC",
+        "balance": 55647.42,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1999-11-27",
+        "interest_rate": 3.74,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BSA0714611254",
+        "routing_number": "573875717",
+        "account_type": "Business Savings",
+        "holding_name": "Wolf Group",
+        "balance": 180637.49,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2010-06-22",
+        "interest_rate": 0.26,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "SAV5123828258",
+        "routing_number": "673622660",
+        "account_type": "Savings",
+        "holding_name": "Phillips",
+        "balance": 220832.79,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1996-01-06",
+        "interest_rate": 0.03,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "MMA4191825537",
+        "routing_number": "147859696",
+        "account_type": "Money Market",
+        "holding_name": "Peters",
+        "balance": 29000.9,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2004-03-25",
+        "interest_rate": 0.96,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Laser",
+      "last_check_order_date": "1993-10-20",
+      "starting_check_number": 3194
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.288050",
+    "end_date": null,
+    "etl_batch_id": "b4f631b7-5d03-4c80-8a24-e722c8773d21",
+    "created_at": "2026-04-09T20:37:17.288050",
+    "updated_at": "2026-04-09T20:37:17.288050"
+  },
+  {
+    "client_id": "CLT00030",
+    "personal_information": {
+      "first_name": "Tracey",
+      "last_name": "Lopez",
+      "date_of_birth": "1968-02-05",
+      "ssn_last4": "4908",
+      "email": "tracey.lopez40@gmail.com",
+      "phone_primary": "398.429.3859x644",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "691 Traci Landing",
+      "city": "Alexanderburgh",
+      "state": "NY",
+      "zip_code": "15954",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2005-04-15",
+      "branch_id": "BR066",
+      "relationship_manager": "Miranda Nguyen",
+      "credit_score": 697,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "BCK8274225790",
+        "routing_number": "507236887",
+        "account_type": "Business Checking",
+        "holding_name": "Hall LLC",
+        "balance": 102579.02,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2002-10-09",
+        "interest_rate": 2.45,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BSA9034043842",
+        "routing_number": "797881914",
+        "account_type": "Business Savings",
+        "holding_name": "Short and Sons",
+        "balance": 193890.7,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1998-09-16",
+        "interest_rate": 4.53,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "TRU8361340745",
+        "routing_number": "171339596",
+        "account_type": "Trust",
+        "holding_name": "Smith-Ryan",
+        "balance": 41912.41,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2014-10-19",
+        "interest_rate": 1.15,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "CDA5849825449",
+        "routing_number": "481260422",
+        "account_type": "CD",
+        "holding_name": "Johnson LLC",
+        "balance": 36987.74,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2020-07-28",
+        "interest_rate": 4.64,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Laser",
+      "last_check_order_date": "2018-05-15",
+      "starting_check_number": 5402
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.289056",
+    "end_date": null,
+    "etl_batch_id": "a7a1070b-fd02-4035-ad3f-918e4fad0ddf",
+    "created_at": "2026-04-09T20:37:17.289056",
+    "updated_at": "2026-04-09T20:37:17.289056"
+  },
+  {
+    "client_id": "CLT00031",
+    "personal_information": {
+      "first_name": "Paul",
+      "last_name": "Fleming",
+      "date_of_birth": "1996-04-28",
+      "ssn_last4": "7146",
+      "email": "paul.fleming58@gmail.com",
+      "phone_primary": "815-412-2192x26141",
+      "phone_secondary": "+1-453-880-7114x763"
+    },
+    "address": {
+      "street": "82883 Neal Mission Suite 133",
+      "city": "East Jonathan",
+      "state": "CA",
+      "zip_code": "59327",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2018-07-31",
+      "branch_id": "BR052",
+      "relationship_manager": "Natalie Smith",
+      "credit_score": 827,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "IRA7518636374",
+        "routing_number": "545892975",
+        "account_type": "IRA",
+        "holding_name": "Hawkins, George and Ingram",
+        "balance": 223591.59,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1999-03-07",
+        "interest_rate": 3.45,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BCK1277063242",
+        "routing_number": "415415206",
+        "account_type": "Business Checking",
+        "holding_name": "James-Bauer",
+        "balance": 156588.27,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "1995-09-24",
+        "interest_rate": 2.37,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "CDA0371293870",
+        "routing_number": "051627136",
+        "account_type": "CD",
+        "holding_name": "Williams Family Trust",
+        "balance": 182825.46,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1999-04-09",
+        "interest_rate": 4.85,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "CHK2218909275",
+        "routing_number": "326973112",
+        "account_type": "Checking",
+        "holding_name": "Cook Family Trust",
+        "balance": 147598.69,
+        "currency": "USD",
+        "status": "Frozen",
+        "date_opened": "2012-03-02",
+        "interest_rate": 1.74,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "High Security",
+      "last_check_order_date": "2001-02-17",
+      "starting_check_number": 5668
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.290079",
+    "end_date": null,
+    "etl_batch_id": "399ac0e9-569b-441f-832f-855b17f41e0f",
+    "created_at": "2026-04-09T20:37:17.290079",
+    "updated_at": "2026-04-09T20:37:17.290079"
+  },
+  {
+    "client_id": "CLT00032",
+    "personal_information": {
+      "first_name": "Melissa",
+      "last_name": "Reed",
+      "date_of_birth": "1942-05-28",
+      "ssn_last4": "4366",
+      "email": "melissa.reed67@outlook.com",
+      "phone_primary": "001-691-648-2333x5070",
+      "phone_secondary": "001-408-419-6068x78030"
+    },
+    "address": {
+      "street": "46345 Nunez Meadow Suite 924",
+      "city": "South Sarah",
+      "state": "IL",
+      "zip_code": "11033",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2013-07-13",
+      "branch_id": "BR083",
+      "relationship_manager": "Molly Conway",
+      "credit_score": 355,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "MMA1805526965",
+        "routing_number": "827109104",
+        "account_type": "Money Market",
+        "holding_name": "Ford LLC",
+        "balance": 10436.8,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "2021-08-22",
+        "interest_rate": 2.79,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CHK6188924141",
+        "routing_number": "832856914",
+        "account_type": "Checking",
+        "holding_name": "Ingram TTEE",
+        "balance": 182624.62,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2013-12-31",
+        "interest_rate": 0.48,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "SAV7990421020",
+        "routing_number": "275884252",
+        "account_type": "Savings",
+        "holding_name": "Rodgers Holdings",
+        "balance": 183367.49,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "2000-03-15",
+        "interest_rate": 1.85,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BSA8149177850",
+        "routing_number": "792524191",
+        "account_type": "Business Savings",
+        "holding_name": "Evans, Torres and Church",
+        "balance": 57486.9,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2007-03-15",
+        "interest_rate": 4.75,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Business",
+      "last_check_order_date": "2007-03-07",
+      "starting_check_number": 3458
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.291080",
+    "end_date": null,
+    "etl_batch_id": "48f96b3f-2f2b-482e-b242-07e6ee6fd4f9",
+    "created_at": "2026-04-09T20:37:17.291080",
+    "updated_at": "2026-04-09T20:37:17.291080"
+  },
+  {
+    "client_id": "CLT00033",
+    "personal_information": {
+      "first_name": "Kristen",
+      "last_name": "Shaw",
+      "date_of_birth": "1956-01-21",
+      "ssn_last4": "7870",
+      "email": "kristen.shaw29@yahoo.com",
+      "phone_primary": "693-913-8076x23673",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "673 Lee Gateway Suite 834",
+      "city": "Port Lauren",
+      "state": "PA",
+      "zip_code": "27293",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2001-08-02",
+      "branch_id": "BR035",
+      "relationship_manager": "Jackson Lyons",
+      "credit_score": 379,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "BSA0617445187",
+        "routing_number": "053494937",
+        "account_type": "Business Savings",
+        "holding_name": "Hall and Sons",
+        "balance": 92384.27,
+        "currency": "CAD",
+        "status": "Frozen",
+        "date_opened": "2018-02-19",
+        "interest_rate": 4.27,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "MMA0603850506",
+        "routing_number": "413836702",
+        "account_type": "Money Market",
+        "holding_name": "Stevens Holdings",
+        "balance": 23710.15,
+        "currency": "GBP",
+        "status": "Closed",
+        "date_opened": "2001-10-02",
+        "interest_rate": 2.86,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "High Security",
+      "last_check_order_date": "2016-01-20",
+      "starting_check_number": 2565
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.292908",
+    "end_date": null,
+    "etl_batch_id": "f22bfd33-f8e7-4438-ab19-e00965b7a048",
+    "created_at": "2026-04-09T20:37:17.292908",
+    "updated_at": "2026-04-09T20:37:17.292908"
+  },
+  {
+    "client_id": "CLT00034",
+    "personal_information": {
+      "first_name": "Daniel",
+      "last_name": "Ruiz",
+      "date_of_birth": "1985-05-05",
+      "ssn_last4": "7461",
+      "email": "daniel.ruiz10@gmail.com",
+      "phone_primary": "001-238-490-7051x0145",
+      "phone_secondary": "587-791-4644x882"
+    },
+    "address": {
+      "street": "06537 Dawn Islands",
+      "city": "Dickersonmouth",
+      "state": "NY",
+      "zip_code": "90073",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2005-12-27",
+      "branch_id": "BR031",
+      "relationship_manager": "Joshua Johnston",
+      "credit_score": 598,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "TRU1329121277",
+        "routing_number": "561853747",
+        "account_type": "Trust",
+        "holding_name": "Davis, Mccall and Harris",
+        "balance": 66619.48,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2005-06-24",
+        "interest_rate": 3.78,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BSA5213568044",
+        "routing_number": "206788317",
+        "account_type": "Business Savings",
+        "holding_name": "Kelley, French and Allen",
+        "balance": 25925.88,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2004-08-23",
+        "interest_rate": 0.35,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BCK3651994101",
+        "routing_number": "372151070",
+        "account_type": "Business Checking",
+        "holding_name": "Cunningham PLC",
+        "balance": 42413.31,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "2000-11-11",
+        "interest_rate": 2.18,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Personal",
+      "last_check_order_date": "1997-10-02",
+      "starting_check_number": 6799
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.296932",
+    "end_date": null,
+    "etl_batch_id": "86b153eb-e1d4-49ff-a312-585db55a364e",
+    "created_at": "2026-04-09T20:37:17.297974",
+    "updated_at": "2026-04-09T20:37:17.297974"
+  },
+  {
+    "client_id": "CLT00035",
+    "personal_information": {
+      "first_name": "Maria",
+      "last_name": "Callahan",
+      "date_of_birth": "1959-04-06",
+      "ssn_last4": "5505",
+      "email": "maria.callahan36@icloud.com",
+      "phone_primary": "439-700-5701x174",
+      "phone_secondary": "861.786.2906"
+    },
+    "address": {
+      "street": "242 Nelson Port Suite 286",
+      "city": "Gomeztown",
+      "state": "TX",
+      "zip_code": "40819",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2008-05-24",
+      "branch_id": "BR079",
+      "relationship_manager": "Alexis Johnson",
+      "credit_score": 551,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "SAV6263838065",
+        "routing_number": "787598564",
+        "account_type": "Savings",
+        "holding_name": "Wiley LLC",
+        "balance": 7002.71,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2007-07-20",
+        "interest_rate": 4.46,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Personal",
+      "last_check_order_date": "2013-10-01",
+      "starting_check_number": 6856
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.303016",
+    "end_date": null,
+    "etl_batch_id": "7b93d9d9-03b0-4fb8-b884-263e0541dff5",
+    "created_at": "2026-04-09T20:37:17.303016",
+    "updated_at": "2026-04-09T20:37:17.303016"
+  },
+  {
+    "client_id": "CLT00036",
+    "personal_information": {
+      "first_name": "Peter",
+      "last_name": "Schmitt",
+      "date_of_birth": "1992-05-23",
+      "ssn_last4": "3615",
+      "email": "peter.schmitt13@outlook.com",
+      "phone_primary": "(490)409-2814",
+      "phone_secondary": "(480)719-8607"
+    },
+    "address": {
+      "street": "9893 Miles Square",
+      "city": "Bakertown",
+      "state": "IL",
+      "zip_code": "27432",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2010-06-10",
+      "branch_id": "BR069",
+      "relationship_manager": "Victoria Brown",
+      "credit_score": 357,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "BCK5590599293",
+        "routing_number": "784270103",
+        "account_type": "Business Checking",
+        "holding_name": "Williams, Smith and Dean",
+        "balance": 150614.87,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2021-07-30",
+        "interest_rate": 1.83,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "SAV5250029218",
+        "routing_number": "515691545",
+        "account_type": "Savings",
+        "holding_name": "Reyes LLC",
+        "balance": 243977.24,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2000-11-07",
+        "interest_rate": 3.52,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "MMA2895392644",
+        "routing_number": "220969029",
+        "account_type": "Money Market",
+        "holding_name": "Wilson Holdings",
+        "balance": 230299.03,
+        "currency": "GBP",
+        "status": "Active",
+        "date_opened": "2009-03-26",
+        "interest_rate": 3.11,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "High Security",
+      "last_check_order_date": "2000-09-04",
+      "starting_check_number": 6682
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.305060",
+    "end_date": null,
+    "etl_batch_id": "60484028-f6b4-4900-8c54-206783cea20d",
+    "created_at": "2026-04-09T20:37:17.305060",
+    "updated_at": "2026-04-09T20:37:17.305060"
+  },
+  {
+    "client_id": "CLT00037",
+    "personal_information": {
+      "first_name": "Sean",
+      "last_name": "Jones",
+      "date_of_birth": "1968-08-30",
+      "ssn_last4": "2453",
+      "email": "sean.jones91@yahoo.com",
+      "phone_primary": "542-662-6703x94870",
+      "phone_secondary": "4948487711"
+    },
+    "address": {
+      "street": "57270 James Union",
+      "city": "Margarettown",
+      "state": "IL",
+      "zip_code": "11393",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2007-07-13",
+      "branch_id": "BR027",
+      "relationship_manager": "Kristin Vasquez MD",
+      "credit_score": 555,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "CHK7626765861",
+        "routing_number": "793271040",
+        "account_type": "Checking",
+        "holding_name": "Maldonado Holdings",
+        "balance": 65651.36,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2012-04-24",
+        "interest_rate": 4.88,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Laser",
+      "last_check_order_date": "1994-03-06",
+      "starting_check_number": 6536
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.306027",
+    "end_date": null,
+    "etl_batch_id": "fe7f7e64-2d6a-477c-a825-9a99672764f4",
+    "created_at": "2026-04-09T20:37:17.306027",
+    "updated_at": "2026-04-09T20:37:17.306027"
+  },
+  {
+    "client_id": "CLT00038",
+    "personal_information": {
+      "first_name": "Nicholas",
+      "last_name": "Taylor",
+      "date_of_birth": "1993-04-17",
+      "ssn_last4": "1507",
+      "email": "nicholas.taylor56@outlook.com",
+      "phone_primary": "965.713.7851x9263",
+      "phone_secondary": "001-704-624-0134"
+    },
+    "address": {
+      "street": "560 Hansen Mall",
+      "city": "Lake Michael",
+      "state": "OH",
+      "zip_code": "49813",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2021-08-27",
+      "branch_id": "BR021",
+      "relationship_manager": "Sydney Rodriguez",
+      "credit_score": 354,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "CDA1069872050",
+        "routing_number": "614973103",
+        "account_type": "CD",
+        "holding_name": "Harrington LLC",
+        "balance": 159728.57,
+        "currency": "CAD",
+        "status": "Active",
+        "date_opened": "2005-08-27",
+        "interest_rate": 0.64,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU7418625652",
+        "routing_number": "704774349",
+        "account_type": "Trust",
+        "holding_name": "Hill LLC",
+        "balance": 15879.02,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2016-02-15",
+        "interest_rate": 0.48,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BCK6938068687",
+        "routing_number": "937416089",
+        "account_type": "Business Checking",
+        "holding_name": "Hicks, Juarez and Cook",
+        "balance": 225163.54,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2019-04-16",
+        "interest_rate": 3.42,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "MMA2233206163",
+        "routing_number": "294511686",
+        "account_type": "Money Market",
+        "holding_name": "Haley",
+        "balance": 81868.64,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2015-02-22",
+        "interest_rate": 4.81,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Standard",
+      "last_check_order_date": "1996-08-25",
+      "starting_check_number": 2641
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.307026",
+    "end_date": null,
+    "etl_batch_id": "3af09595-8e68-4053-8557-ffea3eb6320d",
+    "created_at": "2026-04-09T20:37:17.307026",
+    "updated_at": "2026-04-09T20:37:17.307026"
+  },
+  {
+    "client_id": "CLT00039",
+    "personal_information": {
+      "first_name": "Emily",
+      "last_name": "Evans",
+      "date_of_birth": "1949-06-23",
+      "ssn_last4": "5687",
+      "email": "emily.evans69@yahoo.com",
+      "phone_primary": "8729118073",
+      "phone_secondary": "706-553-6680x0671"
+    },
+    "address": {
+      "street": "484 Williams Springs",
+      "city": "Rosalesshire",
+      "state": "IL",
+      "zip_code": "43435",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2004-07-12",
+      "branch_id": "BR050",
+      "relationship_manager": "Diane Stevens",
+      "credit_score": 797,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "MMA6065307450",
+        "routing_number": "544471324",
+        "account_type": "Money Market",
+        "holding_name": "Green TTEE",
+        "balance": 193620.71,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2022-04-21",
+        "interest_rate": 3.33,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "SAV7367850821",
+        "routing_number": "486289023",
+        "account_type": "Savings",
+        "holding_name": "Foley LLC",
+        "balance": 209325.68,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2003-06-07",
+        "interest_rate": 5.05,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "CDA5786103579",
+        "routing_number": "727985524",
+        "account_type": "CD",
+        "holding_name": "Hill Family Trust",
+        "balance": 71624.81,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2007-04-16",
+        "interest_rate": 3.15,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Standard",
+      "last_check_order_date": "2020-05-26",
+      "starting_check_number": 4387
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.308368",
+    "end_date": null,
+    "etl_batch_id": "1949c79f-aa55-4a2b-9bd4-428fb9ed8693",
+    "created_at": "2026-04-09T20:37:17.308368",
+    "updated_at": "2026-04-09T20:37:17.308368"
+  },
+  {
+    "client_id": "CLT00040",
+    "personal_information": {
+      "first_name": "Rebecca",
+      "last_name": "Powell",
+      "date_of_birth": "1964-02-21",
+      "ssn_last4": "9409",
+      "email": "rebecca.powell3@gmail.com",
+      "phone_primary": "+1-570-649-3014x76492",
+      "phone_secondary": "+1-489-537-2845x200"
+    },
+    "address": {
+      "street": "3756 Santos Mall Suite 689",
+      "city": "Jeromefurt",
+      "state": "NY",
+      "zip_code": "36039",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2018-05-15",
+      "branch_id": "BR083",
+      "relationship_manager": "Dr. Wyatt Boyd",
+      "credit_score": 477,
+      "kyc_verified": true,
+      "pep_flag": true,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "CDA5743748969",
+        "routing_number": "108589944",
+        "account_type": "CD",
+        "holding_name": "David Family Trust",
+        "balance": 120693.74,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2011-11-21",
+        "interest_rate": 1.8,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU4328309652",
+        "routing_number": "074466609",
+        "account_type": "Trust",
+        "holding_name": "Sullivan, Parker and Browning",
+        "balance": 177163.21,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2006-09-18",
+        "interest_rate": 4.0,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "MMA7584282417",
+        "routing_number": "248251353",
+        "account_type": "Money Market",
+        "holding_name": "Berry Holdings",
+        "balance": 105407.91,
+        "currency": "EUR",
+        "status": "Active",
+        "date_opened": "2018-12-25",
+        "interest_rate": 3.22,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BCK7099917381",
+        "routing_number": "684602235",
+        "account_type": "Business Checking",
+        "holding_name": "Salinas Ltd",
+        "balance": 102593.37,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "2000-04-13",
+        "interest_rate": 2.52,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "BSA1752500743",
+        "routing_number": "292712966",
+        "account_type": "Business Savings",
+        "holding_name": "Harrell, Taylor and Moss",
+        "balance": 101146.67,
+        "currency": "GBP",
+        "status": "Active",
+        "date_opened": "2003-02-02",
+        "interest_rate": 0.22,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "High Security",
+      "last_check_order_date": "2004-06-15",
+      "starting_check_number": 9700
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.308368",
+    "end_date": null,
+    "etl_batch_id": "d1f36519-ab11-44ce-bb55-75eb0a50701c",
+    "created_at": "2026-04-09T20:37:17.308368",
+    "updated_at": "2026-04-09T20:37:17.308368"
+  },
+  {
+    "client_id": "CLT00041",
+    "personal_information": {
+      "first_name": "Andrew",
+      "last_name": "Benson",
+      "date_of_birth": "1957-02-04",
+      "ssn_last4": "1067",
+      "email": "andrew.benson81@outlook.com",
+      "phone_primary": "(276)957-9624x4263",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "648 Jerry Extensions Suite 380",
+      "city": "South Kaylahaven",
+      "state": "PA",
+      "zip_code": "40645",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2000-10-20",
+      "branch_id": "BR040",
+      "relationship_manager": "Anthony Robinson",
+      "credit_score": 432,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "SAV4478985625",
+        "routing_number": "753260332",
+        "account_type": "Savings",
+        "holding_name": "Brown LLC",
+        "balance": 183652.12,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1997-01-19",
+        "interest_rate": 2.02,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "MMA4890901001",
+        "routing_number": "676184723",
+        "account_type": "Money Market",
+        "holding_name": "Dixon Family Trust",
+        "balance": 75628.56,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2011-10-31",
+        "interest_rate": 1.49,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "High Security",
+      "last_check_order_date": "2012-12-12",
+      "starting_check_number": 2928
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.308368",
+    "end_date": null,
+    "etl_batch_id": "e35f3613-6da6-44e2-812a-9d0862b94200",
+    "created_at": "2026-04-09T20:37:17.308368",
+    "updated_at": "2026-04-09T20:37:17.308368"
+  },
+  {
+    "client_id": "CLT00042",
+    "personal_information": {
+      "first_name": "Julia",
+      "last_name": "Johnson",
+      "date_of_birth": "1965-05-12",
+      "ssn_last4": "2741",
+      "email": "julia.johnson64@outlook.com",
+      "phone_primary": "001-660-855-2636x9649",
+      "phone_secondary": "331-339-0022"
+    },
+    "address": {
+      "street": "132 Laura Plains Suite 985",
+      "city": "Lake Peter",
+      "state": "IL",
+      "zip_code": "98150",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2005-02-10",
+      "branch_id": "BR067",
+      "relationship_manager": "Stephen Collins",
+      "credit_score": 506,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "IRA7530011972",
+        "routing_number": "181143744",
+        "account_type": "IRA",
+        "holding_name": "Hurst, Wells and Williams",
+        "balance": 116337.2,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2004-04-25",
+        "interest_rate": 0.23,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Business",
+      "last_check_order_date": "2009-02-09",
+      "starting_check_number": 2898
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.308368",
+    "end_date": null,
+    "etl_batch_id": "b0299829-0b2b-48ca-b827-2c2fc38c697b",
+    "created_at": "2026-04-09T20:37:17.308368",
+    "updated_at": "2026-04-09T20:37:17.308368"
+  },
+  {
+    "client_id": "CLT00043",
+    "personal_information": {
+      "first_name": "Lauren",
+      "last_name": "Sanchez",
+      "date_of_birth": "1948-07-09",
+      "ssn_last4": "1158",
+      "email": "lauren.sanchez18@outlook.com",
+      "phone_primary": "8333044005",
+      "phone_secondary": "001-388-695-1433x4141"
+    },
+    "address": {
+      "street": "67360 Crystal Highway",
+      "city": "North Justin",
+      "state": "GA",
+      "zip_code": "47737",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2002-01-21",
+      "branch_id": "BR080",
+      "relationship_manager": "Jennifer Smith",
+      "credit_score": 574,
+      "kyc_verified": false,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "SAV7467621202",
+        "routing_number": "169797296",
+        "account_type": "Savings",
+        "holding_name": "Jimenez Holdings",
+        "balance": 153033.93,
+        "currency": "EUR",
+        "status": "Closed",
+        "date_opened": "2012-12-14",
+        "interest_rate": 4.0,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BSA7167014508",
+        "routing_number": "993588916",
+        "account_type": "Business Savings",
+        "holding_name": "Ellis, Washington and Johnson",
+        "balance": 165597.46,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2016-09-01",
+        "interest_rate": 3.72,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Laser",
+      "last_check_order_date": "2017-06-29",
+      "starting_check_number": 1894
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.308368",
+    "end_date": null,
+    "etl_batch_id": "594780bc-0418-4fd0-a040-274a89bd7e65",
+    "created_at": "2026-04-09T20:37:17.308368",
+    "updated_at": "2026-04-09T20:37:17.308368"
+  },
+  {
+    "client_id": "CLT00044",
+    "personal_information": {
+      "first_name": "Gregory",
+      "last_name": "Lee",
+      "date_of_birth": "1941-01-16",
+      "ssn_last4": "9283",
+      "email": "gregory.lee61@icloud.com",
+      "phone_primary": "+1-547-490-5847",
+      "phone_secondary": "(659)632-2584"
+    },
+    "address": {
+      "street": "3160 Hunter Burg Apt. 805",
+      "city": "Lake Brittany",
+      "state": "CA",
+      "zip_code": "92787",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2007-01-15",
+      "branch_id": "BR097",
+      "relationship_manager": "David Calderon",
+      "credit_score": 803,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Mail"
+    },
+    "accounts": [
+      {
+        "account_number": "BSA6631779717",
+        "routing_number": "751701660",
+        "account_type": "Business Savings",
+        "holding_name": "Giles, Parsons and Little",
+        "balance": 139504.19,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2019-09-11",
+        "interest_rate": 3.33,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Laser",
+      "last_check_order_date": "1999-04-13",
+      "starting_check_number": 8474
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.319210",
+    "end_date": null,
+    "etl_batch_id": "8532e898-aeac-4c09-be1e-5fe529351326",
+    "created_at": "2026-04-09T20:37:17.319210",
+    "updated_at": "2026-04-09T20:37:17.319210"
+  },
+  {
+    "client_id": "CLT00045",
+    "personal_information": {
+      "first_name": "Carl",
+      "last_name": "Franco",
+      "date_of_birth": "1970-07-31",
+      "ssn_last4": "1889",
+      "email": "carl.franco29@icloud.com",
+      "phone_primary": "516-201-8901",
+      "phone_secondary": "+1-229-994-8788x343"
+    },
+    "address": {
+      "street": "069 Nguyen Causeway",
+      "city": "Masonborough",
+      "state": "MI",
+      "zip_code": "81986",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2016-04-19",
+      "branch_id": "BR077",
+      "relationship_manager": "Kristin Wyatt",
+      "credit_score": 784,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "SAV0554885102",
+        "routing_number": "726149331",
+        "account_type": "Savings",
+        "holding_name": "Powers TTEE",
+        "balance": 54289.58,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2004-12-12",
+        "interest_rate": 1.87,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Laser",
+      "last_check_order_date": "1995-07-12",
+      "starting_check_number": 8381
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.321236",
+    "end_date": null,
+    "etl_batch_id": "930b9d74-7733-49f4-a56f-33814ea0918f",
+    "created_at": "2026-04-09T20:37:17.321236",
+    "updated_at": "2026-04-09T20:37:17.321236"
+  },
+  {
+    "client_id": "CLT00046",
+    "personal_information": {
+      "first_name": "Calvin",
+      "last_name": "Fields",
+      "date_of_birth": "1981-01-12",
+      "ssn_last4": "3205",
+      "email": "calvin.fields64@gmail.com",
+      "phone_primary": "736-746-7120x9732",
+      "phone_secondary": "001-208-326-7772x485"
+    },
+    "address": {
+      "street": "7664 Lauren Ports Suite 873",
+      "city": "Austinmouth",
+      "state": "TX",
+      "zip_code": "61507",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2022-08-13",
+      "branch_id": "BR071",
+      "relationship_manager": "Andrew Thompson",
+      "credit_score": 743,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Phone"
+    },
+    "accounts": [
+      {
+        "account_number": "BCK9586693465",
+        "routing_number": "472269848",
+        "account_type": "Business Checking",
+        "holding_name": "Combs-Greer",
+        "balance": 215246.53,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "2021-12-09",
+        "interest_rate": 3.48,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "TRU9452288515",
+        "routing_number": "879968460",
+        "account_type": "Trust",
+        "holding_name": "Lynch Inc",
+        "balance": 130921.13,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2004-05-28",
+        "interest_rate": 3.69,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "SAV2442043805",
+        "routing_number": "719838638",
+        "account_type": "Savings",
+        "holding_name": "Torres Holdings",
+        "balance": 173387.55,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2006-12-23",
+        "interest_rate": 2.3,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CHK0043973598",
+        "routing_number": "933472122",
+        "account_type": "Checking",
+        "holding_name": "Rodriguez",
+        "balance": 30278.78,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2019-10-08",
+        "interest_rate": 1.46,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "BSA4057202590",
+        "routing_number": "947985158",
+        "account_type": "Business Savings",
+        "holding_name": "Bailey, Smith and Reyes",
+        "balance": 55380.52,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2021-03-13",
+        "interest_rate": 2.78,
+        "overdraft_protection": false
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Personal",
+      "last_check_order_date": "1994-02-15",
+      "starting_check_number": 6724
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.323514",
+    "end_date": null,
+    "etl_batch_id": "f6ce9cfd-6fed-43b6-ac0d-99e8a8ca83cb",
+    "created_at": "2026-04-09T20:37:17.323514",
+    "updated_at": "2026-04-09T20:37:17.323514"
+  },
+  {
+    "client_id": "CLT00047",
+    "personal_information": {
+      "first_name": "Gwendolyn",
+      "last_name": "Oliver",
+      "date_of_birth": "1959-11-05",
+      "ssn_last4": "6437",
+      "email": "gwendolyn.oliver43@yahoo.com",
+      "phone_primary": "523-204-0823",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "06075 Baker Vista Apt. 919",
+      "city": "Hardinton",
+      "state": "MI",
+      "zip_code": "31650",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2009-07-27",
+      "branch_id": "BR068",
+      "relationship_manager": "Christine Baker",
+      "credit_score": 786,
+      "kyc_verified": false,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "TRU3993056164",
+        "routing_number": "840858877",
+        "account_type": "Trust",
+        "holding_name": "Sweeney, Alvarado and Hoffman",
+        "balance": 11440.99,
+        "currency": "EUR",
+        "status": "Active",
+        "date_opened": "2014-12-28",
+        "interest_rate": 2.83,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Laser",
+      "last_check_order_date": "2013-12-02",
+      "starting_check_number": 1120
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.323514",
+    "end_date": null,
+    "etl_batch_id": "3d733666-9be4-4863-aded-1c64e9137a62",
+    "created_at": "2026-04-09T20:37:17.323514",
+    "updated_at": "2026-04-09T20:37:17.323514"
+  },
+  {
+    "client_id": "CLT00048",
+    "personal_information": {
+      "first_name": "John",
+      "last_name": "Fuentes",
+      "date_of_birth": "1996-03-30",
+      "ssn_last4": "4453",
+      "email": "john.fuentes86@outlook.com",
+      "phone_primary": "+1-423-581-6031x039",
+      "phone_secondary": "(400)611-3946x352"
+    },
+    "address": {
+      "street": "24026 Joseph Plains Apt. 688",
+      "city": "East Jeffrey",
+      "state": "OH",
+      "zip_code": "91362",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2002-12-08",
+      "branch_id": "BR014",
+      "relationship_manager": "Charles Roberts",
+      "credit_score": 510,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "SMS"
+    },
+    "accounts": [
+      {
+        "account_number": "BCK7501102481",
+        "routing_number": "934667665",
+        "account_type": "Business Checking",
+        "holding_name": "Martinez, Cabrera and Robinson",
+        "balance": 4714.3,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "1996-01-25",
+        "interest_rate": 3.53,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Laser",
+      "last_check_order_date": "1992-01-16",
+      "starting_check_number": 2189
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.323514",
+    "end_date": null,
+    "etl_batch_id": "a5cb4a05-252c-4ec9-85ba-ff31810b2c7b",
+    "created_at": "2026-04-09T20:37:17.323514",
+    "updated_at": "2026-04-09T20:37:17.323514"
+  },
+  {
+    "client_id": "CLT00049",
+    "personal_information": {
+      "first_name": "Wendy",
+      "last_name": "Day",
+      "date_of_birth": "1972-02-03",
+      "ssn_last4": "2738",
+      "email": "wendy.day38@yahoo.com",
+      "phone_primary": "+1-580-972-9171",
+      "phone_secondary": "(666)549-4484x105"
+    },
+    "address": {
+      "street": "6228 Melanie Vista Apt. 063",
+      "city": "Faulknerhaven",
+      "state": "IL",
+      "zip_code": "17477",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2022-07-22",
+      "branch_id": "BR098",
+      "relationship_manager": "Jeffery Alvarado",
+      "credit_score": 748,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "BCK8424508821",
+        "routing_number": "009968814",
+        "account_type": "Business Checking",
+        "holding_name": "Walsh, Deleon and Silva",
+        "balance": 52908.2,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2012-07-16",
+        "interest_rate": 1.17,
+        "overdraft_protection": true
+      },
+      {
+        "account_number": "CDA2394312908",
+        "routing_number": "781414139",
+        "account_type": "CD",
+        "holding_name": "Frye TTEE",
+        "balance": 237909.21,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2002-03-22",
+        "interest_rate": 1.3,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "SAV1357759492",
+        "routing_number": "995562053",
+        "account_type": "Savings",
+        "holding_name": "Perez LLC",
+        "balance": 178193.68,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2022-10-16",
+        "interest_rate": 1.98,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "TRU7754781291",
+        "routing_number": "428341108",
+        "account_type": "Trust",
+        "holding_name": "Grimes Group",
+        "balance": 158090.81,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2016-07-12",
+        "interest_rate": 4.23,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": false,
+      "check_style": "Laser",
+      "last_check_order_date": "2001-09-09",
+      "starting_check_number": 9904
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.323514",
+    "end_date": null,
+    "etl_batch_id": "aaa097ca-f9c8-4bcf-9e65-5b9e74994c1e",
+    "created_at": "2026-04-09T20:37:17.323514",
+    "updated_at": "2026-04-09T20:37:17.323514"
+  },
+  {
+    "client_id": "CLT00050",
+    "personal_information": {
+      "first_name": "Richard",
+      "last_name": "Anderson",
+      "date_of_birth": "1988-06-01",
+      "ssn_last4": "3435",
+      "email": "richard.anderson47@icloud.com",
+      "phone_primary": "001-867-857-4939x328",
+      "phone_secondary": null
+    },
+    "address": {
+      "street": "12731 Rosales Trafficway",
+      "city": "East Dustinview",
+      "state": "MI",
+      "zip_code": "17050",
+      "country": "USA"
+    },
+    "banking_profile": {
+      "customer_since": "2021-03-05",
+      "branch_id": "BR094",
+      "relationship_manager": "William Hall",
+      "credit_score": 597,
+      "kyc_verified": true,
+      "pep_flag": false,
+      "preferred_contact": "Email"
+    },
+    "accounts": [
+      {
+        "account_number": "TRU2827229927",
+        "routing_number": "503731453",
+        "account_type": "Trust",
+        "holding_name": "Woods Group",
+        "balance": 11180.71,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "2022-07-18",
+        "interest_rate": 1.99,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CDA0051844989",
+        "routing_number": "266591846",
+        "account_type": "CD",
+        "holding_name": "Burke LLC",
+        "balance": 129334.76,
+        "currency": "USD",
+        "status": "Closed",
+        "date_opened": "2015-05-24",
+        "interest_rate": 2.68,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "CHK0827231843",
+        "routing_number": "222591365",
+        "account_type": "Checking",
+        "holding_name": "Brennan Family Trust",
+        "balance": 120638.4,
+        "currency": "USD",
+        "status": "Active",
+        "date_opened": "2022-02-07",
+        "interest_rate": 0.9,
+        "overdraft_protection": false
+      },
+      {
+        "account_number": "SAV3029922809",
+        "routing_number": "202428699",
+        "account_type": "Savings",
+        "holding_name": "Walton Family Trust",
+        "balance": 219687.99,
+        "currency": "USD",
+        "status": "Dormant",
+        "date_opened": "1996-01-03",
+        "interest_rate": 5.21,
+        "overdraft_protection": true
+      }
+    ],
+    "check_printing": {
+      "authorized": true,
+      "check_style": "Personal",
+      "last_check_order_date": "2011-08-10",
+      "starting_check_number": 3794
+    },
+    "is_active": true,
+    "version": 1,
+    "start_date": "2026-04-09T20:37:17.323514",
+    "end_date": null,
+    "etl_batch_id": "8b143ac5-db9f-45ea-9bfc-3a39964e91a6",
+    "created_at": "2026-04-09T20:37:17.323514",
+    "updated_at": "2026-04-09T20:37:17.323514"
+  }
+]

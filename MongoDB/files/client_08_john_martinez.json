@@ -1,0 +1,48 @@
+{
+  "client_id": "CLT00008",
+  "personal_information": {
+    "first_name": "John",
+    "last_name": "Martinez",
+    "date_of_birth": "1953-03-26",
+    "ssn_last4": "3426",
+    "email": "john.martinez56@yahoo.com",
+    "phone_primary": "(442) 366-3900",
+    "phone_secondary": "(225) 383-6442"
+  },
+  "address": {
+    "street": "9643 Harbor Way",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "80201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2018-06-20",
+    "branch_id": "BR043",
+    "relationship_manager": "Sarah Moore",
+    "credit_score": 661,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "IRA2536778950",
+      "routing_number": "043491314",
+      "account_type": "IRA",
+      "holding_name": "John Martinez DBA Martinez Co.",
+      "balance": 166899.89,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2018-03-25",
+      "interest_rate": 3.56,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Personal",
+    "last_check_order_date": "2017-02-27",
+    "starting_check_number": 4573
+  }
+}

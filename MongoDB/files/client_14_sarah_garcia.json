@@ -1,0 +1,84 @@
+{
+  "client_id": "CLT00014",
+  "personal_information": {
+    "first_name": "Sarah",
+    "last_name": "Garcia",
+    "date_of_birth": "1990-06-11",
+    "ssn_last4": "7209",
+    "email": "sarah.garcia44@gmail.com",
+    "phone_primary": "(397) 523-2958",
+    "phone_secondary": "(980) 906-4033"
+  },
+  "address": {
+    "street": "7713 Orchard Lane",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60601",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2008-08-04",
+    "branch_id": "BR014",
+    "relationship_manager": "Donald Moore",
+    "credit_score": 848,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BCA6075963527",
+      "routing_number": "038470244",
+      "account_type": "Business Checking",
+      "holding_name": "Garcia & Associates LLC",
+      "balance": 89028.83,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2012-07-17",
+      "interest_rate": 3.33,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK1820581106",
+      "routing_number": "042394260",
+      "account_type": "Checking",
+      "holding_name": "Sarah Garcia TTEE",
+      "balance": 180158.63,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2010-10-12",
+      "interest_rate": 0.0,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU4405620755",
+      "routing_number": "022489409",
+      "account_type": "Trust",
+      "holding_name": "Garcia Family Holdings",
+      "balance": 73911.78,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2010-11-30",
+      "interest_rate": 3.16,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BSA7658867789",
+      "routing_number": "057219209",
+      "account_type": "Business Savings",
+      "holding_name": "Garcia & Associates LLC",
+      "balance": 175862.31,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2011-04-11",
+      "interest_rate": 0.58,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2004-07-05",
+    "starting_check_number": 4411
+  }
+}

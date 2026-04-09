@@ -1,0 +1,72 @@
+{
+  "client_id": "CLT00004",
+  "personal_information": {
+    "first_name": "Donald",
+    "last_name": "Scott",
+    "date_of_birth": "1973-10-12",
+    "ssn_last4": "9835",
+    "email": "donald.scott97@yahoo.com",
+    "phone_primary": "(448) 684-7669",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "7032 Lincoln Ave",
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33101",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2004-05-07",
+    "branch_id": "BR043",
+    "relationship_manager": "Sandra Thompson",
+    "credit_score": 796,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA8086172302",
+      "routing_number": "068800797",
+      "account_type": "Business Savings",
+      "holding_name": "Donald Scott TTEE",
+      "balance": 224953.71,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2011-02-13",
+      "interest_rate": 0.31,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK1945826486",
+      "routing_number": "019528530",
+      "account_type": "Checking",
+      "holding_name": "Donald Scott",
+      "balance": 177106.32,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2003-01-09",
+      "interest_rate": 0.0,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV3208283728",
+      "routing_number": "047376585",
+      "account_type": "Savings",
+      "holding_name": "Donald Scott Revocable Trust",
+      "balance": 167409.96,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2005-12-07",
+      "interest_rate": 2.74,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Laser",
+    "last_check_order_date": "2002-06-06",
+    "starting_check_number": 3759
+  }
+}

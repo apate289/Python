@@ -1,0 +1,72 @@
+{
+  "client_id": "CLT00010",
+  "personal_information": {
+    "first_name": "Kimberly",
+    "last_name": "Wright",
+    "date_of_birth": "1982-09-04",
+    "ssn_last4": "6143",
+    "email": "kimberly.wright85@gmail.com",
+    "phone_primary": "(295) 969-4848",
+    "phone_secondary": "(430) 403-3414"
+  },
+  "address": {
+    "street": "1246 Lake View Dr",
+    "city": "Boston",
+    "state": "MA",
+    "zip_code": "02101",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2001-02-04",
+    "branch_id": "BR003",
+    "relationship_manager": "Sarah Walker",
+    "credit_score": 617,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "IRA8159250505",
+      "routing_number": "053779528",
+      "account_type": "IRA",
+      "holding_name": "Wright & Associates LLC",
+      "balance": 100898.9,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2005-09-16",
+      "interest_rate": 2.0,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BSA4877520294",
+      "routing_number": "092613013",
+      "account_type": "Business Savings",
+      "holding_name": "Wright Family Holdings",
+      "balance": 142491.76,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2000-01-07",
+      "interest_rate": 1.37,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BCA7292076361",
+      "routing_number": "069345683",
+      "account_type": "Business Checking",
+      "holding_name": "Wright Living Trust",
+      "balance": 169068.99,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-08-12",
+      "interest_rate": 1.36,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Laser",
+    "last_check_order_date": "2008-09-20",
+    "starting_check_number": 3943
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "client_id": "CLT00003",
+  "personal_information": {
+    "first_name": "Ashley",
+    "last_name": "Martinez",
+    "date_of_birth": "1962-07-12",
+    "ssn_last4": "5304",
+    "email": "ashley.martinez96@icloud.com",
+    "phone_primary": "(219) 314-6947",
+    "phone_secondary": "(514) 445-1949"
+  },
+  "address": {
+    "street": "9297 Harbor Way",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60601",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2010-10-21",
+    "branch_id": "BR037",
+    "relationship_manager": "Jennifer Garcia",
+    "credit_score": 828,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "BCA5284391408",
+      "routing_number": "078387461",
+      "account_type": "Business Checking",
+      "holding_name": "Ashley Martinez",
+      "balance": 123632.2,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2004-12-01",
+      "interest_rate": 2.98,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV6947530309",
+      "routing_number": "089978790",
+      "account_type": "Savings",
+      "holding_name": "Martinez Living Trust",
+      "balance": 249032.28,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2000-07-07",
+      "interest_rate": 3.24,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "IRA2461042543",
+      "routing_number": "049392920",
+      "account_type": "IRA",
+      "holding_name": "Ashley Martinez TTEE",
+      "balance": 108973.93,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2011-10-25",
+      "interest_rate": 3.62,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CDA5951406973",
+      "routing_number": "031682744",
+      "account_type": "CD",
+      "holding_name": "Martinez Living Trust",
+      "balance": 135075.07,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2000-01-10",
+      "interest_rate": 1.55,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "2005-10-04",
+    "starting_check_number": 3703
+  }
+}

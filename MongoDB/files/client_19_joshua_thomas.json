@@ -1,0 +1,48 @@
+{
+  "client_id": "CLT00019",
+  "personal_information": {
+    "first_name": "Joshua",
+    "last_name": "Thomas",
+    "date_of_birth": "1977-11-17",
+    "ssn_last4": "7684",
+    "email": "joshua.thomas12@yahoo.com",
+    "phone_primary": "(625) 694-8736",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "324 Harbor Way",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2006-06-27",
+    "branch_id": "BR025",
+    "relationship_manager": "Richard Hill",
+    "credit_score": 840,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "TRU5067594934",
+      "routing_number": "096934122",
+      "account_type": "Trust",
+      "holding_name": "Joshua Thomas TTEE",
+      "balance": 208119.72,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2013-02-02",
+      "interest_rate": 3.35,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "2003-02-17",
+    "starting_check_number": 2132
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "client_id": "CLT00001",
+  "personal_information": {
+    "first_name": "Linda",
+    "last_name": "Johnson",
+    "date_of_birth": "1971-12-21",
+    "ssn_last4": "9935",
+    "email": "linda.johnson12@icloud.com",
+    "phone_primary": "(425) 659-5557",
+    "phone_secondary": "(206) 977-3615"
+  },
+  "address": {
+    "street": "2386 Pine Road",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "60601",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2018-12-16",
+    "branch_id": "BR022",
+    "relationship_manager": "Karen Martinez",
+    "credit_score": 690,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "CHK1402418010",
+      "routing_number": "041227216",
+      "account_type": "Checking",
+      "holding_name": "Linda Johnson",
+      "balance": 126586.14,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2008-12-01",
+      "interest_rate": 0.0,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Personal",
+    "last_check_order_date": "2004-02-28",
+    "starting_check_number": 2557
+  }
+}

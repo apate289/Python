@@ -1,0 +1,48 @@
+{
+  "client_id": "CLT00025",
+  "personal_information": {
+    "first_name": "Thomas",
+    "last_name": "Brown",
+    "date_of_birth": "1987-10-08",
+    "ssn_last4": "8802",
+    "email": "thomas.brown58@outlook.com",
+    "phone_primary": "(690) 611-7984",
+    "phone_secondary": "(702) 929-8267"
+  },
+  "address": {
+    "street": "1962 Cedar Lane",
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33101",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2003-04-19",
+    "branch_id": "BR006",
+    "relationship_manager": "Christopher Hill",
+    "credit_score": 655,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "TRU3163970710",
+      "routing_number": "092558242",
+      "account_type": "Trust",
+      "holding_name": "Brown Living Trust",
+      "balance": 11319.58,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2020-07-18",
+      "interest_rate": 0.3,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "2012-05-02",
+    "starting_check_number": 3558
+  }
+}

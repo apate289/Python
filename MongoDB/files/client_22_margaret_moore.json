@@ -1,0 +1,60 @@
+{
+  "client_id": "CLT00022",
+  "personal_information": {
+    "first_name": "Margaret",
+    "last_name": "Moore",
+    "date_of_birth": "2000-10-09",
+    "ssn_last4": "4770",
+    "email": "margaret.moore78@outlook.com",
+    "phone_primary": "(379) 405-3165",
+    "phone_secondary": "(574) 743-9221"
+  },
+  "address": {
+    "street": "8238 River Road",
+    "city": "Houston",
+    "state": "TX",
+    "zip_code": "77001",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2012-03-23",
+    "branch_id": "BR011",
+    "relationship_manager": "Thomas Walker",
+    "credit_score": 731,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "CDA7961674558",
+      "routing_number": "098473848",
+      "account_type": "CD",
+      "holding_name": "Moore Family Trust",
+      "balance": 170373.35,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2004-05-10",
+      "interest_rate": 1.47,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU9733234156",
+      "routing_number": "058970845",
+      "account_type": "Trust",
+      "holding_name": "Margaret Moore and James Moore",
+      "balance": 183223.76,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2013-03-28",
+      "interest_rate": 3.55,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2005-03-01",
+    "starting_check_number": 2919
+  }
+}

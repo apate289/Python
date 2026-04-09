@@ -1,0 +1,84 @@
+{
+  "client_id": "CLT00011",
+  "personal_information": {
+    "first_name": "Matthew",
+    "last_name": "Young",
+    "date_of_birth": "1971-11-21",
+    "ssn_last4": "7965",
+    "email": "matthew.young29@yahoo.com",
+    "phone_primary": "(538) 755-8633",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "190 Pine Road",
+    "city": "Plano",
+    "state": "TX",
+    "zip_code": "75023",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2009-04-11",
+    "branch_id": "BR027",
+    "relationship_manager": "Matthew Nguyen",
+    "credit_score": 590,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "CHK3394039673",
+      "routing_number": "026288475",
+      "account_type": "Checking",
+      "holding_name": "Matthew Young TTEE",
+      "balance": 114387.23,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2023-10-29",
+      "interest_rate": 0.0,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU7462972995",
+      "routing_number": "083534128",
+      "account_type": "Trust",
+      "holding_name": "Young Family Trust",
+      "balance": 111755.45,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2021-04-17",
+      "interest_rate": 1.24,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CDA6322520473",
+      "routing_number": "069038700",
+      "account_type": "CD",
+      "holding_name": "Young & Associates LLC",
+      "balance": 19832.1,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2012-03-09",
+      "interest_rate": 1.53,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV1594312071",
+      "routing_number": "041039390",
+      "account_type": "Savings",
+      "holding_name": "Young Family Trust",
+      "balance": 96067.31,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2009-08-06",
+      "interest_rate": 1.98,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Laser",
+    "last_check_order_date": "2021-05-24",
+    "starting_check_number": 1025
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "client_id": "CLT00002",
+  "personal_information": {
+    "first_name": "Michael",
+    "last_name": "Thompson",
+    "date_of_birth": "1973-09-24",
+    "ssn_last4": "3045",
+    "email": "michael.thompson49@gmail.com",
+    "phone_primary": "(994) 257-4752",
+    "phone_secondary": "(523) 610-5386"
+  },
+  "address": {
+    "street": "7627 Harbor Way",
+    "city": "Houston",
+    "state": "TX",
+    "zip_code": "77001",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2002-12-20",
+    "branch_id": "BR014",
+    "relationship_manager": "Andrew Lee",
+    "credit_score": 688,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BCA3479708607",
+      "routing_number": "019335534",
+      "account_type": "Business Checking",
+      "holding_name": "Michael Thompson Revocable Trust",
+      "balance": 11933.18,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2012-12-24",
+      "interest_rate": 4.06,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "BSA6488854841",
+      "routing_number": "095320121",
+      "account_type": "Business Savings",
+      "holding_name": "Thompson Family Trust",
+      "balance": 208610.55,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2015-12-08",
+      "interest_rate": 3.19,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV4131575764",
+      "routing_number": "031931511",
+      "account_type": "Savings",
+      "holding_name": "Thompson & Associates LLC",
+      "balance": 115833.92,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2009-11-07",
+      "interest_rate": 4.01,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Laser",
+    "last_check_order_date": "2017-09-30",
+    "starting_check_number": 4624
+  }
+}

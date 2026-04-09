@@ -1,0 +1,72 @@
+{
+  "client_id": "CLT00007",
+  "personal_information": {
+    "first_name": "Lisa",
+    "last_name": "Robinson",
+    "date_of_birth": "1956-07-05",
+    "ssn_last4": "2638",
+    "email": "lisa.robinson10@yahoo.com",
+    "phone_primary": "(252) 294-7939",
+    "phone_secondary": "(245) 203-6464"
+  },
+  "address": {
+    "street": "7608 Willow Creek Dr",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "75201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2005-11-13",
+    "branch_id": "BR041",
+    "relationship_manager": "Thomas Hernandez",
+    "credit_score": 806,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "MMK9303285822",
+      "routing_number": "019233013",
+      "account_type": "Money Market",
+      "holding_name": "Lisa Robinson DBA Robinson Services",
+      "balance": 219877.93,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-01-28",
+      "interest_rate": 3.96,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "IRA9623534576",
+      "routing_number": "084437458",
+      "account_type": "IRA",
+      "holding_name": "Lisa Robinson and Christopher Robinson",
+      "balance": 75195.0,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2006-01-09",
+      "interest_rate": 0.56,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV5962610986",
+      "routing_number": "047816686",
+      "account_type": "Savings",
+      "holding_name": "Lisa Robinson DBA Robinson Holdings",
+      "balance": 151405.04,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2011-11-04",
+      "interest_rate": 2.33,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Laser",
+    "last_check_order_date": "2000-06-07",
+    "starting_check_number": 1459
+  }
+}

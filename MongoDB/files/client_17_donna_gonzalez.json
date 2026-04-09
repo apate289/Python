@@ -1,0 +1,48 @@
+{
+  "client_id": "CLT00017",
+  "personal_information": {
+    "first_name": "Donna",
+    "last_name": "Gonzalez",
+    "date_of_birth": "1960-04-18",
+    "ssn_last4": "5352",
+    "email": "donna.gonzalez19@gmail.com",
+    "phone_primary": "(905) 511-7594",
+    "phone_secondary": "(712) 752-9090"
+  },
+  "address": {
+    "street": "3783 Elm Drive",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2019-08-21",
+    "branch_id": "BR006",
+    "relationship_manager": "Joshua Williams",
+    "credit_score": 801,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "MMK8699281063",
+      "routing_number": "089865458",
+      "account_type": "Money Market",
+      "holding_name": "Donna Gonzalez and Sandra Gonzalez JTWROS",
+      "balance": 187364.95,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2012-12-11",
+      "interest_rate": 0.6,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2011-03-26",
+    "starting_check_number": 1106
+  }
+}

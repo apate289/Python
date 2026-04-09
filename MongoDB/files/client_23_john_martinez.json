@@ -1,0 +1,48 @@
+{
+  "client_id": "CLT00023",
+  "personal_information": {
+    "first_name": "John",
+    "last_name": "Martinez",
+    "date_of_birth": "1985-08-27",
+    "ssn_last4": "7464",
+    "email": "john.martinez2@outlook.com",
+    "phone_primary": "(264) 850-8606",
+    "phone_secondary": "(509) 864-7689"
+  },
+  "address": {
+    "street": "6092 Cedar Lane",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2005-03-26",
+    "branch_id": "BR009",
+    "relationship_manager": "Robert Williams",
+    "credit_score": 735,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "TRU2595467139",
+      "routing_number": "041383044",
+      "account_type": "Trust",
+      "holding_name": "John Martinez and Joseph Martinez JTWROS",
+      "balance": 118133.48,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2014-09-18",
+      "interest_rate": 1.06,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Personal",
+    "last_check_order_date": "2004-05-11",
+    "starting_check_number": 1962
+  }
+}

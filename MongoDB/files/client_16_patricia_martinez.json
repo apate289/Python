@@ -1,0 +1,60 @@
+{
+  "client_id": "CLT00016",
+  "personal_information": {
+    "first_name": "Patricia",
+    "last_name": "Martinez",
+    "date_of_birth": "2000-06-30",
+    "ssn_last4": "2940",
+    "email": "patricia.martinez72@icloud.com",
+    "phone_primary": "(661) 905-8699",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "1495 Park Place",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip_code": "19101",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2010-05-20",
+    "branch_id": "BR019",
+    "relationship_manager": "Charles Robinson",
+    "credit_score": 616,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA7196439534",
+      "routing_number": "088990506",
+      "account_type": "Business Savings",
+      "holding_name": "Martinez & Associates LLC",
+      "balance": 247512.8,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2002-09-13",
+      "interest_rate": 4.56,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV6201313620",
+      "routing_number": "098641164",
+      "account_type": "Savings",
+      "holding_name": "Patricia Martinez Revocable Trust",
+      "balance": 20756.27,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2003-05-14",
+      "interest_rate": 0.02,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "2011-11-13",
+    "starting_check_number": 4227
+  }
+}

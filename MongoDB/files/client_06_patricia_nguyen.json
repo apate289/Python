@@ -1,0 +1,48 @@
+{
+  "client_id": "CLT00006",
+  "personal_information": {
+    "first_name": "Patricia",
+    "last_name": "Nguyen",
+    "date_of_birth": "1955-06-21",
+    "ssn_last4": "8811",
+    "email": "patricia.nguyen65@yahoo.com",
+    "phone_primary": "(808) 240-2343",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "1036 Maple Avenue",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "92101",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2023-06-14",
+    "branch_id": "BR021",
+    "relationship_manager": "Thomas Wilson",
+    "credit_score": 740,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "SAV4656488400",
+      "routing_number": "019196777",
+      "account_type": "Savings",
+      "holding_name": "Patricia Nguyen Revocable Trust",
+      "balance": 148961.26,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2005-05-18",
+      "interest_rate": 1.18,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2017-10-02",
+    "starting_check_number": 1537
+  }
+}

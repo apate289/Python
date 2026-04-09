@@ -1,0 +1,72 @@
+{
+  "client_id": "CLT00013",
+  "personal_information": {
+    "first_name": "Mary",
+    "last_name": "Flores",
+    "date_of_birth": "1971-05-27",
+    "ssn_last4": "4571",
+    "email": "mary.flores60@outlook.com",
+    "phone_primary": "(643) 570-8532",
+    "phone_secondary": "(645) 380-9548"
+  },
+  "address": {
+    "street": "7858 Pine Road",
+    "city": "Plano",
+    "state": "TX",
+    "zip_code": "75023",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2012-02-12",
+    "branch_id": "BR040",
+    "relationship_manager": "Paul Walker",
+    "credit_score": 818,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "MMK4085320828",
+      "routing_number": "031980274",
+      "account_type": "Money Market",
+      "holding_name": "Mary Flores and Barbara Flores",
+      "balance": 241197.83,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2001-02-24",
+      "interest_rate": 2.74,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BSA4070964768",
+      "routing_number": "020200074",
+      "account_type": "Business Savings",
+      "holding_name": "Mary Flores Revocable Trust",
+      "balance": 148228.42,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2013-07-12",
+      "interest_rate": 3.83,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK2591589823",
+      "routing_number": "077908907",
+      "account_type": "Checking",
+      "holding_name": "Mary Flores",
+      "balance": 162062.04,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2018-11-04",
+      "interest_rate": 0.0,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2014-06-16",
+    "starting_check_number": 4489
+  }
+}

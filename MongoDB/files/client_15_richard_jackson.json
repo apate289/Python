@@ -1,0 +1,48 @@
+{
+  "client_id": "CLT00015",
+  "personal_information": {
+    "first_name": "Richard",
+    "last_name": "Jackson",
+    "date_of_birth": "1982-05-18",
+    "ssn_last4": "9751",
+    "email": "richard.jackson17@outlook.com",
+    "phone_primary": "(680) 690-8216",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "5052 Oak Street",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10001",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2002-04-21",
+    "branch_id": "BR017",
+    "relationship_manager": "Donald Davis",
+    "credit_score": 613,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "CHK7671625956",
+      "routing_number": "026948946",
+      "account_type": "Checking",
+      "holding_name": "Richard Jackson TTEE",
+      "balance": 159648.48,
+      "currency": "USD",
+      "status": "Inactive",
+      "date_opened": "2000-07-19",
+      "interest_rate": 0.0,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Laser",
+    "last_check_order_date": "2003-04-28",
+    "starting_check_number": 3364
+  }
+}

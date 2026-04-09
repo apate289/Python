@@ -1,0 +1,72 @@
+{
+  "client_id": "CLT00012",
+  "personal_information": {
+    "first_name": "Daniel",
+    "last_name": "Martin",
+    "date_of_birth": "1987-08-05",
+    "ssn_last4": "4613",
+    "email": "daniel.martin63@yahoo.com",
+    "phone_primary": "(631) 458-2341",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "9047 Willow Creek Dr",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97201",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2002-05-03",
+    "branch_id": "BR023",
+    "relationship_manager": "Joseph Jones",
+    "credit_score": 600,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA3085816511",
+      "routing_number": "062191530",
+      "account_type": "Business Savings",
+      "holding_name": "Martin Family Holdings",
+      "balance": 84364.32,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-05-28",
+      "interest_rate": 4.37,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK9190197115",
+      "routing_number": "089442503",
+      "account_type": "Checking",
+      "holding_name": "Daniel Martin",
+      "balance": 141315.8,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2019-03-24",
+      "interest_rate": 0.0,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMK5510938155",
+      "routing_number": "060882459",
+      "account_type": "Money Market",
+      "holding_name": "Daniel Martin TTEE",
+      "balance": 82174.49,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2015-02-20",
+      "interest_rate": 1.33,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "2008-12-10",
+    "starting_check_number": 4438
+  }
+}
