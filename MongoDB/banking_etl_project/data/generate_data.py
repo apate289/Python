@@ -4,7 +4,7 @@ Generate production-grade dummy banking client JSON data
 import json
 import random, os
 import uuid
-from datetime import datetime, timedelta, date
+from datetime import UTC, datetime, timedelta, date
 from faker import Faker
 from pathlib import Path
 
@@ -102,11 +102,11 @@ def generate_client(client_index):
         # Versioning fields
         "is_active": True,
         "version": 1,
-        "start_date": datetime.utcnow().isoformat(),
+        "start_date": datetime.now(UTC).isoformat(),
         "end_date": None,
         "etl_batch_id": str(uuid.uuid4()),
-        "created_at": datetime.utcnow().isoformat(),
-        "updated_at": datetime.utcnow().isoformat(),
+        "created_at": datetime.now(UTC).isoformat(),
+        "updated_at": datetime.now(UTC).isoformat(),
     }
 
 def generate_dataset(n=50):
