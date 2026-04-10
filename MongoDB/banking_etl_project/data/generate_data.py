@@ -2,25 +2,19 @@
 Generate production-grade dummy banking client JSON data
 """
 import json
-import random, os
+import random
 import uuid
-from datetime import UTC, datetime, timedelta, date
+from datetime import datetime, timedelta, date
 from faker import Faker
-from pathlib import Path
 
 fake = Faker()
 random.seed(42)
 
 ACCOUNT_TYPES = ["Checking", "Savings", "Business Checking", "Business Savings", "CD", "Trust", "Money Market", "IRA"]
 ACCOUNT_PREFIXES = {
-    "Checking": "CHK", 
-    "Savings": "SAV", 
-    "Business Checking": "BCK",
-    "Business Savings": "BSA", 
-    "CD": "CDA", 
-    "Trust": "TRU",
-    "Money Market": "MMA", 
-    "IRA": "IRA"
+    "Checking": "CHK", "Savings": "SAV", "Business Checking": "BCK",
+    "Business Savings": "BSA", "CD": "CDA", "Trust": "TRU",
+    "Money Market": "MMA", "IRA": "IRA"
 }
 STATUSES = ["Active", "Dormant", "Closed", "Frozen"]
 CHECK_STYLES = ["High Security", "Standard", "Business", "Personal", "Laser"]
@@ -102,11 +96,11 @@ def generate_client(client_index):
         # Versioning fields
         "is_active": True,
         "version": 1,
-        "start_date": datetime.now(UTC).isoformat(),
+        "start_date": datetime.utcnow().isoformat(),
         "end_date": None,
         "etl_batch_id": str(uuid.uuid4()),
-        "created_at": datetime.now(UTC).isoformat(),
-        "updated_at": datetime.now(UTC).isoformat(),
+        "created_at": datetime.utcnow().isoformat(),
+        "updated_at": datetime.utcnow().isoformat(),
     }
 
 def generate_dataset(n=50):
@@ -115,9 +109,6 @@ def generate_dataset(n=50):
 
 if __name__ == "__main__":
     data = generate_dataset(50)
-    #with open("/home/claude/banking_etl/data/clients.json", "w") as f:
-    base_path=Path(__file__).resolve().parent
-
-    with open(os.path.join(base_path, "clients.json"), "w") as f:
+    with open("/home/claude/banking_etl/data/clients.json", "w") as f:
         json.dump(data, f, indent=2)
     print(f"Generated {len(data)} client records → data/clients.json")

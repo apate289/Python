@@ -201,3 +201,86 @@ def get_filter_options(db) -> dict:
         "CD","Trust","Money Market","IRA"
     ]
     return {"states": states, "branches": branches, "account_types": acct_types}
+
+
+# ═════════════════════════════════════════════
+#  Field-level diff queries
+# ═════════════════════════════════════════════
+def _diffs(db): return db["etl_field_diffs"]
+
+
+def get_diffs_for_client(db, client_id: str) -> list[dict]:
+    """All diff records for one client, newest first."""
+    return list(
+        _diffs(db)
+        .find({"client_id": client_id}, {"_id": 0})
+        .sort("new_version", -1)
+    )
+
+
+def get_client_hash_manifest(db, client_id: str, version: int | None = None) -> dict | None:
+    """Return the _hashes manifest embedded in a specific (or active) version."""
+    query = {"client_id": client_id}
+    if version is not None:
+        query["version"] = version
+    else:
+        query["is_active"] = True
+    doc = _clients(db).find_one(query, {"_hashes": 1, "version": 1, "_id": 0})
+    return doc
+
+
+def get_most_changed_fields(db, limit: int = 15) -> list[dict]:
+    """Aggregate which field paths have changed most across all ETL runs."""
+    pipeline = [
+        {"$unwind": "$field_changes"},
+        {"$group": {
+            "_id":   "$field_changes.path",
+            "count": {"$sum": 1},
+        }},
+        {"$sort": {"count": -1}},
+        {"$limit": limit},
+    ]
+    return list(_diffs(db).aggregate(pipeline))
+
+
+def get_most_changed_clients(db, limit: int = 10) -> list[dict]:
+    """Clients ranked by total number of field-level changes."""
+    pipeline = [
+        {"$group": {
+            "_id":                "$client_id",
+            "total_versions":     {"$sum": 1},
+            "total_field_changes":{"$sum": "$total_field_changes"},
+            "total_acct_changes": {"$sum": "$total_account_changes"},
+            "changed_sections":   {"$push": "$changed_sections"},
+        }},
+        {"$sort": {"total_field_changes": -1}},
+        {"$limit": limit},
+    ]
+    return list(_diffs(db).aggregate(pipeline))
+
+
+def get_section_change_frequency(db) -> list[dict]:
+    """How often each section (personal_information, address, etc.) has changed."""
+    pipeline = [
+        {"$unwind": "$changed_sections"},
+        {"$group": {"_id": "$changed_sections", "count": {"$sum": 1}}},
+        {"$sort": {"count": -1}},
+    ]
+    return list(_diffs(db).aggregate(pipeline))
+
+
+def get_diff_timeline(db, limit: int = 30) -> list[dict]:
+    """Recent diffs across all clients for a timeline view."""
+    return list(
+        _diffs(db)
+        .find({}, {"_id": 0,
+                   "client_id": 1, "run_date": 1,
+                   "old_version": 1, "new_version": 1,
+                   "changed_sections": 1,
+                   "total_field_changes": 1,
+                   "total_account_changes": 1,
+                   "old_document_hash": 1,
+                   "new_document_hash": 1})
+        .sort("run_date", -1)
+        .limit(limit)
+    )

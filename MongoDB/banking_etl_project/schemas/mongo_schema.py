@@ -183,6 +183,14 @@ def create_indexes(db):
     db["etl_audit_log"].create_index([("batch_id", 1)], unique=True, name="idx_audit_batch")
     db["etl_audit_log"].create_index([("run_date", -1)],            name="idx_audit_date")
 
+    # Field diffs
+    diffs = db["etl_field_diffs"]
+    diffs.create_index([("client_id", 1), ("new_version", -1)],  name="idx_diff_client_ver")
+    diffs.create_index([("batch_id",   1)],                       name="idx_diff_batch")
+    diffs.create_index([("run_date",   -1)],                      name="idx_diff_date")
+    diffs.create_index([("field_changes.path", 1)],               name="idx_diff_field_path")
+    diffs.create_index([("changed_sections",   1)],               name="idx_diff_sections")
+
     print("✅ All indexes created.")
 
 
@@ -193,12 +201,18 @@ def setup_collections(db):
     for name, validator in [
         ("banking_clients", BANKING_CLIENTS_VALIDATOR),
         ("etl_audit_log",   ETL_AUDIT_VALIDATOR),
+        ("etl_field_diffs", {}),   # schemaless — flexible diff payloads
     ]:
         if name not in existing:
-            db.create_collection(name, validator=validator)
-            print(f"✅ Collection '{name}' created with validation.")
-        else:
+            if validator:
+                db.create_collection(name, validator=validator)
+            else:
+                db.create_collection(name)
+            print(f"✅ Collection '{name}' created.")
+        elif validator:
             db.command("collMod", name, validator=validator)
             print(f"♻️  Collection '{name}' validator updated.")
+        else:
+            print(f"✔  Collection '{name}' already exists.")
 
     create_indexes(db)

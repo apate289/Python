@@ -18,7 +18,12 @@ from app.queries import (
     get_account_type_distribution, get_credit_score_buckets,
     get_state_distribution, get_branch_summary,
     get_version_history_stats, get_filter_options,
+    # hash comparison
+    get_diffs_for_client, get_client_hash_manifest,
+    get_most_changed_fields, get_most_changed_clients,
+    get_section_change_frequency, get_diff_timeline,
 )
+from etl.hash_engine import build_hash_manifest, SECTIONS, TRACKED_FIELDS
 
 # ── page config ──────────────────────────────
 st.set_page_config(
@@ -135,7 +140,7 @@ with st.sidebar:
     page_size = st.select_slider("Records per page", options=[10, 25, 50, 100], value=25)
 
     st.markdown("---")
-    nav = st.radio("Navigation", ["📊 Dashboard", "👥 Client Explorer", "🕓 Version History", "📋 ETL Audit Log"])
+    nav = st.radio("Navigation", ["📊 Dashboard", "👥 Client Explorer", "🕓 Version History", "🔍 Hash Comparison", "📋 ETL Audit Log"])
 
 # ── filter translation ─────────────────────────
 kyc_bool  = True if kyc_sel == "Yes" else (False if kyc_sel == "No" else None)
@@ -370,6 +375,258 @@ elif nav == "🕓 Version History":
         fig.update_traces(textposition="outside")
         fig.update_layout(**PLOTLY_LAYOUT)
         st.plotly_chart(fig, use_container_width=True)
+
+
+# ════════════════════════════════════════════════
+#  PAGE: HASH COMPARISON
+# ════════════════════════════════════════════════
+elif nav == "🔍 Hash Comparison":
+    st.markdown("<h2 style='color:#e8f0fe;font-family:Space Mono,monospace;'>Field-Level Hash Comparison</h2>", unsafe_allow_html=True)
+    st.markdown(
+        "<p style='color:#6b7fa3;margin-top:-10px;'>Every field, section, and account carries its own SHA-256 fingerprint. "
+        "Changes are detected and stored at the document → section → field → account-field hierarchy.</p>",
+        unsafe_allow_html=True
+    )
+
+    hash_tab1, hash_tab2, hash_tab3 = st.tabs(["🔬 Client Diff Explorer", "📊 Change Analytics", "🗂️ Hash Manifest Viewer"])
+
+    # ── Tab 1: Client Diff Explorer ───────────────
+    with hash_tab1:
+        st.markdown("<div class='section-header'>Select Client to Inspect</div>", unsafe_allow_html=True)
+        diff_client_id = st.text_input("Client ID", placeholder="CLT00001", key="diff_cid").strip().upper()
+
+        if diff_client_id:
+            diffs = get_diffs_for_client(db, diff_client_id)
+            history = get_client_version_history(db, diff_client_id)
+
+            if not history:
+                st.warning(f"No records found for `{diff_client_id}`")
+            elif not diffs:
+                st.info(f"Client `{diff_client_id}` has only one version — no diffs yet.")
+                rec = history[0]
+                pi = rec.get("personal_information", {})
+                st.success(f"**{pi.get('first_name','')} {pi.get('last_name','')}** — v1 (initial load, no changes recorded)")
+            else:
+                pi = history[0].get("personal_information", {})
+                st.success(f"**{pi.get('first_name','')} {pi.get('last_name','')}** — {len(diffs)} version transition(s) found")
+
+                for diff in diffs:
+                    ov, nv = diff["old_version"], diff["new_version"]
+                    n_fld  = diff.get("total_field_changes", 0)
+                    n_acc  = diff.get("total_account_changes", 0)
+                    secs   = diff.get("changed_sections", [])
+
+                    with st.expander(
+                        f"v{ov} → v{nv}  ·  {len(secs)} section(s)  ·  {n_fld} field(s)  ·  {n_acc} account(s)  ·  {diff.get('run_date','')[:10]}",
+                        expanded=(ov == diffs[-1]["old_version"])
+                    ):
+                        # Document hashes
+                        c_oh, c_nh = st.columns(2)
+                        with c_oh:
+                            st.markdown("**Old document hash (v{})** ".format(ov))
+                            st.code(diff.get("old_document_hash", "—"), language=None)
+                        with c_nh:
+                            st.markdown("**New document hash (v{})** ".format(nv))
+                            st.code(diff.get("new_document_hash", "—"), language=None)
+
+                        # Changed sections as badges
+                        if secs:
+                            st.markdown("**Changed sections:** " + "  ".join(
+                                f"`{s}`" for s in secs
+                            ))
+
+                        # Field-level changes table
+                        field_changes = diff.get("field_changes", [])
+                        if field_changes:
+                            st.markdown("**Field-level changes**")
+                            rows = []
+                            for fc in field_changes:
+                                path  = fc["path"]
+                                section = path.split(".")[0]
+                                field   = ".".join(path.split(".")[1:])
+                                rows.append({
+                                    "Section":   section,
+                                    "Field":     field,
+                                    "Old Value": fc.get("old_value", "—"),
+                                    "New Value": fc.get("new_value", "—"),
+                                    "Old Hash":  (fc.get("old_hash") or "")[:20] + "…",
+                                    "New Hash":  (fc.get("new_hash") or "")[:20] + "…",
+                                })
+                            df_fld = pd.DataFrame(rows)
+                            st.dataframe(
+                                df_fld,
+                                use_container_width=True,
+                                hide_index=True,
+                                column_config={
+                                    "Old Value": st.column_config.TextColumn("Old Value", width="medium"),
+                                    "New Value": st.column_config.TextColumn("New Value", width="medium"),
+                                    "Old Hash":  st.column_config.TextColumn("Old Hash (SHA-256[:20])", width="medium"),
+                                    "New Hash":  st.column_config.TextColumn("New Hash (SHA-256[:20])", width="medium"),
+                                }
+                            )
+
+                        # Account-level changes
+                        acct_changes = diff.get("account_changes", [])
+                        if acct_changes:
+                            st.markdown("**Account-level changes**")
+                            for ac in acct_changes:
+                                ct = ac.get("change_type", "modified").upper()
+                                badge = {"MODIFIED": "🔄", "ADDED": "✅", "REMOVED": "❌"}.get(ct, "🔄")
+                                st.markdown(f"{badge} **Account `{ac['account_number']}`** — {ct}")
+                                afc_list = ac.get("field_changes", [])
+                                if afc_list:
+                                    arows = []
+                                    for afc in afc_list:
+                                        fn = afc["path"].split(".")[-1]
+                                        arows.append({
+                                            "Account Field": fn,
+                                            "Old Value":     afc.get("old_value", "—"),
+                                            "New Value":     afc.get("new_value", "—"),
+                                            "Old Hash":      (afc.get("old_hash") or "")[:20] + "…",
+                                            "New Hash":      (afc.get("new_hash") or "")[:20] + "…",
+                                        })
+                                    st.dataframe(pd.DataFrame(arows), use_container_width=True, hide_index=True)
+
+    # ── Tab 2: Change Analytics ───────────────────
+    with hash_tab2:
+        col_a, col_b = st.columns(2)
+
+        with col_a:
+            st.markdown("<div class='section-header'>Most Changed Fields (all clients)</div>", unsafe_allow_html=True)
+            mcf = get_most_changed_fields(db)
+            if mcf:
+                df_mcf = pd.DataFrame(mcf).rename(columns={"_id": "Field Path", "count": "Change Count"})
+                fig = px.bar(
+                    df_mcf, x="Change Count", y="Field Path", orientation="h",
+                    color="Change Count",
+                    color_continuous_scale=["#1e3a5f", "#3b82f6", "#93c5fd"],
+                )
+                fig.update_layout(**PLOTLY_LAYOUT, yaxis={"categoryorder": "total ascending"})
+                fig.update_coloraxes(showscale=False)
+                st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.info("No diff data yet. Run the ETL with `--simulate-changes`.")
+
+        with col_b:
+            st.markdown("<div class='section-header'>Most Changed Sections</div>", unsafe_allow_html=True)
+            scf = get_section_change_frequency(db)
+            if scf:
+                df_scf = pd.DataFrame(scf).rename(columns={"_id": "Section", "count": "Times Changed"})
+                fig2 = px.pie(
+                    df_scf, names="Section", values="Times Changed",
+                    color_discrete_sequence=["#3b82f6","#6366f1","#8b5cf6","#34d399","#f59e0b"],
+                    hole=0.5,
+                )
+                fig2.update_traces(textposition="inside", textinfo="percent+label")
+                fig2.update_layout(**PLOTLY_LAYOUT, showlegend=False)
+                st.plotly_chart(fig2, use_container_width=True)
+            else:
+                st.info("No diff data yet.")
+
+        st.markdown("<div class='section-header'>Most Changed Clients</div>", unsafe_allow_html=True)
+        mcc = get_most_changed_clients(db)
+        if mcc:
+            df_mcc = pd.DataFrame(mcc).rename(columns={
+                "_id": "Client ID",
+                "total_versions": "Versions",
+                "total_field_changes": "Field Changes",
+                "total_acct_changes": "Account Changes",
+            })
+            df_mcc = df_mcc[["Client ID","Versions","Field Changes","Account Changes"]]
+            st.dataframe(
+                df_mcc,
+                use_container_width=True,
+                hide_index=True,
+                column_config={
+                    "Field Changes":   st.column_config.ProgressColumn("Field Changes",   min_value=0, max_value=int(df_mcc["Field Changes"].max() or 1)),
+                    "Account Changes": st.column_config.ProgressColumn("Account Changes", min_value=0, max_value=max(1, int(df_mcc["Account Changes"].max() or 1))),
+                }
+            )
+
+        st.markdown("<div class='section-header'>Recent Diff Timeline</div>", unsafe_allow_html=True)
+        timeline = get_diff_timeline(db)
+        if timeline:
+            rows = []
+            for d in timeline:
+                rows.append({
+                    "Date":     d.get("run_date","")[:10],
+                    "Client":   d.get("client_id"),
+                    "v":        f"v{d.get('old_version')}→v{d.get('new_version')}",
+                    "Sections": ", ".join(d.get("changed_sections", [])) or "—",
+                    "Fields Δ": d.get("total_field_changes", 0),
+                    "Accts Δ":  d.get("total_account_changes", 0),
+                    "Old Doc Hash": (d.get("old_document_hash") or "")[:16] + "…",
+                    "New Doc Hash": (d.get("new_document_hash") or "")[:16] + "…",
+                })
+            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+        else:
+            st.info("No diff timeline data yet.")
+
+    # ── Tab 3: Hash Manifest Viewer ───────────────
+    with hash_tab3:
+        st.markdown(
+            "<p style='color:#6b7fa3;font-size:13px;'>Inspect the full SHA-256 hash manifest stored inside any client version. "
+            "Every field, section, account, and the whole document has its own hash.</p>",
+            unsafe_allow_html=True
+        )
+
+        hm_col1, hm_col2 = st.columns([2, 1])
+        with hm_col1:
+            hm_client = st.text_input("Client ID", placeholder="CLT00001", key="hm_cid").strip().upper()
+        with hm_col2:
+            hm_version = st.number_input("Version (0 = active)", min_value=0, value=0, step=1, key="hm_ver")
+
+        if hm_client:
+            ver_arg = int(hm_version) if hm_version > 0 else None
+            manifest_doc = get_client_hash_manifest(db, hm_client, version=ver_arg)
+
+            if not manifest_doc:
+                st.warning(f"No record found for `{hm_client}` version={hm_version or 'active'}")
+            else:
+                hashes = manifest_doc.get("_hashes", {})
+                ver_label = manifest_doc.get("version", "?")
+
+                if not hashes:
+                    st.info("This record has no `_hashes` manifest — it was loaded before the hash engine was added. Re-run the ETL to backfill.")
+                else:
+                    st.success(f"Showing hash manifest for `{hm_client}` — version {ver_label}")
+
+                    # Document hash
+                    st.markdown("**Document hash (whole record)**")
+                    st.code(hashes.get("document", "—"), language=None)
+
+                    # Section hashes
+                    st.markdown("**Section hashes**")
+                    sec_rows = [
+                        {"Section": sec, "SHA-256": hashes.get("sections", {}).get(sec, "—")}
+                        for sec in SECTIONS
+                    ]
+                    st.dataframe(pd.DataFrame(sec_rows), use_container_width=True, hide_index=True)
+
+                    # Field hashes
+                    st.markdown("**Leaf field hashes**")
+                    fld_rows = []
+                    for dotted in TRACKED_FIELDS:
+                        section = dotted.split(".")[0]
+                        fname   = ".".join(dotted.split(".")[1:])
+                        h       = hashes.get("fields", {}).get(dotted, "—")
+                        fld_rows.append({"Section": section, "Field": fname, "SHA-256": h})
+                    st.dataframe(pd.DataFrame(fld_rows), use_container_width=True, hide_index=True)
+
+                    # Account hashes
+                    acct_hashes = hashes.get("accounts", [])
+                    if acct_hashes:
+                        st.markdown("**Account hashes**")
+                        for ah in acct_hashes:
+                            with st.expander(f"Account `{ah['account_number']}` — hash: `{ah['hash'][:24]}…`"):
+                                fh_rows = [
+                                    {"Field": k, "SHA-256": v}
+                                    for k, v in ah.get("field_hashes", {}).items()
+                                ]
+                                st.dataframe(pd.DataFrame(fh_rows), use_container_width=True, hide_index=True)
+
+                    st.markdown("**Full manifest (raw JSON)**")
+                    st.json(hashes)
 
 
 # ════════════════════════════════════════════════

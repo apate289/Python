@@ -8,9 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ── MongoDB ───────────────────────────────────
-MONGO_URI  = os.getenv("MONGO_URI",  
-                "mongodb+srv://ankit5907:Ankit%405907@cluster0.h0f1gaj.mongodb.net/?retryWrites=true&w=majority"
-                )
+MONGO_URI  = os.getenv("MONGO_URI",  "mongodb://localhost:27017/")
 DB_NAME    = os.getenv("DB_NAME",    "banking_etl")
 
 # ── ETL ───────────────────────────────────────
