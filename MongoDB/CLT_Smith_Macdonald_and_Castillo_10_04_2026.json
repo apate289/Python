@@ -1,0 +1,67 @@
+{
+  "client_id": "CLT_Smith_Macdonald_and_Castillo",
+  "personal_information": {
+    "first_name": "Jamie",
+    "last_name": "Ruiz",
+    "date_of_birth": "1960-07-15",
+    "ssn_last4": "1514",
+    "email": "jamie.ruiz43@gmail.com",
+    "phone_primary": "+1 855-870-5356",
+    "phone_secondary": "+1 855-620-2732 ext. 997"
+  },
+  "address": {
+    "street": "62565 Lee Divide Apt. 517",
+    "city": "South Bethany",
+    "state": "IL",
+    "zip_code": "22570",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2003-01-09",
+    "branch_id": "BR086",
+    "relationship_manager": "Dennis Moore",
+    "credit_score": 797,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "SMS"
+  },
+  "accounts": [
+    {
+      "account_number": "IRA3116566701",
+      "routing_number": "065133387",
+      "account_type": "IRA",
+      "holding_name": "Grant, Brown and Chambers",
+      "balance": 35475.48,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2013-04-05",
+      "interest_rate": 4.81,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "MMA8108013267",
+      "routing_number": "736026064",
+      "account_type": "Money Market",
+      "holding_name": "Peterson TTEE",
+      "balance": 71669.68,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2014-11-17",
+      "interest_rate": 4.31,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "1999-10-07",
+    "starting_check_number": 1958
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-10T14:41:42.444505",
+  "end_date": null,
+  "etl_batch_id": "42cb4c9a-c99f-43fb-b184-b7a21c27e203",
+  "created_at": "2026-04-10T19:41:42.444505+00:00",
+  "updated_at": "2026-04-10T19:41:42.444505+00:00"
+}

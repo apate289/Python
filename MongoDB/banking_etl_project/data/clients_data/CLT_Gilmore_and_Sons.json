@@ -1,0 +1,103 @@
+{
+  "client_id": "CLT_Gilmore_and_Sons",
+  "personal_information": {
+    "first_name": "Joshua",
+    "last_name": "Mendez",
+    "date_of_birth": "1997-05-13",
+    "ssn_last4": "1409",
+    "email": "joshua.mendez95@yahoo.com",
+    "phone_primary": "+1 762-870-6288",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "55921 Reynolds Fork Suite 576",
+    "city": "New Davidland",
+    "state": "NY",
+    "zip_code": "33175",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2004-12-29",
+    "branch_id": "BR095",
+    "relationship_manager": "Brandon Dixon",
+    "credit_score": 404,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "MMA8908386379",
+      "routing_number": "402654235",
+      "account_type": "Money Market",
+      "holding_name": "Nguyen Family Trust",
+      "balance": 23640.09,
+      "currency": "USD",
+      "status": "Dormant",
+      "date_opened": "2005-06-08",
+      "interest_rate": 3.32,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "CHK8161849593",
+      "routing_number": "103413164",
+      "account_type": "Checking",
+      "holding_name": "Berry TTEE",
+      "balance": 159103.27,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2015-08-11",
+      "interest_rate": 1.16,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "IRA9283276483",
+      "routing_number": "503056413",
+      "account_type": "IRA",
+      "holding_name": "Miller-Raymond",
+      "balance": 228327.46,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "1998-03-15",
+      "interest_rate": 1.18,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU7242388496",
+      "routing_number": "965328710",
+      "account_type": "Trust",
+      "holding_name": "Ruiz-Whitaker",
+      "balance": 215345.18,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2012-09-30",
+      "interest_rate": 3.75,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "SAV6978480184",
+      "routing_number": "514627048",
+      "account_type": "Savings",
+      "holding_name": "Lee LLC",
+      "balance": 127166.58,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2012-04-05",
+      "interest_rate": 4.63,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Standard",
+    "last_check_order_date": "2014-03-13",
+    "starting_check_number": 9689
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:18.942311",
+  "end_date": null,
+  "etl_batch_id": "e0dab195-7fa8-49d2-9a1b-831b8ed789c9",
+  "created_at": "2026-04-14T16:38:18.942311+00:00",
+  "updated_at": "2026-04-14T16:38:18.942311+00:00"
+}

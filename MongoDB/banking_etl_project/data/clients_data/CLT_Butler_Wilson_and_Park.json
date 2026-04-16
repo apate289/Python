@@ -1,0 +1,103 @@
+{
+  "client_id": "CLT_Butler_Wilson_and_Park",
+  "personal_information": {
+    "first_name": "Nicole",
+    "last_name": "Hunter",
+    "date_of_birth": "1967-11-06",
+    "ssn_last4": "8404",
+    "email": "nicole.hunter5@gmail.com",
+    "phone_primary": "+1 319-400-7397 ext. 082",
+    "phone_secondary": "+1 506-626-7569 ext. 1447"
+  },
+  "address": {
+    "street": "4893 Lyons Causeway",
+    "city": "East Tonyaville",
+    "state": "IL",
+    "zip_code": "56154",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2020-09-17",
+    "branch_id": "BR010",
+    "relationship_manager": "Monica Smith",
+    "credit_score": 392,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "SMS"
+  },
+  "accounts": [
+    {
+      "account_number": "CHK7820715182",
+      "routing_number": "037788925",
+      "account_type": "Checking",
+      "holding_name": "Maddox Holdings",
+      "balance": 229525.23,
+      "currency": "USD",
+      "status": "Dormant",
+      "date_opened": "2022-02-20",
+      "interest_rate": 3.74,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "BSA1518644925",
+      "routing_number": "192546291",
+      "account_type": "Business Savings",
+      "holding_name": "Butler, Moore and Chavez",
+      "balance": 77740.68,
+      "currency": "USD",
+      "status": "Dormant",
+      "date_opened": "2010-01-04",
+      "interest_rate": 4.47,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "CDA8505423573",
+      "routing_number": "322141888",
+      "account_type": "CD",
+      "holding_name": "Ballard Family Trust",
+      "balance": 165651.34,
+      "currency": "EUR",
+      "status": "Active",
+      "date_opened": "2013-12-29",
+      "interest_rate": 3.29,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "SAV2927065379",
+      "routing_number": "473834735",
+      "account_type": "Savings",
+      "holding_name": "Patel",
+      "balance": 246117.73,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2002-04-12",
+      "interest_rate": 2.11,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BCK3924075818",
+      "routing_number": "141247826",
+      "account_type": "Business Checking",
+      "holding_name": "Murray PLC",
+      "balance": 23382.54,
+      "currency": "EUR",
+      "status": "Dormant",
+      "date_opened": "2002-04-09",
+      "interest_rate": 4.87,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Personal",
+    "last_check_order_date": "2012-07-08",
+    "starting_check_number": 7126
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.023153",
+  "end_date": null,
+  "etl_batch_id": "9b84d593-54e7-40fc-b13c-f1e6d58c7800",
+  "created_at": "2026-04-14T16:38:19.023153+00:00",
+  "updated_at": "2026-04-14T16:38:19.023153+00:00"
+}

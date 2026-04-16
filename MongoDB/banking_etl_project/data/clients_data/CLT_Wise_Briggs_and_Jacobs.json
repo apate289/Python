@@ -1,0 +1,91 @@
+{
+  "client_id": "CLT_Wise_Briggs_and_Jacobs",
+  "personal_information": {
+    "first_name": "Benjamin",
+    "last_name": "Franklin",
+    "date_of_birth": "1949-11-11",
+    "ssn_last4": "3159",
+    "email": "benjamin.franklin2@yahoo.com",
+    "phone_primary": "+1 615-238-6577 ext. 075",
+    "phone_secondary": "+1 651-540-1166 ext. 371"
+  },
+  "address": {
+    "street": "686 Angel Land Suite 012",
+    "city": "Gravesview",
+    "state": "FL",
+    "zip_code": "24859",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2001-02-26",
+    "branch_id": "BR076",
+    "relationship_manager": "Elijah Smith",
+    "credit_score": 631,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "SAV5891783908",
+      "routing_number": "470076617",
+      "account_type": "Savings",
+      "holding_name": "Meyer TTEE",
+      "balance": 18835.93,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2015-02-09",
+      "interest_rate": 0.37,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU8569847896",
+      "routing_number": "118367365",
+      "account_type": "Trust",
+      "holding_name": "Kelly PLC",
+      "balance": 206941.1,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2021-04-04",
+      "interest_rate": 1.73,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK5271111615",
+      "routing_number": "280988516",
+      "account_type": "Checking",
+      "holding_name": "Williams Holdings",
+      "balance": 218465.04,
+      "currency": "GBP",
+      "status": "Active",
+      "date_opened": "2006-06-08",
+      "interest_rate": 5.04,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "BSA9451983273",
+      "routing_number": "158514936",
+      "account_type": "Business Savings",
+      "holding_name": "Berry-Miller",
+      "balance": 211366.21,
+      "currency": "CAD",
+      "status": "Dormant",
+      "date_opened": "2007-11-26",
+      "interest_rate": 3.38,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Business",
+    "last_check_order_date": "1991-04-20",
+    "starting_check_number": 3955
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.019337",
+  "end_date": null,
+  "etl_batch_id": "5170ce03-7c7e-49e4-a059-17cc227099d0",
+  "created_at": "2026-04-14T16:38:19.019337+00:00",
+  "updated_at": "2026-04-14T16:38:19.019337+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "client_id": "CLT_Douglas_Wilson_and_Scott",
+  "personal_information": {
+    "first_name": "Connie",
+    "last_name": "Gates",
+    "date_of_birth": "1984-04-19",
+    "ssn_last4": "2317",
+    "email": "connie.gates77@gmail.com",
+    "phone_primary": "+1 573-806-3883 ext. 106",
+    "phone_secondary": "+1 806-853-1081"
+  },
+  "address": {
+    "street": "54122 Mejia Ports",
+    "city": "Jensenchester",
+    "state": "PA",
+    "zip_code": "21271",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2019-08-21",
+    "branch_id": "BR078",
+    "relationship_manager": "Terry Vega",
+    "credit_score": 556,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "CHK8742967175",
+      "routing_number": "655125674",
+      "account_type": "Checking",
+      "holding_name": "Eaton TTEE",
+      "balance": 203484.73,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2016-02-08",
+      "interest_rate": 1.74,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMA6808760385",
+      "routing_number": "977034824",
+      "account_type": "Money Market",
+      "holding_name": "Williams TTEE",
+      "balance": 220271.23,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2000-03-14",
+      "interest_rate": 3.47,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "SAV4808613171",
+      "routing_number": "274846773",
+      "account_type": "Savings",
+      "holding_name": "Griffin TTEE",
+      "balance": 138040.64,
+      "currency": "USD",
+      "status": "Closed",
+      "date_opened": "2002-02-07",
+      "interest_rate": 2.8,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Business",
+    "last_check_order_date": "2008-08-12",
+    "starting_check_number": 6568
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-10T14:42:18.717612",
+  "end_date": null,
+  "etl_batch_id": "aa71d53b-cd8e-4e16-aae2-9c4478dba45e",
+  "created_at": "2026-04-10T19:42:18.717612+00:00",
+  "updated_at": "2026-04-10T19:42:18.717612+00:00"
+}

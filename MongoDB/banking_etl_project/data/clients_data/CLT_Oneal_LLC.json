@@ -1,0 +1,67 @@
+{
+  "client_id": "CLT_Oneal_LLC",
+  "personal_information": {
+    "first_name": "Jessica",
+    "last_name": "Poole",
+    "date_of_birth": "1960-07-15",
+    "ssn_last4": "1514",
+    "email": "jessica.poole43@gmail.com",
+    "phone_primary": "+1 936-881-0269 ext. 737",
+    "phone_secondary": "+1 434-374-0153 ext. 4490"
+  },
+  "address": {
+    "street": "0651 Courtney Centers Apt. 491",
+    "city": "Sanchezmouth",
+    "state": "IL",
+    "zip_code": "49862",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2003-01-09",
+    "branch_id": "BR086",
+    "relationship_manager": "Tracy Wong",
+    "credit_score": 797,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "SMS"
+  },
+  "accounts": [
+    {
+      "account_number": "IRA3116566701",
+      "routing_number": "065133387",
+      "account_type": "IRA",
+      "holding_name": "Rush-Coffey",
+      "balance": 35475.48,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2013-04-05",
+      "interest_rate": 4.81,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "MMA8108013267",
+      "routing_number": "736026064",
+      "account_type": "Money Market",
+      "holding_name": "Dudley TTEE",
+      "balance": 71669.68,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2014-11-17",
+      "interest_rate": 4.31,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "1999-10-07",
+    "starting_check_number": 1958
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:34:38.207686",
+  "end_date": null,
+  "etl_batch_id": "503806c6-132c-4187-a85b-97b9e1665e3f",
+  "created_at": "2026-04-14T16:34:38.207686+00:00",
+  "updated_at": "2026-04-14T16:34:38.207686+00:00"
+}

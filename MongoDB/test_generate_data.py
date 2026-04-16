@@ -78,8 +78,9 @@ def generate_client(client_index):
     org = re.sub(r'[^a-zA-Z0-9\s]', '', fake.company() ).replace(" ", "_")
     dob = random_date(1940, 2000)
     customer_since = random_date(2000, 2023)
+    # "client_id": f"CLT{str(client_index).zfill(5)}", 
+    # #_{date.today.strftime('%d_%m_%Y')}
     return {
-        #"client_id": f"CLT{str(client_index).zfill(5)}",
         "client_id": f"CLT_{str(org)}",
         "personal_information": {
             "first_name": first,
@@ -123,21 +124,19 @@ def generate_client(client_index):
         "updated_at": datetime.now(UTC).isoformat(),
     }
 
-
 def generate_dataset(n=50):
     base_path=Path(__file__).resolve().parent
     #clients = [generate_client(i + 1) for i in range(n)]
     for i in range(n):
         #print(f"Generated client {i + 1}/{n} → {clients[i]['client_id']}")
         client =generate_client(i + 1)
-        #fileNM=f"{str(client['client_id'])}_{date.today().strftime('%d_%m_%Y')}.json"
-        fileNM=f"{str(client['client_id'])}.json"
-        with open(os.path.join(base_path, 'clients_data', fileNM), "w") as f:
+        fileNM=f"{str(client['client_id'])}_{date.today().strftime('%d_%m_%Y')}.json"
+        with open(os.path.join(base_path, fileNM), "w") as f:
             json.dump(client, f, indent=2)
     return 
 
 if __name__ == "__main__":
-    data = 20
+    data = 10
     generate_dataset(data)
 
     print(f"Generated {data} client records → data/clients.json")

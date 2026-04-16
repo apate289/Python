@@ -1,0 +1,79 @@
+{
+  "client_id": "CLT_WilliamsWhite",
+  "personal_information": {
+    "first_name": "James",
+    "last_name": "Willis",
+    "date_of_birth": "1985-07-20",
+    "ssn_last4": "1042",
+    "email": "james.willis37@yahoo.com",
+    "phone_primary": "+1 915-619-6758 ext. 59800",
+    "phone_secondary": "+1 972-856-3233"
+  },
+  "address": {
+    "street": "3432 Andrew Union Suite 302",
+    "city": "New Tiffanyfort",
+    "state": "MI",
+    "zip_code": "20716",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2011-12-26",
+    "branch_id": "BR085",
+    "relationship_manager": "Sean Smith",
+    "credit_score": 801,
+    "kyc_verified": false,
+    "pep_flag": false,
+    "preferred_contact": "SMS"
+  },
+  "accounts": [
+    {
+      "account_number": "TRU7533963605",
+      "routing_number": "766270289",
+      "account_type": "Trust",
+      "holding_name": "Adams-Wells",
+      "balance": 83332.68,
+      "currency": "USD",
+      "status": "Dormant",
+      "date_opened": "2011-12-03",
+      "interest_rate": 0.56,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CDA2621745961",
+      "routing_number": "586578091",
+      "account_type": "CD",
+      "holding_name": "Kidd LLC",
+      "balance": 157974.67,
+      "currency": "GBP",
+      "status": "Frozen",
+      "date_opened": "1995-09-09",
+      "interest_rate": 4.11,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMA1724005045",
+      "routing_number": "562386922",
+      "account_type": "Money Market",
+      "holding_name": "Sullivan LLC",
+      "balance": 20202.6,
+      "currency": "EUR",
+      "status": "Active",
+      "date_opened": "1999-06-01",
+      "interest_rate": 1.33,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "2010-08-13",
+    "starting_check_number": 5183
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.006285",
+  "end_date": null,
+  "etl_batch_id": "09baa985-597d-4cb8-8639-306f0644816c",
+  "created_at": "2026-04-14T16:38:19.006285+00:00",
+  "updated_at": "2026-04-14T16:38:19.006285+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "client_id": "CLT_SalinasSanchez",
+  "personal_information": {
+    "first_name": "William",
+    "last_name": "Mahoney",
+    "date_of_birth": "1963-09-28",
+    "ssn_last4": "3573",
+    "email": "william.mahoney31@outlook.com",
+    "phone_primary": "+1 738-730-6105",
+    "phone_secondary": "+1 734-924-2471 ext. 8715"
+  },
+  "address": {
+    "street": "9625 James Court Apt. 192",
+    "city": "Watsonville",
+    "state": "NY",
+    "zip_code": "74415",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2003-08-23",
+    "branch_id": "BR001",
+    "relationship_manager": "Jake Martinez",
+    "credit_score": 718,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA4713493618",
+      "routing_number": "324210249",
+      "account_type": "Business Savings",
+      "holding_name": "Petty-Campbell",
+      "balance": 187364.95,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-12-04",
+      "interest_rate": 0.69,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Business",
+    "last_check_order_date": "2012-06-13",
+    "starting_check_number": 9847
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:34:38.239865",
+  "end_date": null,
+  "etl_batch_id": "e1eaeb95-d9f2-41f8-b17f-110a889be19d",
+  "created_at": "2026-04-14T16:34:38.239865+00:00",
+  "updated_at": "2026-04-14T16:34:38.239865+00:00"
+}

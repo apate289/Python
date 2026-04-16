@@ -1,0 +1,55 @@
+{
+  "client_id": "CLT_Turner_Taylor_and_Singleton",
+  "personal_information": {
+    "first_name": "Cathy",
+    "last_name": "Schroeder",
+    "date_of_birth": "1963-09-28",
+    "ssn_last4": "3573",
+    "email": "cathy.schroeder31@outlook.com",
+    "phone_primary": "+1 763-783-3277 ext. 49218",
+    "phone_secondary": "+1 645-861-6212"
+  },
+  "address": {
+    "street": "04076 Clark Pike",
+    "city": "East Daniel",
+    "state": "NY",
+    "zip_code": "69044",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2003-08-23",
+    "branch_id": "BR001",
+    "relationship_manager": "Mark Maddox",
+    "credit_score": 718,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA4713493618",
+      "routing_number": "324210249",
+      "account_type": "Business Savings",
+      "holding_name": "Stewart-Martinez",
+      "balance": 187364.95,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-12-04",
+      "interest_rate": 0.69,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Business",
+    "last_check_order_date": "2012-06-13",
+    "starting_check_number": 9847
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-10T14:42:18.714580",
+  "end_date": null,
+  "etl_batch_id": "ba5e6944-7f39-46dc-81f6-a9de5f86b22c",
+  "created_at": "2026-04-10T19:42:18.714580+00:00",
+  "updated_at": "2026-04-10T19:42:18.714580+00:00"
+}

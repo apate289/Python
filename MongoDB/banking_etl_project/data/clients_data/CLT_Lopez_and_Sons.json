@@ -1,0 +1,55 @@
+{
+  "client_id": "CLT_Lopez_and_Sons",
+  "personal_information": {
+    "first_name": "Benjamin",
+    "last_name": "Martinez",
+    "date_of_birth": "1963-09-28",
+    "ssn_last4": "3573",
+    "email": "benjamin.martinez31@outlook.com",
+    "phone_primary": "+1 804-570-6836 ext. 023",
+    "phone_secondary": "+1 431-920-0520 ext. 86989"
+  },
+  "address": {
+    "street": "369 Weaver Centers Apt. 191",
+    "city": "Erinton",
+    "state": "NY",
+    "zip_code": "06996",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2003-08-23",
+    "branch_id": "BR001",
+    "relationship_manager": "Mary Glenn",
+    "credit_score": 718,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA4713493618",
+      "routing_number": "324210249",
+      "account_type": "Business Savings",
+      "holding_name": "Ramirez-Vega",
+      "balance": 187364.95,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-12-04",
+      "interest_rate": 0.69,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Business",
+    "last_check_order_date": "2012-06-13",
+    "starting_check_number": 9847
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.003533",
+  "end_date": null,
+  "etl_batch_id": "1c871c45-7fec-40e2-92c9-e19b257979cf",
+  "created_at": "2026-04-14T16:38:19.003533+00:00",
+  "updated_at": "2026-04-14T16:38:19.003533+00:00"
+}

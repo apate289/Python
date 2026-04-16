@@ -1,0 +1,6 @@
+# Copy this file to .env and fill in your values
+MONGO_URI=mongodb://localhost:27017/
+DB_NAME=banking_etl
+ETL_SOURCE=data/clients.json
+APP_TITLE=Banking Client Intelligence
+PAGE_SIZE=25

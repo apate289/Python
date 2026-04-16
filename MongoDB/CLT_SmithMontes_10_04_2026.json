@@ -1,0 +1,55 @@
+{
+  "client_id": "CLT_SmithMontes",
+  "personal_information": {
+    "first_name": "Madison",
+    "last_name": "Holt",
+    "date_of_birth": "1951-04-30",
+    "ssn_last4": "2680",
+    "email": "madison.holt2@yahoo.com",
+    "phone_primary": "+1 626-437-7341 ext. 389",
+    "phone_secondary": "+1 464-583-9510 ext. 660"
+  },
+  "address": {
+    "street": "92803 Goodman Spring",
+    "city": "New William",
+    "state": "GA",
+    "zip_code": "64037",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2022-01-07",
+    "branch_id": "BR044",
+    "relationship_manager": "Terri Riddle",
+    "credit_score": 488,
+    "kyc_verified": false,
+    "pep_flag": false,
+    "preferred_contact": "SMS"
+  },
+  "accounts": [
+    {
+      "account_number": "SAV7190229413",
+      "routing_number": "186999386",
+      "account_type": "Savings",
+      "holding_name": "Barnett TTEE",
+      "balance": 227171.84,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2012-12-22",
+      "interest_rate": 2.36,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "High Security",
+    "last_check_order_date": "1999-04-28",
+    "starting_check_number": 4457
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-10T14:41:42.467027",
+  "end_date": null,
+  "etl_batch_id": "a8db2f28-6f19-419b-9432-000c681fe248",
+  "created_at": "2026-04-10T19:41:42.467027+00:00",
+  "updated_at": "2026-04-10T19:41:42.467027+00:00"
+}

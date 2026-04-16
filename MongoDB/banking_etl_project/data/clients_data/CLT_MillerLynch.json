@@ -1,0 +1,91 @@
+{
+  "client_id": "CLT_MillerLynch",
+  "personal_information": {
+    "first_name": "Robyn",
+    "last_name": "Hubbard",
+    "date_of_birth": "1961-02-24",
+    "ssn_last4": "2337",
+    "email": "robyn.hubbard48@outlook.com",
+    "phone_primary": "+1 904-394-4167 ext. 3356",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "53644 Summers Court",
+    "city": "Emilyland",
+    "state": "CA",
+    "zip_code": "81286",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2017-04-27",
+    "branch_id": "BR092",
+    "relationship_manager": "Chelsey Smith",
+    "credit_score": 643,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BCK9010432898",
+      "routing_number": "614341036",
+      "account_type": "Business Checking",
+      "holding_name": "Reynolds-Rogers",
+      "balance": 159918.46,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2015-02-14",
+      "interest_rate": 4.6,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMA8089324609",
+      "routing_number": "539621851",
+      "account_type": "Money Market",
+      "holding_name": "Landry",
+      "balance": 136248.45,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2021-10-07",
+      "interest_rate": 0.12,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU6540515319",
+      "routing_number": "520585277",
+      "account_type": "Trust",
+      "holding_name": "Shaw-Chambers",
+      "balance": 158118.09,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "1996-12-14",
+      "interest_rate": 4.27,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BSA4303054868",
+      "routing_number": "740345054",
+      "account_type": "Business Savings",
+      "holding_name": "Bell, Lowe and Robinson",
+      "balance": 31556.51,
+      "currency": "USD",
+      "status": "Closed",
+      "date_opened": "1996-08-28",
+      "interest_rate": 4.09,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Standard",
+    "last_check_order_date": "2012-04-04",
+    "starting_check_number": 9151
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.023153",
+  "end_date": null,
+  "etl_batch_id": "01375bc0-e39d-4eab-9898-75dabf79d4c1",
+  "created_at": "2026-04-14T16:38:19.023153+00:00",
+  "updated_at": "2026-04-14T16:38:19.023153+00:00"
+}

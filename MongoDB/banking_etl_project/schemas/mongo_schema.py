@@ -15,7 +15,7 @@ BANKING_CLIENTS_VALIDATOR = {
         "properties": {
             "client_id": {
                 "bsonType": "string",
-                "pattern": "^CLT[0-9]{5}$",
+                "pattern": "^[a-zA-Z0-9]+(_[a-zA-Z0-9]+)*$",
                 "description": "Unique client identifier — required, format CLTxxxxx"
             },
             "personal_information": {

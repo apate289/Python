@@ -1,0 +1,55 @@
+{
+  "client_id": "CLT_ZunigaWoods",
+  "personal_information": {
+    "first_name": "Priscilla",
+    "last_name": "Riggs",
+    "date_of_birth": "1991-12-17",
+    "ssn_last4": "6138",
+    "email": "priscilla.riggs8@gmail.com",
+    "phone_primary": "+1 353-722-0838",
+    "phone_secondary": "+1 825-771-3110 ext. 06300"
+  },
+  "address": {
+    "street": "94165 Timothy Union",
+    "city": "Vargasberg",
+    "state": "NC",
+    "zip_code": "96431",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2002-09-25",
+    "branch_id": "BR068",
+    "relationship_manager": "Adam Brooks",
+    "credit_score": 461,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "SAV6193990916",
+      "routing_number": "998543534",
+      "account_type": "Savings",
+      "holding_name": "Rivas TTEE",
+      "balance": 33154.13,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2005-07-20",
+      "interest_rate": 5.11,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Laser",
+    "last_check_order_date": "2015-04-04",
+    "starting_check_number": 2638
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-10T14:41:42.444505",
+  "end_date": null,
+  "etl_batch_id": "372407d6-97d3-47f9-b44e-6f7d1efa0ed8",
+  "created_at": "2026-04-10T19:41:42.444505+00:00",
+  "updated_at": "2026-04-10T19:41:42.444505+00:00"
+}

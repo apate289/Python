@@ -1,0 +1,103 @@
+{
+  "client_id": "CLT_Fleming_Olson_and_Long",
+  "personal_information": {
+    "first_name": "Elizabeth",
+    "last_name": "Jackson",
+    "date_of_birth": "1988-05-23",
+    "ssn_last4": "6733",
+    "email": "elizabeth.jackson29@gmail.com",
+    "phone_primary": "+1 437-504-7904 ext. 74292",
+    "phone_secondary": "+1 532-520-1301"
+  },
+  "address": {
+    "street": "502 Shelby Landing Apt. 700",
+    "city": "Warnerville",
+    "state": "TX",
+    "zip_code": "67098",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2002-05-03",
+    "branch_id": "BR097",
+    "relationship_manager": "Jade Herman",
+    "credit_score": 331,
+    "kyc_verified": false,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "BCK3745299124",
+      "routing_number": "190496631",
+      "account_type": "Business Checking",
+      "holding_name": "Ortiz, Diaz and Gibson",
+      "balance": 148228.42,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2020-04-19",
+      "interest_rate": 3.84,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV1905865185",
+      "routing_number": "067165726",
+      "account_type": "Savings",
+      "holding_name": "Duran LLC",
+      "balance": 183581.93,
+      "currency": "GBP",
+      "status": "Active",
+      "date_opened": "2021-12-07",
+      "interest_rate": 4.45,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMA6945314737",
+      "routing_number": "996507527",
+      "account_type": "Money Market",
+      "holding_name": "Estrada LLC",
+      "balance": 89028.83,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2015-11-08",
+      "interest_rate": 3.28,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BSA0831367837",
+      "routing_number": "770143634",
+      "account_type": "Business Savings",
+      "holding_name": "Patel-Hutchinson",
+      "balance": 166158.03,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2019-12-07",
+      "interest_rate": 1.9,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK7444313518",
+      "routing_number": "233749894",
+      "account_type": "Checking",
+      "holding_name": "Garner Family Trust",
+      "balance": 208240.78,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2010-10-13",
+      "interest_rate": 1.67,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2014-10-28",
+    "starting_check_number": 5786
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-10T14:42:18.709651",
+  "end_date": null,
+  "etl_batch_id": "cbaaff8a-4f54-444b-986f-70893efe24ad",
+  "created_at": "2026-04-10T19:42:18.709651+00:00",
+  "updated_at": "2026-04-10T19:42:18.709651+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "client_id": "CLT_Hughes_and_Sons",
+  "personal_information": {
+    "first_name": "Ann",
+    "last_name": "Green",
+    "date_of_birth": "1940-01-19",
+    "ssn_last4": "9005",
+    "email": "ann.green3@gmail.com",
+    "phone_primary": "+1 517-808-5717",
+    "phone_secondary": "+1 235-512-1134 ext. 1286"
+  },
+  "address": {
+    "street": "014 Mcdaniel Plaza Apt. 865",
+    "city": "Leslieberg",
+    "state": "IL",
+    "zip_code": "28614",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2014-07-16",
+    "branch_id": "BR031",
+    "relationship_manager": "Julie Lowe",
+    "credit_score": 359,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "IRA8227824896",
+      "routing_number": "383465787",
+      "account_type": "IRA",
+      "holding_name": "James-Welch",
+      "balance": 30690.55,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "1998-02-07",
+      "interest_rate": 3.24,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "1993-03-09",
+    "starting_check_number": 1964
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-10T14:42:18.681610",
+  "end_date": null,
+  "etl_batch_id": "e96e13a3-73eb-42a9-941b-1b63d5a357cd",
+  "created_at": "2026-04-10T19:42:18.681610+00:00",
+  "updated_at": "2026-04-10T19:42:18.681610+00:00"
+}

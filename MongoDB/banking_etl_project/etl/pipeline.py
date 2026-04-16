@@ -21,7 +21,7 @@ Run:
 from __future__ import annotations
 
 import argparse
-import json
+import json, pathlib
 import logging
 import os
 import random
@@ -112,11 +112,37 @@ def simulate_changes(clients: list[dict], change_ratio: float = 0.25) -> list[di
     return clients
 
 
-def load_source(path: str) -> list[dict]:
-    with open(path) as f:
-        data = json.load(f)
-    log.info("Loaded %d source records from %s", len(data), path)
-    return data
+def load_source(directory: str) -> list[dict]:
+    
+    path = pathlib.Path(directory)
+    json_contents = []
+    # Validation: Ensure the directory exists
+    if not path.is_dir():
+        logging.error(f"Directory not found: {directory}")
+        return []
+    
+    # Iterate: Use glob for efficient file filtering
+    #for root, dirs, files in os.walk('your_directory_path'):
+    for file_path in path.glob("*.json"):
+        try:
+            # Safe Access: Use context managers and explicit encoding
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                json_contents.append(data)
+                
+        # Error Handling: Catch malformed JSON or OS issues
+        except json.JSONDecodeError as e:
+            logging.warning(f"Skipping malformed JSON file {file_path.name}: {e}")
+        except IOError as e:
+            logging.error(f"Could not read file {file_path.name}: {e}")
+
+    logging.info(f"Successfully loaded {len(json_contents)} JSON files.")
+    
+    #with open(path) as f:
+    #    data = json.load(f)
+    #log.info("Loaded %d source records from %s", len(data), path)
+    #return data
+    return json_contents
 
 
 # ─────────────────────────────────────────────
@@ -327,7 +353,8 @@ def print_diff_report(db, client_id: str) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Banking ETL Pipeline v2")
-    parser.add_argument("--source",           default="data/clients.json")
+    #parser.add_argument("--source",           default="data/clients.json")
+    parser.add_argument("--source",           default="data\\clients_data")
     parser.add_argument("--simulate-changes", action="store_true")
     parser.add_argument("--report",           metavar="CLIENT_ID")
     args = parser.parse_args()
@@ -342,7 +369,9 @@ def main() -> None:
         return
 
     root    = os.path.dirname(os.path.dirname(__file__))
+    #print("Loading source data...",root)
     records = load_source(os.path.join(root, args.source))
+    #print(records)
 
     if args.simulate_changes:
         log.info("Simulating changes on ~25%% of records (1-3 fields each)...")

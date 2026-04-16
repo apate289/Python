@@ -1,0 +1,103 @@
+{
+  "client_id": "CLT_Burton_Inc",
+  "personal_information": {
+    "first_name": "Christine",
+    "last_name": "Perez",
+    "date_of_birth": "1995-03-22",
+    "ssn_last4": "7653",
+    "email": "christine.perez71@gmail.com",
+    "phone_primary": "+1 412-680-7562 ext. 8492",
+    "phone_secondary": "+1 579-900-9380"
+  },
+  "address": {
+    "street": "0576 Danny Neck",
+    "city": "Carterchester",
+    "state": "FL",
+    "zip_code": "41518",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2013-07-01",
+    "branch_id": "BR056",
+    "relationship_manager": "Sierra Craig",
+    "credit_score": 629,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "IRA8951343320",
+      "routing_number": "037917693",
+      "account_type": "IRA",
+      "holding_name": "Peterson Ltd",
+      "balance": 179727.31,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-09-24",
+      "interest_rate": 0.82,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "MMA6328708317",
+      "routing_number": "278895798",
+      "account_type": "Money Market",
+      "holding_name": "Christensen TTEE",
+      "balance": 207727.01,
+      "currency": "USD",
+      "status": "Closed",
+      "date_opened": "1999-10-13",
+      "interest_rate": 4.09,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU4348734714",
+      "routing_number": "345581223",
+      "account_type": "Trust",
+      "holding_name": "Estes, Odom and Payne",
+      "balance": 96067.31,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2015-03-10",
+      "interest_rate": 2.29,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV7603669096",
+      "routing_number": "705466889",
+      "account_type": "Savings",
+      "holding_name": "Simpson LLC",
+      "balance": 122313.25,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2019-05-05",
+      "interest_rate": 2.14,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK7298069901",
+      "routing_number": "627204653",
+      "account_type": "Checking",
+      "holding_name": "Johnson TTEE",
+      "balance": 82048.03,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2002-05-28",
+      "interest_rate": 4.14,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2011-02-05",
+    "starting_check_number": 1317
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-10T14:42:18.704270",
+  "end_date": null,
+  "etl_batch_id": "4e871f3c-9ea8-4992-8976-919ea4c99ebf",
+  "created_at": "2026-04-10T19:42:18.704270+00:00",
+  "updated_at": "2026-04-10T19:42:18.704270+00:00"
+}

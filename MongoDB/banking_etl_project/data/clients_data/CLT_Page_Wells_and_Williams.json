@@ -1,0 +1,103 @@
+{
+  "client_id": "CLT_Page_Wells_and_Williams",
+  "personal_information": {
+    "first_name": "David",
+    "last_name": "Coleman",
+    "date_of_birth": "1946-07-28",
+    "ssn_last4": "9288",
+    "email": "david.coleman34@outlook.com",
+    "phone_primary": "+1 865-998-6138",
+    "phone_secondary": "+1 334-591-8613 ext. 8414"
+  },
+  "address": {
+    "street": "31283 Bobby Ports Apt. 753",
+    "city": "Hopkinsview",
+    "state": "CA",
+    "zip_code": "85122",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2009-07-24",
+    "branch_id": "BR032",
+    "relationship_manager": "Austin Oliver",
+    "credit_score": 678,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "CHK4118244935",
+      "routing_number": "348740164",
+      "account_type": "Checking",
+      "holding_name": "Mendez Family Trust",
+      "balance": 1384.65,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2001-01-09",
+      "interest_rate": 1.45,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU6801128059",
+      "routing_number": "826204505",
+      "account_type": "Trust",
+      "holding_name": "Atkinson, Young and Barrera",
+      "balance": 52914.1,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2019-09-30",
+      "interest_rate": 4.29,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CDA2322602563",
+      "routing_number": "421607337",
+      "account_type": "CD",
+      "holding_name": "Lee Holdings",
+      "balance": 76645.12,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2022-11-03",
+      "interest_rate": 0.14,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "BCK5414586850",
+      "routing_number": "142940196",
+      "account_type": "Business Checking",
+      "holding_name": "Harris Inc",
+      "balance": 86748.93,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2012-11-15",
+      "interest_rate": 5.41,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "IRA9340608835",
+      "routing_number": "615951484",
+      "account_type": "IRA",
+      "holding_name": "Wilcox-Patel",
+      "balance": 166889.78,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2012-04-12",
+      "interest_rate": 3.05,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Personal",
+    "last_check_order_date": "2020-05-20",
+    "starting_check_number": 3851
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:34:38.223419",
+  "end_date": null,
+  "etl_batch_id": "823a2c89-90eb-4f5d-a961-ec425d074a50",
+  "created_at": "2026-04-14T16:34:38.223419+00:00",
+  "updated_at": "2026-04-14T16:34:38.223419+00:00"
+}

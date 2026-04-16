@@ -1,0 +1,103 @@
+{
+  "client_id": "CLT_Lyons_and_Sons",
+  "personal_information": {
+    "first_name": "James",
+    "last_name": "Arnold",
+    "date_of_birth": "1988-05-23",
+    "ssn_last4": "6733",
+    "email": "james.arnold29@gmail.com",
+    "phone_primary": "+1 712-545-1940",
+    "phone_secondary": "+1 914-284-7327 ext. 57111"
+  },
+  "address": {
+    "street": "170 Miller Plains Suite 344",
+    "city": "Williamsberg",
+    "state": "TX",
+    "zip_code": "88809",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2002-05-03",
+    "branch_id": "BR097",
+    "relationship_manager": "Gregory Scott",
+    "credit_score": 331,
+    "kyc_verified": false,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "BCK3745299124",
+      "routing_number": "190496631",
+      "account_type": "Business Checking",
+      "holding_name": "Cruz PLC",
+      "balance": 148228.42,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2020-04-19",
+      "interest_rate": 3.84,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV1905865185",
+      "routing_number": "067165726",
+      "account_type": "Savings",
+      "holding_name": "Hubbard LLC",
+      "balance": 183581.93,
+      "currency": "GBP",
+      "status": "Active",
+      "date_opened": "2021-12-07",
+      "interest_rate": 4.45,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMA6945314737",
+      "routing_number": "996507527",
+      "account_type": "Money Market",
+      "holding_name": "Wilson LLC",
+      "balance": 89028.83,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2015-11-08",
+      "interest_rate": 3.28,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BSA0831367837",
+      "routing_number": "770143634",
+      "account_type": "Business Savings",
+      "holding_name": "Miller-Nelson",
+      "balance": 166158.03,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2019-12-07",
+      "interest_rate": 1.9,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK7444313518",
+      "routing_number": "233749894",
+      "account_type": "Checking",
+      "holding_name": "Newman Family Trust",
+      "balance": 208240.78,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2010-10-13",
+      "interest_rate": 1.67,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2014-10-28",
+    "starting_check_number": 5786
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:18.997069",
+  "end_date": null,
+  "etl_batch_id": "825f62bf-7626-4c31-a017-d75930bcdce6",
+  "created_at": "2026-04-14T16:38:18.997069+00:00",
+  "updated_at": "2026-04-14T16:38:18.997069+00:00"
+}

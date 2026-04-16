@@ -1,0 +1,79 @@
+{
+  "client_id": "CLT_WallaceHuerta",
+  "personal_information": {
+    "first_name": "April",
+    "last_name": "Lee",
+    "date_of_birth": "1972-12-15",
+    "ssn_last4": "5369",
+    "email": "april.lee11@icloud.com",
+    "phone_primary": "+1 458-834-6075 ext. 172",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "163 Miller Isle Apt. 670",
+    "city": "Yolandafort",
+    "state": "MI",
+    "zip_code": "66308",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2023-04-17",
+    "branch_id": "BR024",
+    "relationship_manager": "Alexander Wilson",
+    "credit_score": 600,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "IRA2757059640",
+      "routing_number": "165820297",
+      "account_type": "IRA",
+      "holding_name": "Moreno-Watts",
+      "balance": 9182.34,
+      "currency": "USD",
+      "status": "Dormant",
+      "date_opened": "2014-02-11",
+      "interest_rate": 2.02,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CDA0927557192",
+      "routing_number": "856543102",
+      "account_type": "CD",
+      "holding_name": "Howe TTEE",
+      "balance": 129677.45,
+      "currency": "EUR",
+      "status": "Active",
+      "date_opened": "2020-06-11",
+      "interest_rate": 4.26,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU9473121727",
+      "routing_number": "155188442",
+      "account_type": "Trust",
+      "holding_name": "Brown and Sons",
+      "balance": 178096.37,
+      "currency": "GBP",
+      "status": "Active",
+      "date_opened": "2004-08-16",
+      "interest_rate": 4.37,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Standard",
+    "last_check_order_date": "1996-03-25",
+    "starting_check_number": 4878
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.023153",
+  "end_date": null,
+  "etl_batch_id": "9b8b0bd1-3bed-4e0e-91f5-969d4245869f",
+  "created_at": "2026-04-14T16:38:19.023153+00:00",
+  "updated_at": "2026-04-14T16:38:19.023153+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "client_id": "CLT_Allen_Group",
+  "personal_information": {
+    "first_name": "Kevin",
+    "last_name": "Perkins",
+    "date_of_birth": "1963-09-28",
+    "ssn_last4": "3573",
+    "email": "kevin.perkins31@outlook.com",
+    "phone_primary": "+1 430-414-5672 ext. 001",
+    "phone_secondary": "+1 606-692-7221"
+  },
+  "address": {
+    "street": "0631 Aaron Center",
+    "city": "Katrinatown",
+    "state": "NY",
+    "zip_code": "98953",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2003-08-23",
+    "branch_id": "BR001",
+    "relationship_manager": "Andrew Ruiz",
+    "credit_score": 718,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA4713493618",
+      "routing_number": "324210249",
+      "account_type": "Business Savings",
+      "holding_name": "Thomas Inc",
+      "balance": 187364.95,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-12-04",
+      "interest_rate": 0.69,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Business",
+    "last_check_order_date": "2012-06-13",
+    "starting_check_number": 9847
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-10T14:41:42.467027",
+  "end_date": null,
+  "etl_batch_id": "5bb24b62-c082-4360-bf74-3e99acdfde67",
+  "created_at": "2026-04-10T19:41:42.467027+00:00",
+  "updated_at": "2026-04-10T19:41:42.467027+00:00"
+}

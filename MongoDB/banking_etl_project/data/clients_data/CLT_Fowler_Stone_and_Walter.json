@@ -1,0 +1,79 @@
+{
+  "client_id": "CLT_Fowler_Stone_and_Walter",
+  "personal_information": {
+    "first_name": "Jennifer",
+    "last_name": "Hanna",
+    "date_of_birth": "1984-04-19",
+    "ssn_last4": "2317",
+    "email": "jennifer.hanna77@gmail.com",
+    "phone_primary": "+1 525-680-9833 ext. 021",
+    "phone_secondary": "+1 330-356-3987 ext. 337"
+  },
+  "address": {
+    "street": "840 Graham Overpass",
+    "city": "New Frank",
+    "state": "PA",
+    "zip_code": "27737",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2019-08-21",
+    "branch_id": "BR078",
+    "relationship_manager": "Mark Odom",
+    "credit_score": 556,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "CHK8742967175",
+      "routing_number": "655125674",
+      "account_type": "Checking",
+      "holding_name": "White TTEE",
+      "balance": 203484.73,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2016-02-08",
+      "interest_rate": 1.74,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMA6808760385",
+      "routing_number": "977034824",
+      "account_type": "Money Market",
+      "holding_name": "Briggs TTEE",
+      "balance": 220271.23,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2000-03-14",
+      "interest_rate": 3.47,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "SAV4808613171",
+      "routing_number": "274846773",
+      "account_type": "Savings",
+      "holding_name": "Carpenter TTEE",
+      "balance": 138040.64,
+      "currency": "USD",
+      "status": "Closed",
+      "date_opened": "2002-02-07",
+      "interest_rate": 2.8,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Business",
+    "last_check_order_date": "2008-08-12",
+    "starting_check_number": 6568
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.006285",
+  "end_date": null,
+  "etl_batch_id": "acd18fd0-cd3d-45e7-a58f-76f5ede0fe47",
+  "created_at": "2026-04-14T16:38:19.006285+00:00",
+  "updated_at": "2026-04-14T16:38:19.006285+00:00"
+}

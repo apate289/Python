@@ -1,0 +1,91 @@
+{
+  "client_id": "CLT_TaylorDixon",
+  "personal_information": {
+    "first_name": "Joshua",
+    "last_name": "Miller",
+    "date_of_birth": "1999-10-29",
+    "ssn_last4": "8622",
+    "email": "joshua.miller37@outlook.com",
+    "phone_primary": "+1 769-606-8307 ext. 9216",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "542 Brown Extension Suite 719",
+    "city": "South Jamieville",
+    "state": "PA",
+    "zip_code": "68585",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2000-06-02",
+    "branch_id": "BR076",
+    "relationship_manager": "Anthony Chapman",
+    "credit_score": 606,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "CDA3695944064",
+      "routing_number": "090974395",
+      "account_type": "CD",
+      "holding_name": "Lara LLC",
+      "balance": 159336.16,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "1999-10-14",
+      "interest_rate": 3.97,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "SAV0470952145",
+      "routing_number": "623285884",
+      "account_type": "Savings",
+      "holding_name": "Chambers LLC",
+      "balance": 64614.04,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "1999-05-11",
+      "interest_rate": 4.44,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BSA7123685160",
+      "routing_number": "481754965",
+      "account_type": "Business Savings",
+      "holding_name": "Williams-Nicholson",
+      "balance": 27532.35,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2000-03-01",
+      "interest_rate": 4.86,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "TRU3174612004",
+      "routing_number": "711382675",
+      "account_type": "Trust",
+      "holding_name": "Robinson PLC",
+      "balance": 167786.31,
+      "currency": "USD",
+      "status": "Closed",
+      "date_opened": "2022-05-14",
+      "interest_rate": 2.31,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "High Security",
+    "last_check_order_date": "2011-12-14",
+    "starting_check_number": 7686
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.006285",
+  "end_date": null,
+  "etl_batch_id": "54f32ce1-f5f4-49b1-8673-258d5814d7df",
+  "created_at": "2026-04-14T16:38:19.006285+00:00",
+  "updated_at": "2026-04-14T16:38:19.006285+00:00"
+}

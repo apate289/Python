@@ -1,0 +1,55 @@
+{
+  "client_id": "CLT_Gillespie_LLC",
+  "personal_information": {
+    "first_name": "Keith",
+    "last_name": "Nelson",
+    "date_of_birth": "1965-02-04",
+    "ssn_last4": "7070",
+    "email": "keith.nelson28@icloud.com",
+    "phone_primary": "+1 442-831-7170 ext. 076",
+    "phone_secondary": "+1 431-295-0876 ext. 63195"
+  },
+  "address": {
+    "street": "9896 Schneider Forks Suite 555",
+    "city": "Jonesville",
+    "state": "FL",
+    "zip_code": "55228",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2001-06-20",
+    "branch_id": "BR047",
+    "relationship_manager": "Nicholas Brown",
+    "credit_score": 401,
+    "kyc_verified": false,
+    "pep_flag": false,
+    "preferred_contact": "Mail"
+  },
+  "accounts": [
+    {
+      "account_number": "MMA3171390053",
+      "routing_number": "293183933",
+      "account_type": "Money Market",
+      "holding_name": "Rivera Holdings",
+      "balance": 193704.96,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2007-05-18",
+      "interest_rate": 1.53,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Laser",
+    "last_check_order_date": "2001-03-30",
+    "starting_check_number": 3858
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.006285",
+  "end_date": null,
+  "etl_batch_id": "f9a592ae-559b-4d50-9340-7c6e70da716c",
+  "created_at": "2026-04-14T16:38:19.006285+00:00",
+  "updated_at": "2026-04-14T16:38:19.006285+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "client_id": "CLT_JamesCaldwell",
+  "personal_information": {
+    "first_name": "Pamela",
+    "last_name": "Kaufman",
+    "date_of_birth": "1960-07-15",
+    "ssn_last4": "1514",
+    "email": "pamela.kaufman43@gmail.com",
+    "phone_primary": "+1 601-694-7884 ext. 3375",
+    "phone_secondary": "+1 801-665-7334"
+  },
+  "address": {
+    "street": "2096 Martinez Walk Suite 185",
+    "city": "East Jesseview",
+    "state": "IL",
+    "zip_code": "86400",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2003-01-09",
+    "branch_id": "BR086",
+    "relationship_manager": "Yvonne Hodges",
+    "credit_score": 797,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "SMS"
+  },
+  "accounts": [
+    {
+      "account_number": "IRA3116566701",
+      "routing_number": "065133387",
+      "account_type": "IRA",
+      "holding_name": "Martinez Ltd",
+      "balance": 35475.48,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2013-04-05",
+      "interest_rate": 4.81,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "MMA8108013267",
+      "routing_number": "736026064",
+      "account_type": "Money Market",
+      "holding_name": "Hicks TTEE",
+      "balance": 71669.68,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2014-11-17",
+      "interest_rate": 4.31,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "1999-10-07",
+    "starting_check_number": 1958
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:18.977938",
+  "end_date": null,
+  "etl_batch_id": "4a0e34cc-c067-4505-a1b4-6e6c3d9fdb27",
+  "created_at": "2026-04-14T16:38:18.977938+00:00",
+  "updated_at": "2026-04-14T16:38:18.977938+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "client_id": "CLT_RamseyCarroll",
+  "personal_information": {
+    "first_name": "Anthony",
+    "last_name": "Miller",
+    "date_of_birth": "1964-07-07",
+    "ssn_last4": "6567",
+    "email": "anthony.miller45@gmail.com",
+    "phone_primary": "+1 879-475-4802 ext. 78721",
+    "phone_secondary": null
+  },
+  "address": {
+    "street": "1274 Donaldson Neck",
+    "city": "Port Peter",
+    "state": "NY",
+    "zip_code": "24816",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2013-11-10",
+    "branch_id": "BR073",
+    "relationship_manager": "Erika Hernandez",
+    "credit_score": 710,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "BSA6752545991",
+      "routing_number": "022901476",
+      "account_type": "Business Savings",
+      "holding_name": "Mitchell-Williams",
+      "balance": 121672.6,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2011-11-16",
+      "interest_rate": 4.15,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2002-09-15",
+    "starting_check_number": 8972
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.019337",
+  "end_date": null,
+  "etl_batch_id": "84605456-f4b2-4f84-b2dd-46dbeeffe504",
+  "created_at": "2026-04-14T16:38:19.019337+00:00",
+  "updated_at": "2026-04-14T16:38:19.019337+00:00"
+}

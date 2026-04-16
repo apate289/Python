@@ -1,0 +1,79 @@
+{
+  "client_id": "CLT_Escobar_LLC",
+  "personal_information": {
+    "first_name": "Elizabeth",
+    "last_name": "Garner",
+    "date_of_birth": "1987-04-10",
+    "ssn_last4": "1744",
+    "email": "elizabeth.garner29@icloud.com",
+    "phone_primary": "+1 705-244-7340 ext. 1997",
+    "phone_secondary": "+1 564-624-2869 ext. 0756"
+  },
+  "address": {
+    "street": "014 Douglas Squares Suite 337",
+    "city": "Ericville",
+    "state": "TX",
+    "zip_code": "17442",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2013-11-01",
+    "branch_id": "BR001",
+    "relationship_manager": "Kenneth Olsen",
+    "credit_score": 509,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Phone"
+  },
+  "accounts": [
+    {
+      "account_number": "CDA7622683885",
+      "routing_number": "160607159",
+      "account_type": "CD",
+      "holding_name": "Key TTEE",
+      "balance": 143563.22,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "1995-05-07",
+      "interest_rate": 0.64,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "BCK2975161369",
+      "routing_number": "681645352",
+      "account_type": "Business Checking",
+      "holding_name": "Cummings Inc",
+      "balance": 19556.65,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2009-07-27",
+      "interest_rate": 1.07,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK2312432921",
+      "routing_number": "277997995",
+      "account_type": "Checking",
+      "holding_name": "Haney Holdings",
+      "balance": 38163.87,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2010-10-01",
+      "interest_rate": 1.67,
+      "overdraft_protection": false
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "Business",
+    "last_check_order_date": "2012-10-04",
+    "starting_check_number": 2215
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.023153",
+  "end_date": null,
+  "etl_batch_id": "c5485e60-5b46-4733-986b-e1ccc444897f",
+  "created_at": "2026-04-14T16:38:19.023153+00:00",
+  "updated_at": "2026-04-14T16:38:19.023153+00:00"
+}

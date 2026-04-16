@@ -1,0 +1,79 @@
+{
+  "client_id": "CLT_Sutton_PLC",
+  "personal_information": {
+    "first_name": "Katie",
+    "last_name": "Arnold",
+    "date_of_birth": "1984-04-19",
+    "ssn_last4": "2317",
+    "email": "katie.arnold77@gmail.com",
+    "phone_primary": "+1 872-452-1292 ext. 542",
+    "phone_secondary": "+1 403-258-1667"
+  },
+  "address": {
+    "street": "8081 John Keys Apt. 934",
+    "city": "East Davidside",
+    "state": "PA",
+    "zip_code": "49673",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2019-08-21",
+    "branch_id": "BR078",
+    "relationship_manager": "Earl Turner",
+    "credit_score": 556,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "CHK8742967175",
+      "routing_number": "655125674",
+      "account_type": "Checking",
+      "holding_name": "Diaz TTEE",
+      "balance": 203484.73,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2016-02-08",
+      "interest_rate": 1.74,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMA6808760385",
+      "routing_number": "977034824",
+      "account_type": "Money Market",
+      "holding_name": "Jacobs TTEE",
+      "balance": 220271.23,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2000-03-14",
+      "interest_rate": 3.47,
+      "overdraft_protection": true
+    },
+    {
+      "account_number": "SAV4808613171",
+      "routing_number": "274846773",
+      "account_type": "Savings",
+      "holding_name": "Gross TTEE",
+      "balance": 138040.64,
+      "currency": "USD",
+      "status": "Closed",
+      "date_opened": "2002-02-07",
+      "interest_rate": 2.8,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Business",
+    "last_check_order_date": "2008-08-12",
+    "starting_check_number": 6568
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:34:38.242861",
+  "end_date": null,
+  "etl_batch_id": "450723b0-0340-4e1c-a116-3bb25f6abfd1",
+  "created_at": "2026-04-14T16:34:38.242861+00:00",
+  "updated_at": "2026-04-14T16:34:38.242861+00:00"
+}

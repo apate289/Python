@@ -1,0 +1,103 @@
+{
+  "client_id": "CLT_Garrison_LLC",
+  "personal_information": {
+    "first_name": "Tamara",
+    "last_name": "Mason",
+    "date_of_birth": "1988-05-23",
+    "ssn_last4": "6733",
+    "email": "tamara.mason29@gmail.com",
+    "phone_primary": "+1 785-719-4354 ext. 95784",
+    "phone_secondary": "+1 437-419-5038 ext. 530"
+  },
+  "address": {
+    "street": "12240 Mccoy Fort",
+    "city": "Port Jasonmouth",
+    "state": "TX",
+    "zip_code": "96994",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2002-05-03",
+    "branch_id": "BR097",
+    "relationship_manager": "Jessica Cox",
+    "credit_score": 331,
+    "kyc_verified": false,
+    "pep_flag": false,
+    "preferred_contact": "Email"
+  },
+  "accounts": [
+    {
+      "account_number": "BCK3745299124",
+      "routing_number": "190496631",
+      "account_type": "Business Checking",
+      "holding_name": "Miller Inc",
+      "balance": 148228.42,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2020-04-19",
+      "interest_rate": 3.84,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "SAV1905865185",
+      "routing_number": "067165726",
+      "account_type": "Savings",
+      "holding_name": "Gibson LLC",
+      "balance": 183581.93,
+      "currency": "GBP",
+      "status": "Active",
+      "date_opened": "2021-12-07",
+      "interest_rate": 4.45,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "MMA6945314737",
+      "routing_number": "996507527",
+      "account_type": "Money Market",
+      "holding_name": "Wilson LLC",
+      "balance": 89028.83,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2015-11-08",
+      "interest_rate": 3.28,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BSA0831367837",
+      "routing_number": "770143634",
+      "account_type": "Business Savings",
+      "holding_name": "Robinson LLC",
+      "balance": 166158.03,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2019-12-07",
+      "interest_rate": 1.9,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK7444313518",
+      "routing_number": "233749894",
+      "account_type": "Checking",
+      "holding_name": "Ware Family Trust",
+      "balance": 208240.78,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2010-10-13",
+      "interest_rate": 1.67,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": true,
+    "check_style": "High Security",
+    "last_check_order_date": "2014-10-28",
+    "starting_check_number": 5786
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:34:38.231093",
+  "end_date": null,
+  "etl_batch_id": "bd384e95-c992-480c-9d81-7137bf1d7b92",
+  "created_at": "2026-04-14T16:34:38.231093+00:00",
+  "updated_at": "2026-04-14T16:34:38.231093+00:00"
+}

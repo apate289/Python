@@ -1,0 +1,103 @@
+{
+  "client_id": "CLT_Gray_PLC",
+  "personal_information": {
+    "first_name": "Sabrina",
+    "last_name": "Cameron",
+    "date_of_birth": "1984-04-27",
+    "ssn_last4": "6912",
+    "email": "sabrina.cameron71@yahoo.com",
+    "phone_primary": "+1 532-711-5872 ext. 8282",
+    "phone_secondary": "+1 844-287-8148 ext. 4599"
+  },
+  "address": {
+    "street": "866 Scott Rue Suite 426",
+    "city": "New Alanton",
+    "state": "NC",
+    "zip_code": "05626",
+    "country": "USA"
+  },
+  "banking_profile": {
+    "customer_since": "2001-03-06",
+    "branch_id": "BR017",
+    "relationship_manager": "Dennis Lee",
+    "credit_score": 388,
+    "kyc_verified": true,
+    "pep_flag": false,
+    "preferred_contact": "SMS"
+  },
+  "accounts": [
+    {
+      "account_number": "MMA5177852892",
+      "routing_number": "268018242",
+      "account_type": "Money Market",
+      "holding_name": "Murphy LLC",
+      "balance": 81003.86,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2000-08-15",
+      "interest_rate": 5.18,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "IRA4384249818",
+      "routing_number": "299229959",
+      "account_type": "IRA",
+      "holding_name": "Johnson-Mcclure",
+      "balance": 10777.98,
+      "currency": "EUR",
+      "status": "Active",
+      "date_opened": "1998-07-16",
+      "interest_rate": 5.22,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "BSA9690784473",
+      "routing_number": "647102767",
+      "account_type": "Business Savings",
+      "holding_name": "Benson PLC",
+      "balance": 116378.32,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2004-06-15",
+      "interest_rate": 4.74,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CDA6258815371",
+      "routing_number": "473210469",
+      "account_type": "CD",
+      "holding_name": "Green TTEE",
+      "balance": 62443.43,
+      "currency": "EUR",
+      "status": "Active",
+      "date_opened": "2010-06-29",
+      "interest_rate": 1.81,
+      "overdraft_protection": false
+    },
+    {
+      "account_number": "CHK2787747016",
+      "routing_number": "873395004",
+      "account_type": "Checking",
+      "holding_name": "Bell TTEE",
+      "balance": 149580.93,
+      "currency": "USD",
+      "status": "Active",
+      "date_opened": "2003-07-08",
+      "interest_rate": 1.58,
+      "overdraft_protection": true
+    }
+  ],
+  "check_printing": {
+    "authorized": false,
+    "check_style": "Personal",
+    "last_check_order_date": "1996-01-04",
+    "starting_check_number": 5333
+  },
+  "is_active": true,
+  "version": 1,
+  "start_date": "2026-04-14T11:38:19.035388",
+  "end_date": null,
+  "etl_batch_id": "f7a45c27-ac83-4bfb-8e35-7abb77bebf35",
+  "created_at": "2026-04-14T16:38:19.035388+00:00",
+  "updated_at": "2026-04-14T16:38:19.035388+00:00"
+}
