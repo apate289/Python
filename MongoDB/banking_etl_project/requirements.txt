@@ -1,5 +1,5 @@
 pymongo==4.7.2
-streamlit==1.35.0
+streamlit==1.54.0
 plotly==5.22.0
 pandas==2.2.2
 faker==25.2.0
